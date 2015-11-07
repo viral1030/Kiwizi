@@ -71,6 +71,9 @@
 			</class>
 		</classes>
 	</test>
+	
+	
+	
 	<test name="Empty Employee Code field">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
