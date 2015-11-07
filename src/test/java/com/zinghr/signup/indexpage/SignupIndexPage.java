@@ -98,9 +98,10 @@ public SignupVerificationPage clicksignup30days()
 	{
 
 		Common.pause(2);
-		enterCompanyCode(TestData.company_code_s);
-		enterDisplayName(TestData.dispayname_s);
-		enterEmailid(TestData.email_s);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(3));
 		selectcountry();
 		selectcountry();
 		entercontactno(TestData.contactno_s);
@@ -112,9 +113,10 @@ public SignupVerificationPage clicksignup30days()
 	public SignupVerificationPage blankCompanyCode()
 	{
 		Common.pause(2);
-		enterCompanyCode(TestData.company_code_s);
-		enterDisplayName(TestData.dispayname_s);
-		enterEmailid(TestData.email_s);
+		enterCompanyCode(TestData.blank);
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(3));
 		selectcountry();
 		selectcountry();
 		entercontactno(TestData.contactno_s);
@@ -125,9 +127,10 @@ public SignupVerificationPage clicksignup30days()
 	public SignupVerificationPage lessthan3CompanyCode()
 	{
 		Common.pause(2);
-		enterCompanyCode(TestData.company_code_s);
-		enterDisplayName(TestData.dispayname_s);
-		enterEmailid(TestData.email_s);
+		enterCompanyCode(TestData.rndmString(2));
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(3));
 		selectcountry();
 		selectcountry();
 		entercontactno(TestData.contactno_s);
@@ -138,8 +141,9 @@ public SignupVerificationPage clicksignup30days()
 	public SignupVerificationPage emptyCompanyCode()
 	{
 		Common.pause(2);
-		enterDisplayName(TestData.dispayname_s);
-		enterEmailid(TestData.email_s);
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(3));
 		selectcountry();
 		selectcountry();
 		entercontactno(TestData.contactno_s);

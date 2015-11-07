@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="ZingHr - SignUp Page Verification" verbose="10"
-	parallel="tests" thread-count="5">
+	parallel="false" thread-count="1">
 
 	<!-- Put IP of localhost/Grid Hub machine -->
 	<parameter name="selenium.host" value="localhost" />

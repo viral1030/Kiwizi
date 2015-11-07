@@ -13,7 +13,7 @@ public class TestData {
 	
 	public static String rndmString(int length)
 	{
-		String rnd1 = RandomStringUtils.random(length);
+		String rnd1 = RandomStringUtils.randomAlphabetic(length);
 		return rnd1;
 		
 	}
@@ -29,7 +29,7 @@ public class TestData {
 	
 	public static String rndmemail(int i)
 	{
-		String email = "Kiwitest_"+rndmemail(4)+"@mailinator.com";
+		String email = new StringBuilder(30).append("kiwitest").append(rndmNumber(2)).append("@mailinator.com").toString();
 		return email;
 	}
 	
