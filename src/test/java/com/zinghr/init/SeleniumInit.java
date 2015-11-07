@@ -28,6 +28,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.internal.Utils;
 
 import com.zinghr.login.indexpage.LoginIndexPage;
+import com.zinghr.login.verification.LoginVerificationPage;
 
 public class SeleniumInit {
 
@@ -45,6 +46,7 @@ public class SeleniumInit {
 	public static String browserVersion = "";
 
 	protected LoginIndexPage loginIndexpage;
+	protected LoginVerificationPage loginVerificationPage;
 
 	// screen-shot folder
 	protected static String screenshot_folder_path = null;
@@ -291,7 +293,7 @@ public class SeleniumInit {
 		System.out.println("Current Xml Suite is:---->" + suiteName);
 
 		loginIndexpage = new LoginIndexPage(driver);
-
+		loginVerificationPage= new LoginVerificationPage(driver);	
 	}
 
 	/**

@@ -1,6 +1,5 @@
 package com.zinghr.login.indexpage;
 
-import org.bouncycastle.asn1.cmp.CMPObjectIdentifiers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,6 +28,12 @@ public class LoginIndexPage extends AbstractPage {
 	@FindBy(xpath = "//input[@id='btnSecureLogin']")
 	WebElement login_btn;
 
+	public LoginVerificationPage loginlandingpage()
+	{
+		return new LoginVerificationPage(driver);
+	}
+	
+	
 	public LoginVerificationPage enterCompanyCode(String cmpCode) {
 
 		companyCode_txt_fld.sendKeys(cmpCode);
