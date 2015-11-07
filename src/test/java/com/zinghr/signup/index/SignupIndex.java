@@ -62,3 +62,13 @@ public class SignupIndex extends SeleniumInit {
 	}
 
 }
+
+
+log("Step : Enter Company Name: "+compny);
+log("Step : Enter Admin Display Name: "+display);
+log("Step : Enter Email Id: "+email);
+log("Step : Enter Contact Number: "+no);
+
+
+
+

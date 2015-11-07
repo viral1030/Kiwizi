@@ -46,19 +46,19 @@ public SignupVerificationPage SignupValiddata(String compny,String display,Strin
 {
 	
 	Common.clickOn(driver, compny_name);
-	log("Step : Enter Company Name: "+compny);
+	
 	Common.type(compny_name,compny);
 	
 	Common.clickOn(driver,display_name);
-	log("Step : Enter Admin Display Name: "+display);
+	
 	Common.type(display_name, display);
 	
 	Common.clickOn(driver,email_id);
-	log("Step : Enter Email Id: "+email);
+	
 	Common.type(email_id, email);
 	
 	Common.clickOn(driver,contactno);
-	log("Step : Enter Contact Number: "+no);
+	
 	Common.type(contactno, no);
 	
 	
