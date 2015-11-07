@@ -28,6 +28,10 @@ public class LoginIndexPage extends AbstractPage {
 	@FindBy(xpath = "//input[@id='btnSecureLogin']")
 	WebElement login_btn;
 
+	@FindBy(xpath = ".//div[@id='btnDemoData']//a[1]")
+	WebElement proccedbtn;
+	
+	
 	public LoginVerificationPage loginlandingpage()
 	{
 		return new LoginVerificationPage(driver);
@@ -61,6 +65,13 @@ public class LoginIndexPage extends AbstractPage {
 		return new LoginVerificationPage(driver);
 
 	}
+	public LoginVerificationPage proccedButton() {
+
+		Common.clickOn(driver, proccedbtn);
+
+		return new LoginVerificationPage(driver);
+
+	}
 
 	public LoginVerificationPage loginSuccessfully() {
 
@@ -69,7 +80,7 @@ public class LoginIndexPage extends AbstractPage {
 		enterEmployeeCode(TestData.employe_code);
 		enterPassword(TestData.password);
 		clickLoginButton();
-
+		proccedButton();
 		return new LoginVerificationPage(driver);
 	}
 

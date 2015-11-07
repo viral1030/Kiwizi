@@ -4,7 +4,7 @@
   <parameter name="selenium.port" value="4444"/>
   <parameter name="selenium.host" value="localhost"/>
   <parameter name="selenium.browser" value="firefox"/>
-  <parameter name="selenium.url" value="http://qa.zinghr.com/2015/pages/authentication/login.aspx"/>
+  <parameter name="selenium.url" value="http://automation.zinghr.com/2015/pages/Authentication/login.aspx"/>
   <listeners>
     <listener class-name="com.zinghr.utility.CustomReporter"/>
   </listeners>

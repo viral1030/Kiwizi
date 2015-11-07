@@ -278,9 +278,9 @@ public class Common {
 	public static void logStatus(String Status) {
 
 		if (Status.equalsIgnoreCase("Pass")) {
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			log("<br><Strong><font color=#008000>Pass</font></strong>");
 		} else if (Status.equalsIgnoreCase("Fail")) {
-			log("<Strong><font color=#FF0000>Fail</font></strong>");
+			log("<br><Strong><font color=#FF0000>Fail</font></strong>");
 		}
 
 	}

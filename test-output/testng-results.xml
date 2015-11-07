@@ -1,27 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Enter Employee Code: Admin]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Password: Admin@123]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that Home page is open or not]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#FF0000>Fail</font></strong>]]>
     </line>
   </reporter-output>
-  <suite name="NFHS - Purchase_Course_functionality" duration-ms="3963" started-at="2015-11-07T07:22:25Z" finished-at="2015-11-07T07:22:28Z">
+  <suite name="NFHS - Purchase_Course_functionality" duration-ms="38288" started-at="2015-11-07T09:12:19Z" finished-at="2015-11-07T09:12:57Z">
     <groups>
     </groups>
-    <test name="purchase free course for MySelf." duration-ms="3963" started-at="2015-11-07T07:22:25Z" finished-at="2015-11-07T07:22:28Z">
+    <test name="login page verification" duration-ms="33013" started-at="2015-11-07T09:12:19Z" finished-at="2015-11-07T09:12:52Z">
       <class name="com.zinghr.login.index.LoginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@13afe78]" name="fetchSuiteConfiguration" is-config="true" duration-ms="63" started-at="2015-11-07T12:52:25Z" finished-at="2015-11-07T12:52:25Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@13afe78]" name="fetchSuiteConfiguration" is-config="true" duration-ms="7" started-at="2015-11-07T14:42:19Z" finished-at="2015-11-07T14:42:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@19ece50]]>
+                <![CDATA[org.testng.TestRunner@13cee64]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="FAIL" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@13afe78]" name="setUp" is-config="true" duration-ms="0" started-at="2015-11-07T12:52:25Z" finished-at="2015-11-07T12:52:25Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@13afe78]" name="setUp" is-config="true" duration-ms="21888" started-at="2015-11-07T14:42:19Z" finished-at="2015-11-07T14:42:40Z">
           <params>
             <param index="0">
               <value>
@@ -30,99 +60,31 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@19ece50]]>
+                <![CDATA[org.testng.TestRunner@13cee64]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:156)
-	at com.zinghr.init.SeleniumInit.setUp(SeleniumInit.java:284)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:4444 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	... 30 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 43 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="loginlandingpage()[pri:0, instance:com.zinghr.login.index.LoginIndex@13afe78]" name="loginlandingpage" duration-ms="0" started-at="2015-11-07T12:52:28Z" finished-at="2015-11-07T12:52:28Z">
+        <test-method status="PASS" signature="loginlandingpage()[pri:0, instance:com.zinghr.login.index.LoginIndex@13afe78]" name="loginlandingpage" duration-ms="239" started-at="2015-11-07T14:42:40Z" finished-at="2015-11-07T14:42:41Z">
           <reporter-output>
             <line>
-              <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginlandingpage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@13afe78]" name="tearDown" is-config="true" duration-ms="182" started-at="2015-11-07T12:52:28Z" finished-at="2015-11-07T12:52:28Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@13afe78]" name="tearDown" is-config="true" duration-ms="10870" started-at="2015-11-07T14:42:41Z" finished-at="2015-11-07T14:42:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginlandingpage status=SKIP method=LoginIndex.loginlandingpage()[pri:0, instance:com.zinghr.login.index.LoginIndex@13afe78] output=<br> <b>Please look to the screenshot - </b>]]]>
+                <![CDATA[[TestResult name=loginlandingpage status=SUCCESS method=LoginIndex.loginlandingpage()[pri:0, instance:com.zinghr.login.index.LoginIndex@13afe78] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
               </value>
             </param>
           </params>
@@ -130,6 +92,76 @@ Caused by: java.net.ConnectException: Connection refused: connect
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.zinghr.login.index.LoginIndex -->
-    </test> <!-- purchase free course for MySelf. -->
+    </test> <!-- login page verification -->
+    <test name="login with valid data" duration-ms="38288" started-at="2015-11-07T09:12:19Z" finished-at="2015-11-07T09:12:57Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@407d53]" name="fetchSuiteConfiguration" is-config="true" duration-ms="7" started-at="2015-11-07T14:42:19Z" finished-at="2015-11-07T14:42:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1df8019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@407d53]" name="setUp" is-config="true" duration-ms="11310" started-at="2015-11-07T14:42:19Z" finished-at="2015-11-07T14:42:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.loginwithvalidcredential()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1df8019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginwithvalidcredential()[pri:0, instance:com.zinghr.login.index.LoginIndex@407d53]" name="loginwithvalidcredential" duration-ms="16384" started-at="2015-11-07T14:42:30Z" finished-at="2015-11-07T14:42:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Enter Employee Code: Admin]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Password: Admin@123]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that Home page is open or not]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#FF0000>Fail</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredential -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@407d53]" name="tearDown" is-config="true" duration-ms="10578" started-at="2015-11-07T14:42:46Z" finished-at="2015-11-07T14:42:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginwithvalidcredential status=SUCCESS method=LoginIndex.loginwithvalidcredential()[pri:0, instance:com.zinghr.login.index.LoginIndex@407d53] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- login with valid data -->
   </suite> <!-- NFHS - Purchase_Course_functionality -->
 </testng-results>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="NFHS - Purchase_Course_functionality" verbose="10"
-	parallel="false" thread-count="1">
+	parallel="tests" thread-count="2">
 
 	<!-- Put IP of localhost/Grid Hub machine -->
 	<parameter name="selenium.host" value="localhost" />
@@ -23,11 +23,21 @@
 </listeners>
 
 
-	<test name="purchase free course for MySelf.">
+	<test name="login page verification">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
 				<methods>
 					<include name="loginlandingpage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="login with valid data">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="loginwithvalidcredential" />
 				</methods>
 			</class>
 		</classes>
