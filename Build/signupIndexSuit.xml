@@ -23,12 +23,21 @@
 </listeners>
 
 
-	<test name="purchase free course for MySelf.">
+<test name="SignUp page verification">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
 				<methods>
-					<include name="" />
-				
+					<include name="SignUpPage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+<test name="SignUp Successfully and activation page verification">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="SignUpSuccessfully"/>
 				</methods>
 			</class>
 		</classes>
