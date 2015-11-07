@@ -80,6 +80,9 @@ public class LoginIndexPage extends AbstractPage {
 		enterEmployeeCode(TestData.employe_code);
 		enterPassword(TestData.password);
 		
+		
+		
+		
 		clickLoginButton();
 		
 		proccedButton();
