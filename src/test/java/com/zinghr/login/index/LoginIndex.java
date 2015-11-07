@@ -52,6 +52,29 @@ public class LoginIndex extends SeleniumInit {
 		else
 		{
 			Common.logStatus("fail");
+			numOfFailure++;
+		}
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+	@Test
+	public void compnycodeeditableornot()
+	{
+		int numOfFailure = 0;
+		loginlandingpage();
+		log("Step 2: Enter Company Code:"+TestData.company_code);
+		loginVerificationPage=loginIndexpage.loginSuccessfully();
+		
+		if(loginVerificationPage.loginpagewithvalidcredentialverification())
+		{
+			Common.logStatus("pass");
+		}
+		else
+		{
+			Common.logStatus("fail");
+			numOfFailure++;
 		}
 		if (numOfFailure > 0) {
 			Assert.assertTrue(false);

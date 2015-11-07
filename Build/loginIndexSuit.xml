@@ -33,6 +33,7 @@
 		</classes>
 	</test>
 	
+	
 	<test name="login with valid data">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
@@ -42,6 +43,17 @@
 			</class>
 		</classes>
 	</test>
+	
+	<test name="Company code field is editable or not">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="compnycodeeditableornot" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
 
 
 </suite>
