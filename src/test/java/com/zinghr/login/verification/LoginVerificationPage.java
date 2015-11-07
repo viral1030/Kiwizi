@@ -41,10 +41,10 @@ public class LoginVerificationPage extends AbstractPage {
 	public boolean loginpagewithvalidcredentialverification()
 	{
 		Common.pause(1);
-		WebElement homeicon =driver.findElement(By.xpath(".//div[@id='menu']/ul//span[contains(text(),'Home')] "));
-		WebElement timeandattendance =driver.findElement(By.xpath(".//*[@id='myTNA']//span[contains(text(),'My Time And Attendance')]"));
+		WebElement EmployeeConnect =driver.findElement(By.xpath(".//span[contains(text(),'Employee Connect')]"));
+		WebElement timeandattendance =driver.findElement(By.xpath(".//div[@id='myTNA']//span[contains(text(),'My Time And Attendance')]"));
 	
-		if(homeicon.isDisplayed() && timeandattendance.isDisplayed())
+		if( timeandattendance.isDisplayed() && EmployeeConnect.isDisplayed())
 		{
 			return true;
 		}
