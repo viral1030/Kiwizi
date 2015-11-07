@@ -135,4 +135,15 @@ public SignupVerificationPage clicksignup30days()
 		return new SignupVerificationPage(driver);
 	}
 
+	public SignupVerificationPage emptyCompanyCode()
+	{
+		Common.pause(2);
+		enterDisplayName(TestData.dispayname_s);
+		enterEmailid(TestData.email_s);
+		selectcountry();
+		selectcountry();
+		entercontactno(TestData.contactno_s);
+		clicksignup30days();
+		return new SignupVerificationPage(driver);
+	}
 }

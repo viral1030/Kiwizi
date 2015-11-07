@@ -35,5 +35,17 @@ public class SignupVerificationPage extends AbstractPage {
 				By.xpath(".//input[@data-content='Please enter company name']")).isDisplayed();
 	}
 
+	public boolean verifylessthan3Companycode() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//div[@class='bootbox-body']")).isDisplayed();
+	}
+	
+	public boolean verifyemptyCompanycode() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//input[@data-content='Please enter company name']")).isDisplayed();
+	}
+
 
 }

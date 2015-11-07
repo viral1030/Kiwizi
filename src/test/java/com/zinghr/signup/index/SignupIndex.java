@@ -76,7 +76,6 @@ public void SignUpSuccessfully() throws Exception
 		}
 
 
-
 @Test(priority=3)
 public void SignUpSuccessfully1() throws Exception
 {
@@ -107,7 +106,6 @@ public void SignUpSuccessfully1() throws Exception
 		}
 	
 	}
-
 
 
 @Test(priority=4)
@@ -141,6 +139,7 @@ public void SignUpSuccessfully2() throws Exception
 	
 	}
 
+
 @Test(priority=5)
 public void SignUpSuccessfully3() throws Exception
 {
@@ -151,11 +150,11 @@ public void SignUpSuccessfully3() throws Exception
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter less than three characters in company Name: "+TestData.rndmString(2));
 		
-	signupVerification = signupIndexpage.blankCompanyCode();
+	signupVerification = signupIndexpage.lessthan3CompanyCode();
 	
 	log("To verify that appropriate error message is displayed if user enters less than three characters in 'Company Name' field");	
 	
-	if(signupVerification.verifyblankCompanycode())
+	if(signupVerification.verifylessthan3Companycode())
 		{
 			log("<Strong><font color=#008000>Pass</font></strong>");
 	
@@ -173,6 +172,41 @@ public void SignUpSuccessfully3() throws Exception
 	}
 
 
+@Test(priority=6)
+public void SignUpSuccessfully4() throws Exception
+{
+	int numOfFailure = 0;		
+
+	log("Test Case Id : SU_07 ");
+	log("Testcase Discription : Field validation for 'Company name' field");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Do not enter any data into 'Company Code'.");
+	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	
+	
+	signupVerification = signupIndexpage.emptyCompanyCode();
+	
+	log("To verify that appropriate error message is displayed if user enters less than three characters in 'Company Name' field");	
+	
+	if(signupVerification.verifyemptyCompanycode())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
 
 
 }
