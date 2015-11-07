@@ -29,5 +29,11 @@ public class SignupVerificationPage extends AbstractPage {
 	}
 
 
+	public boolean verifyblankCompanycode() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//input[@data-content='Please enter company name']")).isDisplayed();
+	}
+
 
 }

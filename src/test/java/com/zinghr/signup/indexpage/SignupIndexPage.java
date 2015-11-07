@@ -109,5 +109,30 @@ public SignupVerificationPage clicksignup30days()
 		return new SignupVerificationPage(driver);
 	}
 
+	public SignupVerificationPage blankCompanyCode()
+	{
+		Common.pause(2);
+		enterCompanyCode(TestData.company_code_s);
+		enterDisplayName(TestData.dispayname_s);
+		enterEmailid(TestData.email_s);
+		selectcountry();
+		selectcountry();
+		entercontactno(TestData.contactno_s);
+		clicksignup30days();
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage lessthan3CompanyCode()
+	{
+		Common.pause(2);
+		enterCompanyCode(TestData.company_code_s);
+		enterDisplayName(TestData.dispayname_s);
+		enterEmailid(TestData.email_s);
+		selectcountry();
+		selectcountry();
+		entercontactno(TestData.contactno_s);
+		clicksignup30days();
+		return new SignupVerificationPage(driver);
+	}
 
 }

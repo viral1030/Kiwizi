@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-ZingHr_-_SignUp_Page_Verification">
-              <span class="suite-name border-passed">ZingHr - SignUp Page Verification</span>
+              <span class="suite-name border-failed">ZingHr - SignUp Page Verification</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ZingHr_-_SignUp_Page_Verification" class="hide-methods failed suite-ZingHr_-_SignUp_Page_Verification"> (hide)</a> <!-- hide-methods failed suite-ZingHr_-_SignUp_Page_Verification -->
+                      <a href="#" panel-name="suite-ZingHr_-_SignUp_Page_Verification" class="show-methods failed suite-ZingHr_-_SignUp_Page_Verification"> (show)</a> <!-- show-methods failed suite-ZingHr_-_SignUp_Page_Verification -->
+                    </span>
+                    <div class="method-list-content failed suite-ZingHr_-_SignUp_Page_Verification">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZingHr_-_SignUp_Page_Verification" title="com.zinghr.signup.index.SignupIndex" hash-for-method="SignUpSuccessfully">SignUpSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ZingHr_-_SignUp_Page_Verification -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-ZingHr_-_SignUp_Page_Verification" title="com.zinghr.signup.index.SignupIndex" hash-for-method="SignUpPage">SignUpPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-ZingHr_-_SignUp_Page_Verification" title="com.zinghr.signup.index.SignupIndex" hash-for-method="SignUpSuccessfully">SignUpSuccessfully</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-ZingHr_-_SignUp_Page_Verification -->
@@ -121,6 +130,90 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-ZingHr_-_SignUp_Page_Verification" class="panel ZingHr_-_SignUp_Page_Verification">
+          <div class="suite-ZingHr_-_SignUp_Page_Verification-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.zinghr.signup.index.SignupIndex</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpSuccessfully">
+                  </a> <!-- SignUpSuccessfully -->
+                  <span class="method-name">SignUpSuccessfully</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//p[@class=&apos;font-14&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;87c69e2&apos;, time: &apos;2015-06-04 16:16:47&apos;
+System info: host: &apos;HP&apos;, ip: &apos;192.168.1.35&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 30.49 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
+System info: host: &apos;HP&apos;, ip: &apos;192.168.1.35&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=c7aeef66-e12c-4c06-933a-156de6ea2842, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c7aeef66-e12c-4c06-933a-156de6ea2842
+*** Element info: {Using=xpath, value=.//p[@class=&apos;font-14&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at com.zinghr.signup.verification.SignupVerificationPage.verifySignupSuccessfully(SignupVerificationPage.java:27)
+	at com.zinghr.signup.index.SignupIndex.SignUpSuccessfully(SignupIndex.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
+System info: host: &apos;HP&apos;, ip: &apos;192.168.1.35&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 31 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//p[@class=&apos;font-14&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;87c69e2&apos;, time: &apos;2015-06-04 16:16:47&apos;
+System info: host: &apos;HP&apos;, ip: &apos;192.168.1.35&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
+System info: host: &apos;HP&apos;, ip: &apos;192.168.1.35&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous7578752985731557203webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous7578752985731557203webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZingHr_-_SignUp_Page_Verification-class-failed -->
           <div class="suite-ZingHr_-_SignUp_Page_Verification-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -132,13 +225,6 @@
                   <a name="SignUpPage">
                   </a> <!-- SignUpPage -->
                   <span class="method-name">SignUpPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SignUpSuccessfully">
-                  </a> <!-- SignUpSuccessfully -->
-                  <span class="method-name">SignUpSuccessfully</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,16 +308,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SignUpSuccessfully')
 data.setCell(0, 2, 'com.zinghr.signup.index.SignupIndex')
-data.setCell(0, 3, 20719);
+data.setCell(0, 3, 50929);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'SignUpPage')
 data.setCell(1, 2, 'com.zinghr.signup.index.SignupIndex')
-data.setCell(1, 3, 1108);
+data.setCell(1, 3, 1140);
 window.suiteTableData['ZingHr_-_SignUp_Page_Verification']= { tableData: data, tableDiv: 'times-div-ZingHr_-_SignUp_Page_Verification'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
               <div id="times-div-ZingHr_-_SignUp_Page_Verification">
               </div> <!-- times-div-ZingHr_-_SignUp_Page_Verification -->
             </div> <!-- times-div -->
@@ -245,6 +331,8 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">SignUpPage</span>
               <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br></br>Test Case Id : SU_02 </span>
+                <span class="reporter-method-output"><br></br>Testcase Discription : To test TNA functionality </span>
                 <span class="reporter-method-output"><br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a></span>
                 <span class="reporter-method-output"><br></br>Verify that ZingHR SignUp page is open or not.</span>
                 <span class="reporter-method-output"><br></br><Strong><font color=#008000>Pass</font></strong></span>
@@ -253,16 +341,22 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">SignUpSuccessfully</span>
               <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br></br>Test Case Id : SU_02 </span>
+                <span class="reporter-method-output"><br></br>Testcase Discription : To test TNA functionality </span>
                 <span class="reporter-method-output"><br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a></span>
                 <span class="reporter-method-output"><br></br>Verify that ZingHR SignUp page is open or not.</span>
                 <span class="reporter-method-output"><br></br><Strong><font color=#008000>Pass</font></strong></span>
-                <span class="reporter-method-output"><br></br>Step 2: Enter company Name: Kiwitest</span>
-                <span class="reporter-method-output"><br></br>Step 3: Display Employee Name: Tester</span>
+                <span class="reporter-method-output"><br></br>Step 2: Enter company Name: 냔묉涐譺</span>
+                <span class="reporter-method-output"><br></br>Step 3: Display Employee Name: 𛵃袔☉᷇묒ᵠ</span>
                 <span class="reporter-method-output"><br></br>Step 4: Enter Email id: tarpan999@mailinator.com</span>
                 <span class="reporter-method-output"><br></br>Step 5: Select any country</span>
                 <span class="reporter-method-output"><br></br>Step 6: Enter Contact no: 9429186891</span>
                 <span class="reporter-method-output"><br></br>To verify Activation page is open or not.</span>
-                <span class="reporter-method-output"><br></br><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br> <b>Please look to the screenshot - </b></span>
+                <span class="reporter-method-output"><br><Strong><font color=#FF0000>--Failed</font></strong></span>
+                <span class="reporter-method-output"><a href='../test-output/screenshots/1107155206257SignUpSuccessfully.png' target='_new'>1107155206257SignUpSuccessfully.png</a></span>
+                <span class="reporter-method-output"><br></br><h3>Failure Reason:</h3></span>
+                <span class="reporter-method-output"><br></br>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//p[@class=&apos;font-14&apos;]&quot;}</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -296,31 +390,33 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.zinghr.signup.index.SignupIndex.SignUpPage() throws java.lang.Exception, org.testng....)</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">26 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SignUpPage</span>
-                <span class="method-start">8548 ms</span>
+                <span class="method-start">10986 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=SignUpPage status=SUCCESS method=SignupIndex.SignUpPage()[pri:1, instance:com.zingh...)</span>
-                <span class="method-start">9658 ms</span>
+                <span class="method-start">12127 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@e1de817)</span>
-                <span class="method-start">20083 ms</span>
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@f09733f)</span>
+                <span class="method-start">22487 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.zinghr.signup.index.SignupIndex.SignUpSuccessfully() throws java.lang.Exception, org...)</span>
-                <span class="method-start">20084 ms</span>
+                <span class="method-start">22488 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">SignUpSuccessfully</span>
-                <span class="method-start">27758 ms</span>
+                <span class="method-start">31125 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=SignUpSuccessfully status=SUCCESS method=SignupIndex.SignUpSuccessfully()[pri:2, in...)</span>
-                <span class="method-start">48478 ms</span>
+                <span class="method-name">tearDown([TestResult name=SignUpSuccessfully status=FAILURE method=SignupIndex.SignUpSuccessfully()[pri:2, in...)</span>
+                <span class="method-start">82064 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
