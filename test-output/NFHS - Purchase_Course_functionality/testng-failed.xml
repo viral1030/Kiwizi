@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="0" name="Failed suite [NFHS - Purchase_Course_functionality]">
+<suite thread-count="1" verbose="10" name="Failed suite [NFHS - Purchase_Course_functionality]">
   <parameter name="selenium.port" value="4444"/>
   <parameter name="selenium.host" value="localhost"/>
   <parameter name="selenium.browser" value="firefox"/>
@@ -12,10 +12,10 @@
     <classes>
       <class name="com.zinghr.login.index.LoginIndex">
         <methods>
+          <include name="loginlandingpage"/>
           <include name="tearDown"/>
           <include name="fetchSuiteConfiguration"/>
           <include name="setUp"/>
-          <include name="purchaseFreeCourseForMySelfFunctionality"/>
         </methods>
       </class> <!-- com.zinghr.login.index.LoginIndex -->
     </classes>

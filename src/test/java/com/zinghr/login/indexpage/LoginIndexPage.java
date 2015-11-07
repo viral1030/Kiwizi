@@ -36,28 +36,27 @@ public class LoginIndexPage extends AbstractPage {
 	
 	public LoginVerificationPage enterCompanyCode(String cmpCode) {
 
-		companyCode_txt_fld.sendKeys(cmpCode);
+		Common.type(companyCode_txt_fld, cmpCode);
 
 		return new LoginVerificationPage(driver);
 	}
 
 	public LoginVerificationPage enterEmployeeCode(String empCode) {
 
-		employeeCode_txt_fld.sendKeys(empCode);
+		Common.type(employeeCode_txt_fld, empCode);
 
 		return new LoginVerificationPage(driver);
 	}
 
 	public LoginVerificationPage enterPassword(String pwd) {
 
-		password_txt_fld.sendKeys(pwd);
-
+		Common.type(password_txt_fld, pwd);
 		return new LoginVerificationPage(driver);
 	}
 
 	public LoginVerificationPage clickLoginButton() {
 
-		login_btn.click();
+		Common.clickOn(driver, login_btn);
 
 		return new LoginVerificationPage(driver);
 
