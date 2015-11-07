@@ -26,13 +26,7 @@ public class LoginVerificationPage extends AbstractPage {
 
 	@FindBy(xpath = "//input[@id='btnSecureLogin']")
 	WebElement login_btn;
-	
-	@FindBy(xpath=".//div[@id='menu']/ul//span[contains(text(),'Home')] ")
-	WebElement homeicon;
-	
-	@FindBy(xpath=".//*[@id='myTNA']//span[contains(text(),'My Time And Attendance')]")
-	WebElement timeandattendance;
-	
+
 	public boolean loginlandingpageverification()
 	{
 		if(companyCode_txt_fld.isDisplayed() && employeeCode_txt_fld.isDisplayed() && password_txt_fld.isDisplayed() && login_btn.isDisplayed())
@@ -46,8 +40,10 @@ public class LoginVerificationPage extends AbstractPage {
 	}
 	public boolean loginpagewithvalidcredentialverification()
 	{
+		Common.pause(1);
 		WebElement homeicon =driver.findElement(By.xpath(".//div[@id='menu']/ul//span[contains(text(),'Home')] "));
-		WebElement timeandattendance =driver.findElement(By.xpath(".//div[@id='menu']/ul//span[contains(text(),'Home')] "));
+		WebElement timeandattendance =driver.findElement(By.xpath(".//*[@id='myTNA']//span[contains(text(),'My Time And Attendance')]"));
+	
 		if(homeicon.isDisplayed() && timeandattendance.isDisplayed())
 		{
 			return true;
