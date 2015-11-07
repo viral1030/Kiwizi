@@ -79,7 +79,9 @@ public class LoginIndexPage extends AbstractPage {
 		enterCompanyCode(TestData.company_code);
 		enterEmployeeCode(TestData.employe_code);
 		enterPassword(TestData.password);
+		
 		clickLoginButton();
+		
 		proccedButton();
 		return new LoginVerificationPage(driver);
 	}
