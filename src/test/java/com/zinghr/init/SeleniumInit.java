@@ -27,6 +27,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.internal.Utils;
 
+import com.zinghr.login.indexpage.LoginIndexPage;
+
 public class SeleniumInit {
 
 	public String suiteName = "";
@@ -42,18 +44,7 @@ public class SeleniumInit {
 	public static String osName = "";
 	public static String browserVersion = "";
 
-	// Variables For Login
-	public String demo_user_emailID = "jignesh.shah@kiwiqa.com";
-	public String demo_user_pass = "kiwi!234";
-
-	public String demo_admin_emailID = "prem.gupta001@weboapps.com";
-	public String demo_admin_pass = "test1234";
-
-	public String demo_pre_admin_emailID = "taha@weboapps.com";
-	public String demo_pre_admin_pass = "12345678";
-
-	public String demo_testuser_emailID = "viral.patel@kiwiqa.com";
-	public String demo_testuser_pass = "test1234";
+	protected LoginIndexPage loginIndexpage;
 
 	// screen-shot folder
 	protected static String screenshot_folder_path = null;
@@ -298,6 +289,8 @@ public class SeleniumInit {
 
 		suiteName = testContext.getSuite().getName();
 		System.out.println("Current Xml Suite is:---->" + suiteName);
+
+		loginIndexpage = new LoginIndexPage(driver);
 
 	}
 
