@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NFHS - Purchase_Course_functionality" verbose="10"
+	parallel="false" thread-count="1">
+
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+	<parameter name="selenium.browser" value="firefox" />
+	<parameter name="selenium.url" 		value="http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx" />
+
+
+
+
+	<listeners>
+
+		<listener class-name="com.zinghr.utility.CustomReporter" />
+
+</listeners>
+
+
+	<test name="purchase free course for MySelf.">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="" />
+				
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite>
