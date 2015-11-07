@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="ZingHr - SignUp Page Verification" verbose="10"
-	parallel="false" thread-count="1">
+	parallel="tests" thread-count="5">
 
 	<!-- Put IP of localhost/Grid Hub machine -->
 	<parameter name="selenium.host" value="localhost" />
@@ -31,17 +31,57 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
+</test>
 
-<test name="SignUp Successfully and activation page verification">
+<!-- <test name="SignUp Successfully and activation page verification">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
-					<include name="SignUpSuccessfully"/>
+					<include name="SignUpSuccessfully1"/>
 				</methods>
 			</class>
 		</classes>
-	</test>
+</test> -->
+
+<test name="SignUp page 'Company Name' field verification1">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="SignUpSuccessfully1"/>
+				</methods>
+			</class>
+		</classes>
+</test> 
+
+<test name="SignUp page 'Company Name' field verification2">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="SignUpSuccessfully2" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SignUp page 'Company Name' field verification3">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="SignUpSuccessfully3" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SignUp page 'Company Name' field verification4">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="SignUpSuccessfully4" />
+				</methods>
+			</class>
+		</classes>
+</test>
 
 
 </suite>
