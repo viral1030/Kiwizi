@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="0" name="Failed suite [NFHS - Purchase_Course_functionality]">
+<suite thread-count="1" verbose="10" name="Failed suite [ZingHr - SignUp Page Verification]">
   <parameter name="selenium.port" value="4444"/>
   <parameter name="selenium.host" value="localhost"/>
   <parameter name="selenium.browser" value="firefox"/>
-  <parameter name="selenium.url" value="http://qa.zinghr.com/2015/pages/authentication/login.aspx"/>
+  <parameter name="selenium.url" value="http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx"/>
   <listeners>
     <listener class-name="com.zinghr.utility.CustomReporter"/>
   </listeners>
-  <test name="purchase free course for MySelf.(failed)">
+  <test name="SignUp Successfully and activation page verification(failed)">
     <classes>
-      <class name="com.zinghr.login.index.LoginIndex">
+      <class name="com.zinghr.signup.index.SignupIndex">
         <methods>
           <include name="tearDown"/>
+          <include name="tearDown"/>
           <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="SignUpSuccessfully"/>
           <include name="setUp"/>
-          <include name="purchaseFreeCourseForMySelfFunctionality"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.zinghr.login.index.LoginIndex -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
     </classes>
-  </test> <!-- purchase free course for MySelf.(failed) -->
-</suite> <!-- Failed suite [NFHS - Purchase_Course_functionality] -->
+  </test> <!-- SignUp Successfully and activation page verification(failed) -->
+</suite> <!-- Failed suite [ZingHr - SignUp Page Verification] -->

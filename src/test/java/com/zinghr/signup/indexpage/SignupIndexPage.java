@@ -17,7 +17,7 @@ public class SignupIndexPage extends AbstractPage {
 		// TODO Auto-generated constructor stub
 	}
 	
-	@FindBy(xpath=".//a[@class='signup']")
+	@FindBy(xpath=".//*[@id='btnSignIn']")
 	private WebElement signUp_30_day_btn;
 	
 	@FindBy(xpath=".//*[@id='txtCompanyName']")
@@ -101,6 +101,7 @@ public SignupVerificationPage clicksignup30days()
 		enterCompanyCode(TestData.company_code_s);
 		enterDisplayName(TestData.dispayname_s);
 		enterEmailid(TestData.email_s);
+		selectcountry();
 		selectcountry();
 		entercontactno(TestData.contactno_s);
 		clicksignup30days();

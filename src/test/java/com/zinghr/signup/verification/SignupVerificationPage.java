@@ -17,9 +17,8 @@ public class SignupVerificationPage extends AbstractPage {
 	public boolean verifySignupPage() {
 		Common.pause(1);
 		return driver.findElement(
-				By.xpath(".//img[contains(@src,'logo')]")).isDisplayed()
-				&& driver.findElement(
-						By.xpath(".//a[@class='signup']")).isDisplayed();
+				By.xpath(".//*[@id='txtCompanyName']")).isDisplayed();
+			
 	}
 	
 	

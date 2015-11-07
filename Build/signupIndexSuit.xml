@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="NFHS - Purchase_Course_functionality" verbose="10"
+<suite name="ZingHr - SignUp Page Verification" verbose="10"
 	parallel="false" thread-count="1">
 
 	<!-- Put IP of localhost/Grid Hub machine -->
@@ -25,7 +25,7 @@
 
 <test name="SignUp page verification">
 		<classes>
-			<class name="com.zinghr.login.index.LoginIndex">
+			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
 					<include name="SignUpPage" />
 				</methods>
@@ -35,7 +35,7 @@
 
 <test name="SignUp Successfully and activation page verification">
 		<classes>
-			<class name="com.zinghr.login.index.LoginIndex">
+			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
 					<include name="SignUpSuccessfully"/>
 				</methods>
