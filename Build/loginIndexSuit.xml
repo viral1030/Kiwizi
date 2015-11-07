@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Login" verbose="10"
-	parallel="tests" thread-count="2">
+<suite name="Login" verbose="10" parallel="tests" thread-count="3">
 
 	<!-- Put IP of localhost/Grid Hub machine -->
 	<parameter name="selenium.host" value="localhost" />
@@ -11,7 +10,8 @@
 	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
 		chrome 3) IExplorer : ie8 / ie9 -->
 	<parameter name="selenium.browser" value="firefox" />
-	<parameter name="selenium.url" 		value="http://automation.zinghr.com/2015/pages/Authentication/login.aspx" />
+	<parameter name="selenium.url"
+		value="http://automation.zinghr.com/2015/pages/Authentication/login.aspx" />
 
 
 
@@ -20,7 +20,7 @@
 
 		<listener class-name="com.zinghr.utility.CustomReporter" />
 
-</listeners>
+	</listeners>
 
 
 	<test name="login page verification">
@@ -32,8 +32,8 @@
 			</class>
 		</classes>
 	</test>
-	
-	
+
+
 	<test name="login with valid data">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
@@ -43,7 +43,7 @@
 			</class>
 		</classes>
 	</test>
-	
+
 	<test name="Company code field is editable or not">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
@@ -53,7 +53,33 @@
 			</class>
 		</classes>
 	</test>
-	
+	<test name="Employee code field is editable or not">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="employeecodeeditableornot" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Empty Company Code field">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="blankcomponycode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Empty Employee Code field">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="blankemployeecode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
 
 
 </suite>

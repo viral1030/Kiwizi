@@ -53,6 +53,54 @@ public class LoginVerificationPage extends AbstractPage {
 			return false;
 		}
 	}
+	public boolean compnycodeiseditableornotverification()
+	{
+			if(companyCode_txt_fld.toString().length()>0)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+	}
+	public boolean employeecodeiseditableornotverification()
+	{
+			if(employeeCode_txt_fld.toString().length()>0)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+	}
+	public boolean blankcompanycodeverification()
+	{
+		WebElement Companycode_alert =driver.findElement(By.xpath("//div[contains(text(),'Please enter company code')]"));
+		if(Companycode_alert.isDisplayed())
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+	}
+	public boolean blankemployeecodeverification()
+	{
+		WebElement Companycode_alert =driver.findElement(By.xpath("//div[contains(text(),'Please enter employee code')]"));
+		if(Companycode_alert.isDisplayed())
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+	}
 	
 	
 	

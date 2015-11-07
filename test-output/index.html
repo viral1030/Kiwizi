@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Login">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">6 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,26 @@
                       <a href="#" panel-name="suite-Login" class="show-methods passed suite-Login"> (show)</a> <!-- show-methods passed suite-Login -->
                     </span>
                     <div class="method-list-content passed suite-Login">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="com.zinghr.login.index.LoginIndex" hash-for-method="blankcomponycode">blankcomponycode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="com.zinghr.login.index.LoginIndex" hash-for-method="blankemployeecode">blankemployeecode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="com.zinghr.login.index.LoginIndex" hash-for-method="compnycodeeditableornot">compnycodeeditableornot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="com.zinghr.login.index.LoginIndex" hash-for-method="employeecodeeditableornot">employeecodeeditableornot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Login" title="com.zinghr.login.index.LoginIndex" hash-for-method="loginlandingpage">loginlandingpage</a> <!-- method navigator-link -->
@@ -129,6 +149,34 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="blankcomponycode">
+                  </a> <!-- blankcomponycode -->
+                  <span class="method-name">blankcomponycode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankemployeecode">
+                  </a> <!-- blankemployeecode -->
+                  <span class="method-name">blankemployeecode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="compnycodeeditableornot">
+                  </a> <!-- compnycodeeditableornot -->
+                  <span class="method-name">compnycodeeditableornot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeecodeeditableornot">
+                  </a> <!-- employeecodeeditableornot -->
+                  <span class="method-name">employeecodeeditableornot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="loginlandingpage">
                   </a> <!-- loginlandingpage -->
                   <span class="method-name">loginlandingpage</span>
@@ -152,7 +200,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; verbose=&quot;10&quot; name=&quot;Login&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; verbose=&quot;10&quot; name=&quot;Login&quot; parallel=&quot;tests&quot;&gt;
   &lt;parameter name=&quot;selenium.port&quot; value=&quot;4444&quot;/&gt;
   &lt;parameter name=&quot;selenium.host&quot; value=&quot;localhost&quot;/&gt;
   &lt;parameter name=&quot;selenium.browser&quot; value=&quot;firefox&quot;/&gt;
@@ -178,6 +226,42 @@
       &lt;/class&gt; &lt;!-- com.zinghr.login.index.LoginIndex --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- login with valid data --&gt;
+  &lt;test name=&quot;Company code field is editable or not&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zinghr.login.index.LoginIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;compnycodeeditableornot&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.zinghr.login.index.LoginIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Company code field is editable or not --&gt;
+  &lt;test name=&quot;Employee code field is editable or not&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zinghr.login.index.LoginIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;employeecodeeditableornot&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.zinghr.login.index.LoginIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Employee code field is editable or not --&gt;
+  &lt;test name=&quot;Empty Company Code field&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zinghr.login.index.LoginIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;blankcomponycode&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.zinghr.login.index.LoginIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Empty Company Code field --&gt;
+  &lt;test name=&quot;Empty Employee Code field&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zinghr.login.index.LoginIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;blankemployeecode&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.zinghr.login.index.LoginIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Empty Employee Code field --&gt;
 &lt;/suite&gt; &lt;!-- Login --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -193,6 +277,18 @@
               </li>
               <li>
                 <span class="test-name">login with valid data (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Company code field is editable or not (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Employee code field is editable or not (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Empty Company Code field (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Empty Employee Code field (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -218,20 +314,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginwithvalidcredential')
 data.setCell(0, 2, 'com.zinghr.login.index.LoginIndex')
-data.setCell(0, 3, 15223);
+data.setCell(0, 3, 14618);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginlandingpage')
+data.setCell(1, 1, 'blankcomponycode')
 data.setCell(1, 2, 'com.zinghr.login.index.LoginIndex')
-data.setCell(1, 3, 215);
+data.setCell(1, 3, 3720);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'blankemployeecode')
+data.setCell(2, 2, 'com.zinghr.login.index.LoginIndex')
+data.setCell(2, 3, 3376);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'compnycodeeditableornot')
+data.setCell(3, 2, 'com.zinghr.login.index.LoginIndex')
+data.setCell(3, 3, 1952);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginlandingpage')
+data.setCell(4, 2, 'com.zinghr.login.index.LoginIndex')
+data.setCell(4, 3, 1143);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'employeecodeeditableornot')
+data.setCell(5, 2, 'com.zinghr.login.index.LoginIndex')
+data.setCell(5, 3, 858);
 window.suiteTableData['Login']= { tableData: data, tableDiv: 'times-div-Login'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-Login">
               </div> <!-- times-div-Login -->
             </div> <!-- times-div -->
@@ -243,10 +355,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
+              <span class="reporter-method-name">compnycodeeditableornot</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a></span>
+                <span class="reporter-method-output"><br></br>Verify that ZingHR login page is open or not.</span>
+                <span class="reporter-method-output"><br><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 2: Enter Company Code:KIWIQA</span>
+                <span class="reporter-method-output"><br></br>Company code field id editable or not</span>
+                <span class="reporter-method-output"><br><Strong><font color=#008000>Pass</font></strong></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">loginlandingpage</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"><br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a></span>
                 <span class="reporter-method-output"><br></br>Verify that ZingHR login page is open or not.</span>
+                <span class="reporter-method-output"><br><Strong><font color=#008000>Pass</font></strong></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">employeecodeeditableornot</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a></span>
+                <span class="reporter-method-output"><br></br>Verify that ZingHR login page is open or not.</span>
+                <span class="reporter-method-output"><br><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 2: Enter Employeey Code:Admin</span>
+                <span class="reporter-method-output"><br></br>Employee code field id editable or not</span>
                 <span class="reporter-method-output"><br><Strong><font color=#008000>Pass</font></strong></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -263,19 +397,96 @@ return data;
                 <span class="reporter-method-output"><br><Strong><font color=#008000>Pass</font></strong></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">blankcomponycode</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a></span>
+                <span class="reporter-method-output"><br></br>Verify that ZingHR login page is open or not.</span>
+                <span class="reporter-method-output"><br><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>To verify that alert message is displayed if user logins with empty Company Code</span>
+                <span class="reporter-method-output"><br><Strong><font color=#008000>Pass</font></strong></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">blankemployeecode</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a></span>
+                <span class="reporter-method-output"><br></br>Verify that ZingHR login page is open or not.</span>
+                <span class="reporter-method-output"><br><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 2: Enter Employeey Code:Admin</span>
+                <span class="reporter-method-output"><br></br>To verify that alert message is displayed if user logins with empty Employee Code</span>
+                <span class="reporter-method-output"><br><Strong><font color=#008000>Pass</font></strong></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Login" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">30 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.zinghr.login.index.LoginIndex</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">loginlandingpage</span>
+                <span class="ignored-method-name">loginwithvalidcredential</span>
                 <br/>
                 <span class="ignored-method-name">loginwithvalidcredential</span>
+                <br/>
+                <span class="ignored-method-name">loginwithvalidcredential</span>
+                <br/>
+                <span class="ignored-method-name">loginwithvalidcredential</span>
+                <br/>
+                <span class="ignored-method-name">loginwithvalidcredential</span>
+                <br/>
+                <span class="ignored-method-name">blankcomponycode</span>
+                <br/>
+                <span class="ignored-method-name">blankcomponycode</span>
+                <br/>
+                <span class="ignored-method-name">blankcomponycode</span>
+                <br/>
+                <span class="ignored-method-name">blankcomponycode</span>
+                <br/>
+                <span class="ignored-method-name">blankcomponycode</span>
+                <br/>
+                <span class="ignored-method-name">blankemployeecode</span>
+                <br/>
+                <span class="ignored-method-name">blankemployeecode</span>
+                <br/>
+                <span class="ignored-method-name">blankemployeecode</span>
+                <br/>
+                <span class="ignored-method-name">blankemployeecode</span>
+                <br/>
+                <span class="ignored-method-name">blankemployeecode</span>
+                <br/>
+                <span class="ignored-method-name">loginlandingpage</span>
+                <br/>
+                <span class="ignored-method-name">loginlandingpage</span>
+                <br/>
+                <span class="ignored-method-name">loginlandingpage</span>
+                <br/>
+                <span class="ignored-method-name">loginlandingpage</span>
+                <br/>
+                <span class="ignored-method-name">loginlandingpage</span>
+                <br/>
+                <span class="ignored-method-name">compnycodeeditableornot</span>
+                <br/>
+                <span class="ignored-method-name">compnycodeeditableornot</span>
+                <br/>
+                <span class="ignored-method-name">compnycodeeditableornot</span>
+                <br/>
+                <span class="ignored-method-name">compnycodeeditableornot</span>
+                <br/>
+                <span class="ignored-method-name">compnycodeeditableornot</span>
+                <br/>
+                <span class="ignored-method-name">employeecodeeditableornot</span>
+                <br/>
+                <span class="ignored-method-name">employeecodeeditableornot</span>
+                <br/>
+                <span class="ignored-method-name">employeecodeeditableornot</span>
+                <br/>
+                <span class="ignored-method-name">employeecodeeditableornot</span>
+                <br/>
+                <span class="ignored-method-name">employeecodeeditableornot</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -289,36 +500,100 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.zinghr.login.index.LoginIndex</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@a48a4)</span>
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@1efea79)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
-                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@1334415)</span>
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@1629756)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@1081592)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.zinghr.login.index.LoginIndex.loginwithvalidcredential(), org.testng.TestRunner@a48a...)</span>
-                <span class="method-start">12 ms</span>
+                <span class="method-name">setUp(public void com.zinghr.login.index.LoginIndex.compnycodeeditableornot(), org.testng.TestRunner@1efea...)</span>
+                <span class="method-start">14 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.zinghr.login.index.LoginIndex.loginlandingpage(), org.testng.TestRunner@1334415)</span>
-                <span class="method-start">12 ms</span>
+                <span class="method-name">setUp(public void com.zinghr.login.index.LoginIndex.loginwithvalidcredential(), org.testng.TestRunner@1629...)</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.zinghr.login.index.LoginIndex.loginlandingpage(), org.testng.TestRunner@1081592)</span>
+                <span class="method-start">14 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <span class="method-name">compnycodeeditableornot</span>
+                <span class="method-start">9838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=compnycodeeditableornot status=SUCCESS method=LoginIndex.compnycodeeditableornot()[...)</span>
+                <span class="method-start">11791 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
                 <span class="method-name">loginlandingpage</span>
-                <span class="method-start">13298 ms</span>
+                <span class="method-start">19870 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=loginlandingpage status=SUCCESS method=LoginIndex.loginlandingpage()[pri:0, instanc...)</span>
-                <span class="method-start">13514 ms</span>
+                <span class="method-start">21014 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@19a81e8)</span>
+                <span class="method-start">23888 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.zinghr.login.index.LoginIndex.employeecodeeditableornot(), org.testng.TestRunner@19a...)</span>
+                <span class="method-start">23888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@ee68d8)</span>
+                <span class="method-start">31847 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.zinghr.login.index.LoginIndex.blankcomponycode(), org.testng.TestRunner@ee68d8)</span>
+                <span class="method-start">31847 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginwithvalidcredential</span>
-                <span class="method-start">16754 ms</span>
+                <span class="method-start">32360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">employeecodeeditableornot</span>
+                <span class="method-start">37272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=employeecodeeditableornot status=SUCCESS method=LoginIndex.employeecodeeditableorno...)</span>
+                <span class="method-start">38130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">blankcomponycode</span>
+                <span class="method-start">43796 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=loginwithvalidcredential status=SUCCESS method=LoginIndex.loginwithvalidcredential(...)</span>
-                <span class="method-start">31977 ms</span>
+                <span class="method-start">46978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=blankcomponycode status=SUCCESS method=LoginIndex.blankcomponycode()[pri:0, instanc...)</span>
+                <span class="method-start">47517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@15b5592)</span>
+                <span class="method-start">49842 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.zinghr.login.index.LoginIndex.blankemployeecode(), org.testng.TestRunner@15b5592)</span>
+                <span class="method-start">49842 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankemployeecode</span>
+                <span class="method-start">66531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=blankemployeecode status=SUCCESS method=LoginIndex.blankemployeecode()[pri:0, insta...)</span>
+                <span class="method-start">69907 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

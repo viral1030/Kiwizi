@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="10" name="Failed suite [NFHS - Purchase_Course_functionality]">
+<suite thread-count="3" verbose="10" name="Failed suite [Login]" parallel="tests">
   <parameter name="selenium.port" value="4444"/>
   <parameter name="selenium.host" value="localhost"/>
   <parameter name="selenium.browser" value="firefox"/>
@@ -8,16 +8,58 @@
   <listeners>
     <listener class-name="com.zinghr.utility.CustomReporter"/>
   </listeners>
-  <test name="purchase free course for MySelf.(failed)">
+  <test name="login with valid data(failed)" parallel="tests">
+    <classes>
+      <class name="com.zinghr.login.index.LoginIndex">
+        <methods>
+          <include name="loginwithvalidcredential"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </classes>
+  </test> <!-- login with valid data(failed) -->
+  <test name="login page verification(failed)" parallel="tests">
     <classes>
       <class name="com.zinghr.login.index.LoginIndex">
         <methods>
           <include name="loginlandingpage"/>
           <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
           <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.zinghr.login.index.LoginIndex -->
     </classes>
-  </test> <!-- purchase free course for MySelf.(failed) -->
-</suite> <!-- Failed suite [NFHS - Purchase_Course_functionality] -->
+  </test> <!-- login page verification(failed) -->
+  <test name="Company code field is editable or not(failed)" parallel="tests">
+    <classes>
+      <class name="com.zinghr.login.index.LoginIndex">
+        <methods>
+          <include name="compnycodeeditableornot"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </classes>
+  </test> <!-- Company code field is editable or not(failed) -->
+</suite> <!-- Failed suite [Login] -->

@@ -80,13 +80,34 @@ public class LoginIndexPage extends AbstractPage {
 		enterEmployeeCode(TestData.employe_code);
 		enterPassword(TestData.password);
 		
-		
-		
-		
 		clickLoginButton();
 		
 		proccedButton();
 		return new LoginVerificationPage(driver);
 	}
-
+	public LoginVerificationPage compnycodeiseditableornot()
+	{
+		enterCompanyCode(TestData.company_code);
+		companyCode_txt_fld.clear();
+		enterCompanyCode(TestData.company_code);
+		return new LoginVerificationPage(driver);
+	}
+	public LoginVerificationPage employeecodeiseditableornot()
+	{
+		enterEmployeeCode(TestData.employe_code);
+		companyCode_txt_fld.clear();
+		enterEmployeeCode(TestData.employe_code);
+		return new LoginVerificationPage(driver);
+	}
+	public LoginVerificationPage blankcomponycode()
+	{
+		clickLoginButton();
+		return new LoginVerificationPage(driver);
+	}
+	public LoginVerificationPage blankemployeecode()
+	{
+		enterCompanyCode(TestData.company_code);
+		clickLoginButton();
+		return new LoginVerificationPage(driver);
+	}
 }

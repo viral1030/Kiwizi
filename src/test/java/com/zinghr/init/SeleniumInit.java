@@ -29,6 +29,9 @@ import org.testng.internal.Utils;
 
 import com.zinghr.login.indexpage.LoginIndexPage;
 import com.zinghr.login.verification.LoginVerificationPage;
+import com.zinghr.signup.indexpage.SignupIndexPage;
+import com.zinghr.signup.verification.SignupVerificationPage;
+
 
 public class SeleniumInit {
 
@@ -47,8 +50,8 @@ public class SeleniumInit {
 
 	protected LoginIndexPage loginIndexpage;
 	protected LoginVerificationPage loginVerificationPage;
-
-	// screen-shot folder
+	protected SignupIndexPage signupIndexpage;
+	protected SignupVerificationPage signupVerification;
 	protected static String screenshot_folder_path = null;
 	public static String currentTest; // current running test
 
@@ -294,6 +297,9 @@ public class SeleniumInit {
 
 		loginIndexpage = new LoginIndexPage(driver);
 		loginVerificationPage= new LoginVerificationPage(driver);	
+		signupIndexpage = new SignupIndexPage(driver);
+		signupVerification = new SignupVerificationPage(driver);
+
 	}
 
 	/**

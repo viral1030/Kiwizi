@@ -65,9 +65,75 @@ public class LoginIndex extends SeleniumInit {
 		int numOfFailure = 0;
 		loginlandingpage();
 		log("Step 2: Enter Company Code:"+TestData.company_code);
-		loginVerificationPage=loginIndexpage.loginSuccessfully();
+		loginVerificationPage=loginIndexpage.compnycodeiseditableornot();
+		log("Company code field id editable or not");
+		if(loginVerificationPage.compnycodeiseditableornotverification())
+		{
+			Common.logStatus("pass");
+		}
+		else
+		{
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+	@Test
+	public void employeecodeeditableornot()
+	{
+		int numOfFailure = 0;
+		loginlandingpage();
+		log("Step 2: Enter Employeey Code:"+TestData.employe_code);
+		loginVerificationPage=loginIndexpage.employeecodeiseditableornot();
+		log("Employee code field id editable or not");
+		if(loginVerificationPage.employeecodeiseditableornotverification())
+		{
+			Common.logStatus("pass");
+		}
+		else
+		{
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+	@Test
+	public void blankcomponycode()
+	{
+		int numOfFailure = 0;
+		loginlandingpage();
 		
-		if(loginVerificationPage.loginpagewithvalidcredentialverification())
+		loginVerificationPage=loginIndexpage.blankcomponycode();
+		log("To verify that alert message is displayed if user logins with empty Company Code");
+		if(loginVerificationPage.blankcompanycodeverification())
+		{
+			Common.logStatus("pass");
+		}
+		else
+		{
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+	@Test
+	public void blankemployeecode()
+	{
+		int numOfFailure = 0;
+		loginlandingpage();
+		log("Step 2: Enter Employeey Code:"+TestData.employe_code);
+		loginVerificationPage=loginIndexpage.blankemployeecode();
+		log("To verify that alert message is displayed if user logins with empty Employee Code");
+		if(loginVerificationPage.blankemployeecodeverification())
 		{
 			Common.logStatus("pass");
 		}
