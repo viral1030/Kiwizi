@@ -77,10 +77,7 @@ public class SettingsTimeAttendanceSetupIndexPage extends AbstractPage {
 
 	}
 
-
-
 	@FindBy(xpath = "//div[@id='box-config']//input")
 	WebElement addNewGroup_textbox;
 
-	
 }
