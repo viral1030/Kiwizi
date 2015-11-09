@@ -147,6 +147,8 @@ public class LoginIndex extends SeleniumInit {
 		}
 
 	}
+	
+	
 	@Test
 	public void blankpassword()
 	{

@@ -1,384 +1,577 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="2" passed="0">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
     <line>
-      <![CDATA[<br></br>Test Case Id : SU_02 ]]>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
     </line>
     <line>
-      <![CDATA[<br></br>Testcase Discription : To test TNA functionality ]]>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
     </line>
     <line>
-      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br>Verify that ZingHR SignUp page is open or not.]]>
+      <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
     </line>
     <line>
-      <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+      <![CDATA[<br></br>Step 3: Enter Employee Code: Admin]]>
     </line>
     <line>
-      <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
+      <![CDATA[<br></br>Step 4: Enter Password: Admin@123]]>
     </line>
     <line>
-      <![CDATA[<a href='../test-output/screenshots/1109091934305SignUpPage.png' target='_new'>1109091934305SignUpPage.png</a>]]>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
     </line>
     <line>
-      <![CDATA[<br></br><h3>Failure Reason:</h3>]]>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
     </line>
     <line>
-      <![CDATA[<br></br>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;txtCompanyName&apos;]&quot;}]]>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br>Test Case Id : SU_02 ]]>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
     </line>
     <line>
-      <![CDATA[<br></br>Testcase Discription : To test TNA functionality ]]>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
     </line>
     <line>
-      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br>Verify that ZingHR SignUp page is open or not.]]>
+      <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
     </line>
     <line>
-      <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+      <![CDATA[<br></br>Company code field id editable or not]]>
     </line>
     <line>
-      <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<a href='../test-output/screenshots/1109092012364SignUpSuccessfully.png' target='_new'>1109092012364SignUpSuccessfully.png</a>]]>
+      <![CDATA[<br></br>Verify that Home page is open or not]]>
     </line>
     <line>
-      <![CDATA[<br></br><h3>Failure Reason:</h3>]]>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;txtCompanyName&apos;]&quot;}]]>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Employeey Code:Admin]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Employee code field id editable or not]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that alert message is displayed if user logins with empty Company Code]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Employeey Code:Admin]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that alert message is displayed if user logins with empty Employee Code]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Enter Employeey Code:Admin]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that alert message is displayed if user logins with empty password]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
   </reporter-output>
-  <suite name="ZingHr - SignUp Page Verification" duration-ms="78693" started-at="2015-11-09T03:48:54Z" finished-at="2015-11-09T03:50:12Z">
+  <suite name="Login" duration-ms="76139" started-at="2015-11-09T04:34:31Z" finished-at="2015-11-09T04:35:47Z">
     <groups>
     </groups>
-    <test name="SignUp page verification" duration-ms="41414" started-at="2015-11-09T03:48:54Z" finished-at="2015-11-09T03:49:35Z">
-      <class name="com.zinghr.signup.index.SignupIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@18ceff1]" name="fetchSuiteConfiguration" is-config="true" duration-ms="7" started-at="2015-11-09T09:18:54Z" finished-at="2015-11-09T09:18:54Z">
+    <test name="login page verification" duration-ms="25309" started-at="2015-11-09T04:34:31Z" finished-at="2015-11-09T04:34:56Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@18ceff1]" name="fetchSuiteConfiguration" is-config="true" duration-ms="7" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1c7a252]]>
+                <![CDATA[org.testng.TestRunner@1aeed2f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@18ceff1]" name="setUp" is-config="true" duration-ms="8032" started-at="2015-11-09T09:18:54Z" finished-at="2015-11-09T09:19:02Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@18ceff1]" name="setUp" is-config="true" duration-ms="14493" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.zinghr.signup.index.SignupIndex.SignUpPage() throws java.lang.Exception]]>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.loginlandingpage()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@1c7a252]]>
+                <![CDATA[org.testng.TestRunner@1aeed2f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="SignUpPage()[pri:0, instance:com.zinghr.signup.index.SignupIndex@18ceff1]" name="SignUpPage" duration-ms="32101" started-at="2015-11-09T09:19:02Z" finished-at="2015-11-09T09:19:34Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='txtCompanyName']"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: unknown
-Command duration or timeout: 31.01 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=a27cdd1a-bcfa-4f67-bf29-29fd0fc9b74f, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: a27cdd1a-bcfa-4f67-bf29-29fd0fc9b74f
-*** Element info: {Using=xpath, value=.//*[@id='txtCompanyName']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='txtCompanyName']"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: unknown
-Command duration or timeout: 31.01 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=a27cdd1a-bcfa-4f67-bf29-29fd0fc9b74f, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: a27cdd1a-bcfa-4f67-bf29-29fd0fc9b74f
-*** Element info: {Using=xpath, value=.//*[@id='txtCompanyName']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
-	at com.zinghr.signup.verification.SignupVerificationPage.verifySignupPage(SignupVerificationPage.java:19)
-	at com.zinghr.signup.index.SignupIndex.SignUpPage(SignupIndex.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
-	... 31 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='txtCompanyName']"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/KQSPL_R/AppData/Local/Temp/anonymous6616626494358518127webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/KQSPL_R/AppData/Local/Temp/anonymous6616626494358518127webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="loginlandingpage()[pri:0, instance:com.zinghr.login.index.LoginIndex@18ceff1]" name="loginlandingpage" duration-ms="320" started-at="2015-11-09T10:04:45Z" finished-at="2015-11-09T10:04:46Z">
           <reporter-output>
             <line>
-              <![CDATA[<br></br>Test Case Id : SU_02 ]]>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
             </line>
             <line>
-              <![CDATA[<br></br>Testcase Discription : To test TNA functionality ]]>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
             </line>
             <line>
-              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Verify that ZingHR SignUp page is open or not.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
-            </line>
-            <line>
-              <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<a href='../test-output/screenshots/1109091934305SignUpPage.png' target='_new'>1109091934305SignUpPage.png</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><h3>Failure Reason:</h3>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;txtCompanyName&apos;]&quot;}]]>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SignUpPage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@18ceff1]" name="tearDown" is-config="true" duration-ms="1259" started-at="2015-11-09T09:19:34Z" finished-at="2015-11-09T09:19:35Z">
+        </test-method> <!-- loginlandingpage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@18ceff1]" name="tearDown" is-config="true" duration-ms="10477" started-at="2015-11-09T10:04:46Z" finished-at="2015-11-09T10:04:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SignUpPage status=FAILURE method=SignupIndex.SignUpPage()[pri:0, instance:com.zinghr.signup.index.SignupIndex@18ceff1] output=<br></br>Test Case Id : SU_02 ]]]>
+                <![CDATA[[TestResult name=loginlandingpage status=SUCCESS method=LoginIndex.loginlandingpage()[pri:0, instance:com.zinghr.login.index.LoginIndex@18ceff1] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.zinghr.signup.index.SignupIndex -->
-    </test> <!-- SignUp page verification -->
-    <test name="SignUp Successfully and activation page verification" duration-ms="37219" started-at="2015-11-09T03:49:35Z" finished-at="2015-11-09T03:50:12Z">
-      <class name="com.zinghr.signup.index.SignupIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@42b0a6]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T09:19:35Z" finished-at="2015-11-09T09:19:35Z">
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- login page verification -->
+    <test name="Company code field is editable or not" duration-ms="32775" started-at="2015-11-09T04:34:31Z" finished-at="2015-11-09T04:35:04Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@108b2d7]" name="fetchSuiteConfiguration" is-config="true" duration-ms="7" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@86afc2]]>
+                <![CDATA[org.testng.TestRunner@167c1fc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@42b0a6]" name="setUp" is-config="true" duration-ms="5165" started-at="2015-11-09T09:19:35Z" finished-at="2015-11-09T09:19:40Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@108b2d7]" name="setUp" is-config="true" duration-ms="21652" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.zinghr.signup.index.SignupIndex.SignUpSuccessfully() throws java.lang.Exception]]>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.compnycodeeditableornot()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@86afc2]]>
+                <![CDATA[org.testng.TestRunner@167c1fc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="SignUpSuccessfully()[pri:0, instance:com.zinghr.signup.index.SignupIndex@42b0a6]" name="SignUpSuccessfully" duration-ms="31568" started-at="2015-11-09T09:19:40Z" finished-at="2015-11-09T09:20:12Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='txtCompanyName']"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: unknown
-Command duration or timeout: 30.57 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=05fc7454-c013-4130-874e-758899678052, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 05fc7454-c013-4130-874e-758899678052
-*** Element info: {Using=xpath, value=.//*[@id='txtCompanyName']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='txtCompanyName']"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: unknown
-Command duration or timeout: 30.57 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=05fc7454-c013-4130-874e-758899678052, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 05fc7454-c013-4130-874e-758899678052
-*** Element info: {Using=xpath, value=.//*[@id='txtCompanyName']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
-	at com.zinghr.signup.verification.SignupVerificationPage.verifySignupPage(SignupVerificationPage.java:19)
-	at com.zinghr.signup.index.SignupIndex.SignUpPage(SignupIndex.java:26)
-	at com.zinghr.signup.index.SignupIndex.SignUpSuccessfully(SignupIndex.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
-	... 32 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='txtCompanyName']"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
-System info: host: 'KQSPL-R', ip: '169.254.104.79', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/KQSPL_R/AppData/Local/Temp/anonymous509798092531852113webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/KQSPL_R/AppData/Local/Temp/anonymous509798092531852113webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="compnycodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@108b2d7]" name="compnycodeeditableornot" duration-ms="511" started-at="2015-11-09T10:04:52Z" finished-at="2015-11-09T10:04:53Z">
           <reporter-output>
             <line>
-              <![CDATA[<br></br>Test Case Id : SU_02 ]]>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
             </line>
             <line>
-              <![CDATA[<br></br>Testcase Discription : To test TNA functionality ]]>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
             </line>
             <line>
-              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
             </line>
             <line>
-              <![CDATA[<br></br>Verify that ZingHR SignUp page is open or not.]]>
+              <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
             </line>
             <line>
-              <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+              <![CDATA[<br></br>Company code field id editable or not]]>
             </line>
             <line>
-              <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<a href='../test-output/screenshots/1109092012364SignUpSuccessfully.png' target='_new'>1109092012364SignUpSuccessfully.png</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><h3>Failure Reason:</h3>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;txtCompanyName&apos;]&quot;}]]>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SignUpSuccessfully -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@42b0a6]" name="tearDown" is-config="true" duration-ms="482" started-at="2015-11-09T09:20:12Z" finished-at="2015-11-09T09:20:12Z">
+        </test-method> <!-- compnycodeeditableornot -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@108b2d7]" name="tearDown" is-config="true" duration-ms="10594" started-at="2015-11-09T10:04:53Z" finished-at="2015-11-09T10:05:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SignUpSuccessfully status=FAILURE method=SignupIndex.SignUpSuccessfully()[pri:0, instance:com.zinghr.signup.index.SignupIndex@42b0a6] output=<br></br>Test Case Id : SU_02 ]]]>
+                <![CDATA[[TestResult name=compnycodeeditableornot status=SUCCESS method=LoginIndex.compnycodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@108b2d7] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.zinghr.signup.index.SignupIndex -->
-    </test> <!-- SignUp Successfully and activation page verification -->
-  </suite> <!-- ZingHr - SignUp Page Verification -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- Company code field is editable or not -->
+    <test name="login with valid data" duration-ms="36238" started-at="2015-11-09T04:34:31Z" finished-at="2015-11-09T04:35:07Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@42b0a6]" name="fetchSuiteConfiguration" is-config="true" duration-ms="7" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ee9faa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@42b0a6]" name="setUp" is-config="true" duration-ms="10548" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.loginwithvalidcredential()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ee9faa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginwithvalidcredential()[pri:0, instance:com.zinghr.login.index.LoginIndex@42b0a6]" name="loginwithvalidcredential" duration-ms="14842" started-at="2015-11-09T10:04:41Z" finished-at="2015-11-09T10:04:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Enter Employee Code: Admin]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Password: Admin@123]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that Home page is open or not]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredential -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@42b0a6]" name="tearDown" is-config="true" duration-ms="10830" started-at="2015-11-09T10:04:56Z" finished-at="2015-11-09T10:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginwithvalidcredential status=SUCCESS method=LoginIndex.loginwithvalidcredential()[pri:0, instance:com.zinghr.login.index.LoginIndex@42b0a6] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- login with valid data -->
+    <test name="Employee code field is editable or not" duration-ms="21513" started-at="2015-11-09T04:34:56Z" finished-at="2015-11-09T04:35:18Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@3498ed]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T10:04:56Z" finished-at="2015-11-09T10:04:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38203]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@3498ed]" name="setUp" is-config="true" duration-ms="9720" started-at="2015-11-09T10:04:56Z" finished-at="2015-11-09T10:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.employeecodeeditableornot()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@38203]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="employeecodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@3498ed]" name="employeecodeeditableornot" duration-ms="954" started-at="2015-11-09T10:05:06Z" finished-at="2015-11-09T10:05:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Employeey Code:Admin]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Employee code field id editable or not]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- employeecodeeditableornot -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@3498ed]" name="tearDown" is-config="true" duration-ms="10838" started-at="2015-11-09T10:05:07Z" finished-at="2015-11-09T10:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=employeecodeeditableornot status=SUCCESS method=LoginIndex.employeecodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@3498ed] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- Employee code field is editable or not -->
+    <test name="Empty Company Code field" duration-ms="25694" started-at="2015-11-09T04:35:04Z" finished-at="2015-11-09T04:35:29Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@da1055]" name="setUp" is-config="true" duration-ms="10824" started-at="2015-11-09T10:05:04Z" finished-at="2015-11-09T10:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.blankcomponycode()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@c285f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@da1055]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T10:05:04Z" finished-at="2015-11-09T10:05:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c285f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="blankcomponycode()[pri:0, instance:com.zinghr.login.index.LoginIndex@da1055]" name="blankcomponycode" duration-ms="4494" started-at="2015-11-09T10:05:14Z" finished-at="2015-11-09T10:05:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that alert message is displayed if user logins with empty Company Code]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- blankcomponycode -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@da1055]" name="tearDown" is-config="true" duration-ms="10375" started-at="2015-11-09T10:05:19Z" finished-at="2015-11-09T10:05:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blankcomponycode status=SUCCESS method=LoginIndex.blankcomponycode()[pri:0, instance:com.zinghr.login.index.LoginIndex@da1055] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- Empty Company Code field -->
+    <test name="Empty Employee Code field" duration-ms="30518" started-at="2015-11-09T04:35:07Z" finished-at="2015-11-09T04:35:38Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@d94a8b]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T10:05:07Z" finished-at="2015-11-09T10:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f3ddb1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@d94a8b]" name="setUp" is-config="true" duration-ms="16220" started-at="2015-11-09T10:05:07Z" finished-at="2015-11-09T10:05:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.blankemployeecode()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f3ddb1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="blankemployeecode()[pri:0, instance:com.zinghr.login.index.LoginIndex@d94a8b]" name="blankemployeecode" duration-ms="3777" started-at="2015-11-09T10:05:23Z" finished-at="2015-11-09T10:05:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Employeey Code:Admin]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that alert message is displayed if user logins with empty Employee Code]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- blankemployeecode -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@d94a8b]" name="tearDown" is-config="true" duration-ms="10520" started-at="2015-11-09T10:05:27Z" finished-at="2015-11-09T10:05:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blankemployeecode status=SUCCESS method=LoginIndex.blankemployeecode()[pri:0, instance:com.zinghr.login.index.LoginIndex@d94a8b] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- Empty Employee Code field -->
+    <test name="Empty Password field" duration-ms="29273" started-at="2015-11-09T04:35:18Z" finished-at="2015-11-09T04:35:47Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@616ca2]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-09T10:05:18Z" finished-at="2015-11-09T10:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@bd1b6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@616ca2]" name="setUp" is-config="true" duration-ms="14721" started-at="2015-11-09T10:05:18Z" finished-at="2015-11-09T10:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.blankpassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@bd1b6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="blankpassword()[pri:0, instance:com.zinghr.login.index.LoginIndex@616ca2]" name="blankpassword" duration-ms="4140" started-at="2015-11-09T10:05:32Z" finished-at="2015-11-09T10:05:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Enter Employeey Code:Admin]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that alert message is displayed if user logins with empty password]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- blankpassword -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@616ca2]" name="tearDown" is-config="true" duration-ms="10411" started-at="2015-11-09T10:05:36Z" finished-at="2015-11-09T10:05:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blankpassword status=SUCCESS method=LoginIndex.blankpassword()[pri:0, instance:com.zinghr.login.index.LoginIndex@616ca2] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- Empty Password field -->
+  </suite> <!-- Login -->
 </testng-results>

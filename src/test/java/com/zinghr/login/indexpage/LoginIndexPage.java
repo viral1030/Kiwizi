@@ -92,6 +92,8 @@ public class LoginIndexPage extends AbstractPage {
 		enterCompanyCode(TestData.company_code);
 		return new LoginVerificationPage(driver);
 	}
+	
+	
 	public LoginVerificationPage employeecodeiseditableornot()
 	{
 		enterEmployeeCode(TestData.employe_code);
