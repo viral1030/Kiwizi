@@ -32,7 +32,7 @@ public class SignupVerificationPage extends AbstractPage {
 	public boolean verifyblankCompanycode() {
 		Common.pause(2);
 		return driver.findElement(
-				By.xpath(".//input[@data-content='Please enter company name']")).isDisplayed();
+				By.xpath(".//*[@id='txtCompanyName']//.[@data-content='Please enter company name']")).isDisplayed();
 	}
 
 	public boolean verifylessthan3Companycode() {
@@ -47,5 +47,22 @@ public class SignupVerificationPage extends AbstractPage {
 				By.xpath(".//input[@data-content='Please enter company name']")).isDisplayed();
 	}
 
+	
+	public boolean verifyInvalidDisplayAdminName() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//input[@id='txtAdminName']//.[@data-content='Enter characters only.']")).isDisplayed();
+	}
 
+	public boolean verifyblankDisplayAdminName() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//*[@id='txtAdminName']//.[@data-content='Please enter company name']")).isDisplayed();
+	}
+
+	public boolean verifyValidEmailId() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//p[@class='font-14']")).isDisplayed();
+	}
 }

@@ -10,6 +10,7 @@ public class TestData {
 	public static String employe_code = "Admin";
 	public static String password = "Admin@123";
 	public static String blank = " ";
+	public static String invalid = "%&^%6545as";
 	
 	public static String rndmString(int length)
 	{
