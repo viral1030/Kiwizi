@@ -31,6 +31,20 @@ public class LoginIndexPage extends AbstractPage {
 	@FindBy(xpath = ".//div[@id='btnDemoData']//a[1]")
 	WebElement proccedbtn;
 	
+	@FindBy(xpath = ".//i[@class='fa fa-facebook socialicons']/..")
+	WebElement facebook;
+	
+	@FindBy(xpath = ".//i[@class='fa fa-twitter socialicons']/..")
+	WebElement twitter;
+	
+	@FindBy(xpath = ".//i[@class='fa fa-youtube socialicons']/..")
+	WebElement youtube;
+	
+	@FindBy(xpath = ".//i[@class='fa fa-google-plus socialicons']/..")
+	WebElement gplus;
+	
+	@FindBy(xpath = ".//i[@class='fa fa-linkedin socialicons']/..")
+	WebElement likedin;
 	
 	public LoginVerificationPage loginlandingpage()
 	{
@@ -112,11 +126,71 @@ public class LoginIndexPage extends AbstractPage {
 		clickLoginButton();
 		return new LoginVerificationPage(driver);
 	}
+	public LoginVerificationPage enterdatatopassword()
+	{
+		enterPassword(TestData.password);
+		password_txt_fld.clear();
+		enterPassword(TestData.password);
+		return new LoginVerificationPage(driver);
+	}
 	public LoginVerificationPage blankpassword()
 	{
 		enterCompanyCode(TestData.company_code);
 		enterEmployeeCode(TestData.employe_code);
 		clickLoginButton();
+		return new LoginVerificationPage(driver);
+	}
+	
+	
+	public LoginVerificationPage invalidcompanycode()
+	{
+		enterCompanyCode(TestData.company_code_dl);
+		enterEmployeeCode(TestData.employe_code);
+		enterPassword(TestData.password);
+		clickLoginButton();
+		return new LoginVerificationPage(driver);
+	}
+	
+	public LoginVerificationPage invalidemployeecode()
+	{
+		enterCompanyCode(TestData.company_code);
+		enterEmployeeCode(TestData.employe_code_dl);
+		enterPassword(TestData.password);
+		clickLoginButton();
+		return new LoginVerificationPage(driver);
+	}
+	
+	public LoginVerificationPage invalidpassword()
+	{
+		enterCompanyCode(TestData.company_code);
+		enterEmployeeCode(TestData.employe_code);
+		enterPassword(TestData.password_dl);
+		clickLoginButton();
+		return new LoginVerificationPage(driver);
+	}
+	public LoginVerificationPage facebooksocialicon()
+	{
+		Common.clickOn(driver, facebook);
+		return new LoginVerificationPage(driver);
+	}
+	public LoginVerificationPage twittersocialicon()
+	{
+		Common.clickOn(driver, facebook);
+		return new LoginVerificationPage(driver);
+	}
+	public LoginVerificationPage youtubesocialicon()
+	{
+		Common.clickOn(driver, facebook);
+		return new LoginVerificationPage(driver);
+	}
+	public LoginVerificationPage gplussocialicon()
+	{
+		Common.clickOn(driver, facebook);
+		return new LoginVerificationPage(driver);
+	}
+	public LoginVerificationPage linkedinsocialicon()
+	{
+		Common.clickOn(driver, facebook);
 		return new LoginVerificationPage(driver);
 	}
 }

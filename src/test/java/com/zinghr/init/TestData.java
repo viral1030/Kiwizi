@@ -9,6 +9,11 @@ public class TestData {
 	public static String company_code = "KIWIQA";
 	public static String employe_code = "Admin";
 	public static String password = "Admin@123";
+	
+	public static String company_code_dl = "KIWIQA123";
+	public static String employe_code_dl = "Admin123";
+	public static String password_dl = "Admin@1234";
+	
 	public static String blank = " ";
 	
 	public static String rndmString(int length)

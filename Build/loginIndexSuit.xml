@@ -34,7 +34,7 @@
 	</test>
 
 
-	<test name="login with valid data">
+	<test name="L_08: To verify that user is able to login with valid credentials">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
 				<methods>
@@ -44,7 +44,7 @@
 		</classes>
 	</test>
 
-	<test name="Company code field is editable or not">
+	<test name="L_02: To verify that Company Name field is editable">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
 				<methods>
@@ -53,7 +53,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="Employee code field is editable or not">
+	<test name="L_03: To verify that user is able to enter data in Employee code field">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
 				<methods>
@@ -62,7 +62,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="Empty Company Code field">
+	<test name="L_04: To verify that alert message is displayed if user logins with empty Company Code">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
 				<methods>
@@ -74,7 +74,7 @@
 	
 	
 	
-	<test name="Empty Employee Code field">
+	<test name="L_05: To verify that alert message is displayed if user logins with empty Employee Code">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
 				<methods>
@@ -84,7 +84,17 @@
 		</classes>
 	</test>
 	
-	<test name="Empty Password field">
+	<test name="L_06: To verify that user is able to enter data in Password field">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="enterdatatopassword" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="L_07: To verify that alert message is displayed if user logins with empty password">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
 				<methods>
@@ -93,5 +103,41 @@
 			</class>
 		</classes>
 	</test>
-
+	
+	<test name="L_10: To verify that appropriate error message is displayed when user enters invalid company code">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="invalidcompanycode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="L_11: To verify that appropriate error message is displayed when user enters invalid company code">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="invalidemployeecode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="L_12: To verify that appropriate error message is displayed when user enters invalid password">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="invalidpassword" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="L_16: To verify that user is redirected to targeted page after clicking on social icons(fb,twitter,g+,ln,youtube">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="verifysocialicons" />
+				</methods>
+			</class>
+		</classes>
+	</test>
 </suite>

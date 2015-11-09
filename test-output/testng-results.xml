@@ -1,35 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
     <line>
-      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
-    </line>
-    <line>
-      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 3: Enter Employee Code: Admin]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 4: Enter Password: Admin@123]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
-    </line>
-    <line>
-      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
     </line>
     <line>
       <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
@@ -47,13 +20,34 @@
       <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br>Verify that Home page is open or not]]>
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
     </line>
     <line>
       <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Enter Employee Code: Admin]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Password: Admin@123]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
     </line>
     <line>
       <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
@@ -71,7 +65,7 @@
       <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
     </line>
     <line>
       <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
@@ -80,13 +74,19 @@
       <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
+      <![CDATA[<br></br>Verify that Home page is open or not]]>
+    </line>
+    <line>
       <![CDATA[<br></br>To verify that alert message is displayed if user logins with empty Company Code]]>
     </line>
     <line>
       <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
     </line>
     <line>
       <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
@@ -104,7 +104,25 @@
       <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Password: Admin@123]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that user is able to enter data in Password field]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
     </line>
     <line>
       <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
@@ -124,24 +142,96 @@
     <line>
       <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA123]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Enter Employeey Code:Admin]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Password: Admin@123]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that appropriate error message is displayed when user enters invalid company code]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Enter Employeey Code:Admin123]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Password: Admin@123]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that appropriate error message is displayed when user enters invalid company code]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Enter Employeey Code:Admin]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Password: Admin@1234]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that appropriate error message is displayed when user enters invalid company code]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
   </reporter-output>
-  <suite name="Login" duration-ms="76139" started-at="2015-11-09T04:34:31Z" finished-at="2015-11-09T04:35:47Z">
+  <suite name="Login" duration-ms="169544" started-at="2015-11-09T07:24:40Z" finished-at="2015-11-09T07:27:30Z">
     <groups>
     </groups>
-    <test name="login page verification" duration-ms="25309" started-at="2015-11-09T04:34:31Z" finished-at="2015-11-09T04:34:56Z">
+    <test name="login page verification" duration-ms="61992" started-at="2015-11-09T07:24:40Z" finished-at="2015-11-09T07:25:42Z">
       <class name="com.zinghr.login.index.LoginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@18ceff1]" name="fetchSuiteConfiguration" is-config="true" duration-ms="7" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:31Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@30a502]" name="fetchSuiteConfiguration" is-config="true" duration-ms="8" started-at="2015-11-09T12:54:40Z" finished-at="2015-11-09T12:54:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1aeed2f]]>
+                <![CDATA[org.testng.TestRunner@c273d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@18ceff1]" name="setUp" is-config="true" duration-ms="14493" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:45Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@30a502]" name="setUp" is-config="true" duration-ms="49502" started-at="2015-11-09T12:54:40Z" finished-at="2015-11-09T12:55:30Z">
           <params>
             <param index="0">
               <value>
@@ -150,17 +240,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@1aeed2f]]>
+                <![CDATA[org.testng.TestRunner@c273d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginlandingpage()[pri:0, instance:com.zinghr.login.index.LoginIndex@18ceff1]" name="loginlandingpage" duration-ms="320" started-at="2015-11-09T10:04:45Z" finished-at="2015-11-09T10:04:46Z">
+        <test-method status="PASS" signature="loginlandingpage()[pri:0, instance:com.zinghr.login.index.LoginIndex@30a502]" name="loginlandingpage" duration-ms="441" started-at="2015-11-09T12:55:30Z" finished-at="2015-11-09T12:55:30Z">
           <reporter-output>
             <line>
-              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
             </line>
             <line>
               <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
@@ -170,11 +260,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginlandingpage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@18ceff1]" name="tearDown" is-config="true" duration-ms="10477" started-at="2015-11-09T10:04:46Z" finished-at="2015-11-09T10:04:56Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@30a502]" name="tearDown" is-config="true" duration-ms="12030" started-at="2015-11-09T12:55:30Z" finished-at="2015-11-09T12:55:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginlandingpage status=SUCCESS method=LoginIndex.loginlandingpage()[pri:0, instance:com.zinghr.login.index.LoginIndex@18ceff1] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+                <![CDATA[[TestResult name=loginlandingpage status=SUCCESS method=LoginIndex.loginlandingpage()[pri:0, instance:com.zinghr.login.index.LoginIndex@30a502] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
               </value>
             </param>
           </params>
@@ -183,20 +273,20 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.zinghr.login.index.LoginIndex -->
     </test> <!-- login page verification -->
-    <test name="Company code field is editable or not" duration-ms="32775" started-at="2015-11-09T04:34:31Z" finished-at="2015-11-09T04:35:04Z">
+    <test name="L_02: To verify that Company Name field is editable" duration-ms="62425" started-at="2015-11-09T07:24:40Z" finished-at="2015-11-09T07:25:42Z">
       <class name="com.zinghr.login.index.LoginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@108b2d7]" name="fetchSuiteConfiguration" is-config="true" duration-ms="7" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:31Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@154909b]" name="fetchSuiteConfiguration" is-config="true" duration-ms="8" started-at="2015-11-09T12:54:40Z" finished-at="2015-11-09T12:54:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@167c1fc]]>
+                <![CDATA[org.testng.TestRunner@1c6f14e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@108b2d7]" name="setUp" is-config="true" duration-ms="21652" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:52Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@154909b]" name="setUp" is-config="true" duration-ms="32093" started-at="2015-11-09T12:54:40Z" finished-at="2015-11-09T12:55:12Z">
           <params>
             <param index="0">
               <value>
@@ -205,17 +295,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@167c1fc]]>
+                <![CDATA[org.testng.TestRunner@1c6f14e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="compnycodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@108b2d7]" name="compnycodeeditableornot" duration-ms="511" started-at="2015-11-09T10:04:52Z" finished-at="2015-11-09T10:04:53Z">
+        <test-method status="PASS" signature="compnycodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@154909b]" name="compnycodeeditableornot" duration-ms="6208" started-at="2015-11-09T12:55:12Z" finished-at="2015-11-09T12:55:18Z">
           <reporter-output>
             <line>
-              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
             </line>
             <line>
               <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
@@ -234,11 +324,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- compnycodeeditableornot -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@108b2d7]" name="tearDown" is-config="true" duration-ms="10594" started-at="2015-11-09T10:04:53Z" finished-at="2015-11-09T10:05:04Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@154909b]" name="tearDown" is-config="true" duration-ms="24107" started-at="2015-11-09T12:55:18Z" finished-at="2015-11-09T12:55:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=compnycodeeditableornot status=SUCCESS method=LoginIndex.compnycodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@108b2d7] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+                <![CDATA[[TestResult name=compnycodeeditableornot status=SUCCESS method=LoginIndex.compnycodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@154909b] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
               </value>
             </param>
           </params>
@@ -246,21 +336,146 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.zinghr.login.index.LoginIndex -->
-    </test> <!-- Company code field is editable or not -->
-    <test name="login with valid data" duration-ms="36238" started-at="2015-11-09T04:34:31Z" finished-at="2015-11-09T04:35:07Z">
+    </test> <!-- L_02: To verify that Company Name field is editable -->
+    <test name="L_03: To verify that user is able to enter data in Employee code field" duration-ms="24507" started-at="2015-11-09T07:25:42Z" finished-at="2015-11-09T07:26:07Z">
       <class name="com.zinghr.login.index.LoginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@42b0a6]" name="fetchSuiteConfiguration" is-config="true" duration-ms="7" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:31Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@407d53]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-09T12:55:42Z" finished-at="2015-11-09T12:55:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1ee9faa]]>
+                <![CDATA[org.testng.TestRunner@235b8e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@42b0a6]" name="setUp" is-config="true" duration-ms="10548" started-at="2015-11-09T10:04:31Z" finished-at="2015-11-09T10:04:41Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@407d53]" name="setUp" is-config="true" duration-ms="12354" started-at="2015-11-09T12:55:42Z" finished-at="2015-11-09T12:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.employeecodeeditableornot()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@235b8e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="employeecodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@407d53]" name="employeecodeeditableornot" duration-ms="771" started-at="2015-11-09T12:55:55Z" finished-at="2015-11-09T12:55:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Employeey Code:Admin]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Employee code field id editable or not]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- employeecodeeditableornot -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@407d53]" name="tearDown" is-config="true" duration-ms="11380" started-at="2015-11-09T12:55:55Z" finished-at="2015-11-09T12:56:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=employeecodeeditableornot status=SUCCESS method=LoginIndex.employeecodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@407d53] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- L_03: To verify that user is able to enter data in Employee code field -->
+    <test name="L_04: To verify that alert message is displayed if user logins with empty Company Code" duration-ms="48660" started-at="2015-11-09T07:25:43Z" finished-at="2015-11-09T07:26:31Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@5d012c]" name="setUp" is-config="true" duration-ms="33316" started-at="2015-11-09T12:55:43Z" finished-at="2015-11-09T12:56:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.blankcomponycode()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@32be31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@5d012c]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T12:55:43Z" finished-at="2015-11-09T12:55:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@32be31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="blankcomponycode()[pri:0, instance:com.zinghr.login.index.LoginIndex@5d012c]" name="blankcomponycode" duration-ms="4239" started-at="2015-11-09T12:56:16Z" finished-at="2015-11-09T12:56:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that alert message is displayed if user logins with empty Company Code]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- blankcomponycode -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@5d012c]" name="tearDown" is-config="true" duration-ms="11104" started-at="2015-11-09T12:56:20Z" finished-at="2015-11-09T12:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blankcomponycode status=SUCCESS method=LoginIndex.blankcomponycode()[pri:0, instance:com.zinghr.login.index.LoginIndex@5d012c] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- L_04: To verify that alert message is displayed if user logins with empty Company Code -->
+    <test name="L_08: To verify that user is able to login with valid credentials" duration-ms="116032" started-at="2015-11-09T07:24:40Z" finished-at="2015-11-09T07:26:36Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@f82f98]" name="fetchSuiteConfiguration" is-config="true" duration-ms="8" started-at="2015-11-09T12:54:40Z" finished-at="2015-11-09T12:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@bca1e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@f82f98]" name="setUp" is-config="true" duration-ms="69888" started-at="2015-11-09T12:54:40Z" finished-at="2015-11-09T12:55:50Z">
           <params>
             <param index="0">
               <value>
@@ -269,17 +484,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@1ee9faa]]>
+                <![CDATA[org.testng.TestRunner@bca1e0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginwithvalidcredential()[pri:0, instance:com.zinghr.login.index.LoginIndex@42b0a6]" name="loginwithvalidcredential" duration-ms="14842" started-at="2015-11-09T10:04:41Z" finished-at="2015-11-09T10:04:56Z">
+        <test-method status="PASS" signature="loginwithvalidcredential()[pri:0, instance:com.zinghr.login.index.LoginIndex@f82f98]" name="loginwithvalidcredential" duration-ms="35454" started-at="2015-11-09T12:55:50Z" finished-at="2015-11-09T12:56:25Z">
           <reporter-output>
             <line>
-              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
             </line>
             <line>
               <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
@@ -304,11 +519,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginwithvalidcredential -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@42b0a6]" name="tearDown" is-config="true" duration-ms="10830" started-at="2015-11-09T10:04:56Z" finished-at="2015-11-09T10:05:07Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@f82f98]" name="tearDown" is-config="true" duration-ms="10672" started-at="2015-11-09T12:56:25Z" finished-at="2015-11-09T12:56:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginwithvalidcredential status=SUCCESS method=LoginIndex.loginwithvalidcredential()[pri:0, instance:com.zinghr.login.index.LoginIndex@42b0a6] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+                <![CDATA[[TestResult name=loginwithvalidcredential status=SUCCESS method=LoginIndex.loginwithvalidcredential()[pri:0, instance:com.zinghr.login.index.LoginIndex@f82f98] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
               </value>
             </param>
           </params>
@@ -316,146 +531,21 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.zinghr.login.index.LoginIndex -->
-    </test> <!-- login with valid data -->
-    <test name="Employee code field is editable or not" duration-ms="21513" started-at="2015-11-09T04:34:56Z" finished-at="2015-11-09T04:35:18Z">
+    </test> <!-- L_08: To verify that user is able to login with valid credentials -->
+    <test name="L_05: To verify that alert message is displayed if user logins with empty Employee Code" duration-ms="42161" started-at="2015-11-09T07:26:07Z" finished-at="2015-11-09T07:26:49Z">
       <class name="com.zinghr.login.index.LoginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@3498ed]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T10:04:56Z" finished-at="2015-11-09T10:04:56Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@82d64]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T12:56:07Z" finished-at="2015-11-09T12:56:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@38203]]>
+                <![CDATA[org.testng.TestRunner@286778]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@3498ed]" name="setUp" is-config="true" duration-ms="9720" started-at="2015-11-09T10:04:56Z" finished-at="2015-11-09T10:05:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.zinghr.login.index.LoginIndex.employeecodeeditableornot()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@38203]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="employeecodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@3498ed]" name="employeecodeeditableornot" duration-ms="954" started-at="2015-11-09T10:05:06Z" finished-at="2015-11-09T10:05:07Z">
-          <reporter-output>
-            <line>
-              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
-            </line>
-            <line>
-              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 2: Enter Employeey Code:Admin]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Employee code field id editable or not]]>
-            </line>
-            <line>
-              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- employeecodeeditableornot -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@3498ed]" name="tearDown" is-config="true" duration-ms="10838" started-at="2015-11-09T10:05:07Z" finished-at="2015-11-09T10:05:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=employeecodeeditableornot status=SUCCESS method=LoginIndex.employeecodeeditableornot()[pri:0, instance:com.zinghr.login.index.LoginIndex@3498ed] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.zinghr.login.index.LoginIndex -->
-    </test> <!-- Employee code field is editable or not -->
-    <test name="Empty Company Code field" duration-ms="25694" started-at="2015-11-09T04:35:04Z" finished-at="2015-11-09T04:35:29Z">
-      <class name="com.zinghr.login.index.LoginIndex">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@da1055]" name="setUp" is-config="true" duration-ms="10824" started-at="2015-11-09T10:05:04Z" finished-at="2015-11-09T10:05:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.zinghr.login.index.LoginIndex.blankcomponycode()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@c285f4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@da1055]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T10:05:04Z" finished-at="2015-11-09T10:05:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@c285f4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="blankcomponycode()[pri:0, instance:com.zinghr.login.index.LoginIndex@da1055]" name="blankcomponycode" duration-ms="4494" started-at="2015-11-09T10:05:14Z" finished-at="2015-11-09T10:05:19Z">
-          <reporter-output>
-            <line>
-              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
-            </line>
-            <line>
-              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>To verify that alert message is displayed if user logins with empty Company Code]]>
-            </line>
-            <line>
-              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- blankcomponycode -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@da1055]" name="tearDown" is-config="true" duration-ms="10375" started-at="2015-11-09T10:05:19Z" finished-at="2015-11-09T10:05:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=blankcomponycode status=SUCCESS method=LoginIndex.blankcomponycode()[pri:0, instance:com.zinghr.login.index.LoginIndex@da1055] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.zinghr.login.index.LoginIndex -->
-    </test> <!-- Empty Company Code field -->
-    <test name="Empty Employee Code field" duration-ms="30518" started-at="2015-11-09T04:35:07Z" finished-at="2015-11-09T04:35:38Z">
-      <class name="com.zinghr.login.index.LoginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@d94a8b]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T10:05:07Z" finished-at="2015-11-09T10:05:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1f3ddb1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@d94a8b]" name="setUp" is-config="true" duration-ms="16220" started-at="2015-11-09T10:05:07Z" finished-at="2015-11-09T10:05:23Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@82d64]" name="setUp" is-config="true" duration-ms="28192" started-at="2015-11-09T12:56:07Z" finished-at="2015-11-09T12:56:35Z">
           <params>
             <param index="0">
               <value>
@@ -464,17 +554,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@1f3ddb1]]>
+                <![CDATA[org.testng.TestRunner@286778]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="blankemployeecode()[pri:0, instance:com.zinghr.login.index.LoginIndex@d94a8b]" name="blankemployeecode" duration-ms="3777" started-at="2015-11-09T10:05:23Z" finished-at="2015-11-09T10:05:27Z">
+        <test-method status="PASS" signature="blankemployeecode()[pri:0, instance:com.zinghr.login.index.LoginIndex@82d64]" name="blankemployeecode" duration-ms="3432" started-at="2015-11-09T12:56:35Z" finished-at="2015-11-09T12:56:38Z">
           <reporter-output>
             <line>
-              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
             </line>
             <line>
               <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
@@ -493,11 +583,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- blankemployeecode -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@d94a8b]" name="tearDown" is-config="true" duration-ms="10520" started-at="2015-11-09T10:05:27Z" finished-at="2015-11-09T10:05:38Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@82d64]" name="tearDown" is-config="true" duration-ms="10535" started-at="2015-11-09T12:56:38Z" finished-at="2015-11-09T12:56:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=blankemployeecode status=SUCCESS method=LoginIndex.blankemployeecode()[pri:0, instance:com.zinghr.login.index.LoginIndex@d94a8b] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+                <![CDATA[[TestResult name=blankemployeecode status=SUCCESS method=LoginIndex.blankemployeecode()[pri:0, instance:com.zinghr.login.index.LoginIndex@82d64] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
               </value>
             </param>
           </params>
@@ -505,21 +595,74 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.zinghr.login.index.LoginIndex -->
-    </test> <!-- Empty Employee Code field -->
-    <test name="Empty Password field" duration-ms="29273" started-at="2015-11-09T04:35:18Z" finished-at="2015-11-09T04:35:47Z">
+    </test> <!-- L_05: To verify that alert message is displayed if user logins with empty Employee Code -->
+    <test name="L_06: To verify that user is able to enter data in Password field" duration-ms="23315" started-at="2015-11-09T07:26:31Z" finished-at="2015-11-09T07:26:54Z">
       <class name="com.zinghr.login.index.LoginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@616ca2]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-09T10:05:18Z" finished-at="2015-11-09T10:05:18Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@1fee20c]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T12:56:31Z" finished-at="2015-11-09T12:56:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@bd1b6a]]>
+                <![CDATA[org.testng.TestRunner@9ba398]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@616ca2]" name="setUp" is-config="true" duration-ms="14721" started-at="2015-11-09T10:05:18Z" finished-at="2015-11-09T10:05:32Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@1fee20c]" name="setUp" is-config="true" duration-ms="11879" started-at="2015-11-09T12:56:31Z" finished-at="2015-11-09T12:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.enterdatatopassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@9ba398]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterdatatopassword()[pri:0, instance:com.zinghr.login.index.LoginIndex@1fee20c]" name="enterdatatopassword" duration-ms="562" started-at="2015-11-09T12:56:43Z" finished-at="2015-11-09T12:56:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Password: Admin@123]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that user is able to enter data in Password field]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterdatatopassword -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@1fee20c]" name="tearDown" is-config="true" duration-ms="10873" started-at="2015-11-09T12:56:44Z" finished-at="2015-11-09T12:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterdatatopassword status=SUCCESS method=LoginIndex.enterdatatopassword()[pri:0, instance:com.zinghr.login.index.LoginIndex@1fee20c] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- L_06: To verify that user is able to enter data in Password field -->
+    <test name="L_07: To verify that alert message is displayed if user logins with empty password" duration-ms="28700" started-at="2015-11-09T07:26:36Z" finished-at="2015-11-09T07:27:05Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@6a3f77]" name="setUp" is-config="true" duration-ms="13575" started-at="2015-11-09T12:56:36Z" finished-at="2015-11-09T12:56:50Z">
           <params>
             <param index="0">
               <value>
@@ -528,17 +671,28 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@bd1b6a]]>
+                <![CDATA[org.testng.TestRunner@17b4f4c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="blankpassword()[pri:0, instance:com.zinghr.login.index.LoginIndex@616ca2]" name="blankpassword" duration-ms="4140" started-at="2015-11-09T10:05:32Z" finished-at="2015-11-09T10:05:36Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@6a3f77]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T12:56:36Z" finished-at="2015-11-09T12:56:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@17b4f4c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="blankpassword()[pri:0, instance:com.zinghr.login.index.LoginIndex@6a3f77]" name="blankpassword" duration-ms="4704" started-at="2015-11-09T12:56:50Z" finished-at="2015-11-09T12:56:54Z">
           <reporter-output>
             <line>
-              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
             </line>
             <line>
               <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
@@ -560,11 +714,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- blankpassword -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@616ca2]" name="tearDown" is-config="true" duration-ms="10411" started-at="2015-11-09T10:05:36Z" finished-at="2015-11-09T10:05:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@6a3f77]" name="tearDown" is-config="true" duration-ms="10421" started-at="2015-11-09T12:56:54Z" finished-at="2015-11-09T12:57:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=blankpassword status=SUCCESS method=LoginIndex.blankpassword()[pri:0, instance:com.zinghr.login.index.LoginIndex@616ca2] output=<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+                <![CDATA[[TestResult name=blankpassword status=SUCCESS method=LoginIndex.blankpassword()[pri:0, instance:com.zinghr.login.index.LoginIndex@6a3f77] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
               </value>
             </param>
           </params>
@@ -572,6 +726,216 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.zinghr.login.index.LoginIndex -->
-    </test> <!-- Empty Password field -->
+    </test> <!-- L_07: To verify that alert message is displayed if user logins with empty password -->
+    <test name="L_10: To verify that appropriate error message is displayed when user enters invalid company code" duration-ms="26269" started-at="2015-11-09T07:26:49Z" finished-at="2015-11-09T07:27:15Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@addb54]" name="setUp" is-config="true" duration-ms="10775" started-at="2015-11-09T12:56:49Z" finished-at="2015-11-09T12:57:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.invalidcompanycode()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7740a2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@addb54]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T12:56:49Z" finished-at="2015-11-09T12:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7740a2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="invalidcompanycode()[pri:0, instance:com.zinghr.login.index.LoginIndex@addb54]" name="invalidcompanycode" duration-ms="4866" started-at="2015-11-09T12:57:00Z" finished-at="2015-11-09T12:57:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA123]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Enter Employeey Code:Admin]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Password: Admin@123]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that appropriate error message is displayed when user enters invalid company code]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidcompanycode -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@addb54]" name="tearDown" is-config="true" duration-ms="10628" started-at="2015-11-09T12:57:04Z" finished-at="2015-11-09T12:57:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidcompanycode status=SUCCESS method=LoginIndex.invalidcompanycode()[pri:0, instance:com.zinghr.login.index.LoginIndex@addb54] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- L_10: To verify that appropriate error message is displayed when user enters invalid company code -->
+    <test name="L_11: To verify that appropriate error message is displayed when user enters invalid company code" duration-ms="25472" started-at="2015-11-09T07:26:55Z" finished-at="2015-11-09T07:27:20Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@837a77]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-09T12:56:55Z" finished-at="2015-11-09T12:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a5fe33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@837a77]" name="setUp" is-config="true" duration-ms="10324" started-at="2015-11-09T12:56:55Z" finished-at="2015-11-09T12:57:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.invalidemployeecode()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a5fe33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidemployeecode()[pri:0, instance:com.zinghr.login.index.LoginIndex@837a77]" name="invalidemployeecode" duration-ms="4623" started-at="2015-11-09T12:57:05Z" finished-at="2015-11-09T12:57:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Enter Employeey Code:Admin123]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Password: Admin@123]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that appropriate error message is displayed when user enters invalid company code]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidemployeecode -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@837a77]" name="tearDown" is-config="true" duration-ms="10523" started-at="2015-11-09T12:57:09Z" finished-at="2015-11-09T12:57:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidemployeecode status=SUCCESS method=LoginIndex.invalidemployeecode()[pri:0, instance:com.zinghr.login.index.LoginIndex@837a77] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- L_11: To verify that appropriate error message is displayed when user enters invalid company code -->
+    <test name="L_12: To verify that appropriate error message is displayed when user enters invalid password" duration-ms="24785" started-at="2015-11-09T07:27:05Z" finished-at="2015-11-09T07:27:30Z">
+      <class name="com.zinghr.login.index.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@1975490]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-09T12:57:05Z" finished-at="2015-11-09T12:57:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3108bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.login.index.LoginIndex@1975490]" name="setUp" is-config="true" duration-ms="8586" started-at="2015-11-09T12:57:05Z" finished-at="2015-11-09T12:57:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.login.index.LoginIndex.invalidpassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3108bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidpassword()[pri:0, instance:com.zinghr.login.index.LoginIndex@1975490]" name="invalidpassword" duration-ms="5747" started-at="2015-11-09T12:57:13Z" finished-at="2015-11-09T12:57:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Enter Employeey Code:Admin]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Password: Admin@1234]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that appropriate error message is displayed when user enters invalid company code]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidpassword -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.login.index.LoginIndex@1975490]" name="tearDown" is-config="true" duration-ms="10451" started-at="2015-11-09T12:57:19Z" finished-at="2015-11-09T12:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidpassword status=SUCCESS method=LoginIndex.invalidpassword()[pri:0, instance:com.zinghr.login.index.LoginIndex@1975490] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.login.index.LoginIndex -->
+    </test> <!-- L_12: To verify that appropriate error message is displayed when user enters invalid password -->
   </suite> <!-- Login -->
 </testng-results>

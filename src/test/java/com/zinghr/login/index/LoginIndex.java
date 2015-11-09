@@ -148,6 +148,29 @@ public class LoginIndex extends SeleniumInit {
 
 	}
 	
+	@Test
+	public void enterdatatopassword()
+	{
+		int numOfFailure = 0;
+		loginlandingpage();
+		log("Step 2: Enter Password: "+TestData.password);
+		loginVerificationPage=loginIndexpage.enterdatatopassword();
+		log("To verify that user is able to enter data in Password field");
+		if(loginVerificationPage.enterdatatopasswordverification())
+		{
+			Common.logStatus("pass");
+		}
+		else
+		{
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
 	
 	@Test
 	public void blankpassword()
@@ -167,6 +190,118 @@ public class LoginIndex extends SeleniumInit {
 			Common.logStatus("fail");
 			numOfFailure++;
 		}
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	@Test
+	public void invalidcompanycode()
+	{
+		int numOfFailure = 0;
+		loginlandingpage();
+		log("Step 2: Enter Company Code:"+TestData.company_code_dl);
+		log("Step 3: Enter Employeey Code:"+TestData.employe_code);
+		log("Step 4: Enter Password: "+TestData.password);
+		loginVerificationPage=loginIndexpage.invalidcompanycode();
+		log("To verify that appropriate error message is displayed when user enters invalid company code");
+		if(loginVerificationPage.invalidcompanycodeverification())
+		{
+			Common.logStatus("pass");
+		}
+		else
+		{
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+	
+	@Test
+	public void invalidemployeecode()
+	{
+		int numOfFailure = 0;
+		loginlandingpage();
+		log("Step 2: Enter Company Code:"+TestData.company_code);
+		log("Step 3: Enter Employeey Code:"+TestData.employe_code_dl);
+		log("Step 4: Enter Password: "+TestData.password);
+		loginVerificationPage=loginIndexpage.invalidemployeecode();
+		log("To verify that appropriate error message is displayed when user enters invalid company code");
+		if(loginVerificationPage.invalidemployeecodeverification())
+		{
+			Common.logStatus("pass");
+		}
+		else
+		{
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+	
+	@Test
+	public void invalidpassword()
+	{
+		int numOfFailure = 0;
+		loginlandingpage();
+		log("Step 2: Enter Company Code:"+TestData.company_code);
+		log("Step 3: Enter Employeey Code:"+TestData.employe_code);
+		log("Step 4: Enter Password: "+TestData.password_dl);
+		loginVerificationPage=loginIndexpage.invalidpassword();
+		log("To verify that appropriate error message is displayed when user enters invalid company code");
+		if(loginVerificationPage.invalidpasswordverification())
+		{
+			Common.logStatus("pass");
+		}
+		else
+		{
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+	@Test
+	public void verifysocialicons()
+	{
+		int numOfFailure = 0;
+		loginlandingpage();
+		log("Step 2: Click on facebook icon.");
+		loginVerificationPage=loginIndexpage.facebooksocialicon();
+		log("To verify facebook is open.");
+		if(loginVerificationPage.facebooksocialiconverification())
+		{
+			Common.logStatus("pass");
+		}
+		else
+		{
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+		Common.closeCurrentTab(driver);
+		log("Step 3: Click on twitter icon.");
+		loginVerificationPage=loginIndexpage.invalidpassword();
+		log("To verify twitter is open.");
+		if(loginVerificationPage.invalidpasswordverification())
+		{
+			Common.logStatus("pass");
+		}
+		else
+		{
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+		Common.closeCurrentTab(driver);
+		
 		if (numOfFailure > 0) {
 			Assert.assertTrue(false);
 		}
