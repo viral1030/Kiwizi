@@ -1,6 +1,5 @@
 package com.zinghr.login.indexpage;
 
-import org.bouncycastle.asn1.cmp.CMPObjectIdentifiers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,6 +28,16 @@ public class LoginIndexPage extends AbstractPage {
 	@FindBy(xpath = "//input[@id='btnSecureLogin']")
 	WebElement login_btn;
 
+	@FindBy(xpath = ".//div[@id='btnDemoData']//a[1]")
+	WebElement proccedbtn;
+	
+	
+	public LoginVerificationPage loginlandingpage()
+	{
+		return new LoginVerificationPage(driver);
+	}
+	
+	
 	public LoginVerificationPage enterCompanyCode(String cmpCode) {
 
 		Common.type(companyCode_txt_fld, cmpCode);
@@ -56,6 +65,13 @@ public class LoginIndexPage extends AbstractPage {
 		return new LoginVerificationPage(driver);
 
 	}
+	public LoginVerificationPage proccedButton() {
+
+		Common.clickOn(driver, proccedbtn);
+
+		return new LoginVerificationPage(driver);
+
+	}
 
 	public LoginVerificationPage loginSuccessfully() {
 
@@ -63,9 +79,44 @@ public class LoginIndexPage extends AbstractPage {
 		enterCompanyCode(TestData.company_code);
 		enterEmployeeCode(TestData.employe_code);
 		enterPassword(TestData.password);
+		
 		clickLoginButton();
-
+		
+		proccedButton();
 		return new LoginVerificationPage(driver);
 	}
-
+	public LoginVerificationPage compnycodeiseditableornot()
+	{
+		enterCompanyCode(TestData.company_code);
+		companyCode_txt_fld.clear();
+		enterCompanyCode(TestData.company_code);
+		return new LoginVerificationPage(driver);
+	}
+	
+	
+	public LoginVerificationPage employeecodeiseditableornot()
+	{
+		enterEmployeeCode(TestData.employe_code);
+		companyCode_txt_fld.clear();
+		enterEmployeeCode(TestData.employe_code);
+		return new LoginVerificationPage(driver);
+	}
+	public LoginVerificationPage blankcomponycode()
+	{
+		clickLoginButton();
+		return new LoginVerificationPage(driver);
+	}
+	public LoginVerificationPage blankemployeecode()
+	{
+		enterCompanyCode(TestData.company_code);
+		clickLoginButton();
+		return new LoginVerificationPage(driver);
+	}
+	public LoginVerificationPage blankpassword()
+	{
+		enterCompanyCode(TestData.company_code);
+		enterEmployeeCode(TestData.employe_code);
+		clickLoginButton();
+		return new LoginVerificationPage(driver);
+	}
 }

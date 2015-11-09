@@ -2,6 +2,8 @@ package com.zinghr.login.verification;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import com.zinghr.init.AbstractPage;
 import com.zinghr.init.Common;
@@ -13,159 +15,86 @@ public class LoginVerificationPage extends AbstractPage {
 		// TODO Auto-generated constructor stub
 	}
 
-	
-	
-	public boolean verifyUserRedirectedOnCorseDetailsPage() {
-		Common.pause(3);
-		return driver.findElement(
-				By.xpath("//h3[contains(.,'Course Details')]")).isDisplayed();
+	@FindBy(xpath = "//input[@id='txtSecureCompanyCode']")
+	WebElement companyCode_txt_fld;
+
+	@FindBy(xpath = "//input[@id='txtSecureEmployeeCode']")
+	WebElement employeeCode_txt_fld;
+
+	@FindBy(xpath = "//input[@id='txtSecurePassword']")
+	WebElement password_txt_fld;
+
+	@FindBy(xpath = "//input[@id='btnSecureLogin']")
+	WebElement login_btn;
+
+	public boolean loginlandingpageverification() {
+		if (companyCode_txt_fld.isDisplayed() && employeeCode_txt_fld.isDisplayed() && password_txt_fld.isDisplayed()
+				&& login_btn.isDisplayed()) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
-	public boolean verifyMySelfButton() {
-		Common.pause(3);
-		return driver.findElement(By.xpath(".//input[@value='Yourself']"))
-				.isDisplayed();
+	public boolean loginpagewithvalidcredentialverification() {
+		Common.pause(1);
+		WebElement EmployeeConnect = driver.findElement(By.xpath(".//span[contains(text(),'Employee Connect')]"));
+		WebElement timeandattendance = driver
+				.findElement(By.xpath(".//div[@id='myTNA']//span[contains(text(),'My Time And Attendance')]"));
+
+		if (timeandattendance.isDisplayed() && EmployeeConnect.isDisplayed()) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
-	public boolean verifyUserRedirectedOnReceiptDetailsPage() {
-
-		return driver.findElement(
-				By.xpath("//h2[contains(.,'Your Order Receipt')]"))
-				.isDisplayed();
+	public boolean compnycodeiseditableornotverification() {
+		if (companyCode_txt_fld.toString().length() > 0) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
-	public boolean verifyUserRedirectedOnShoppingCartPage() {
-		Common.pause(3);
-		return driver.findElement(
-				By.xpath("//h3[contains(.,'Your Shopping Cart')]"))
-				.isDisplayed();
+	public boolean employeecodeiseditableornotverification() {
+		if (employeeCode_txt_fld.toString().length() > 0) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
-	public boolean verifyUserRedirectedOnReviewOrderPage() {
-		Common.pause(3);
-		return driver.findElement(By.xpath("//li[contains(.,'Review Order')]"))
-				.isDisplayed();
-	}
-
-	public boolean verifyUserRedirectedOnOrderReceiptPage() {
-		Common.pause(3);
-		return driver.findElement(
-				By.xpath("//h2[contains(.,'Your Order Receipt')]"))
-				.isDisplayed();
-	}
-
-	public boolean verifyUserRedirectedOnNFSCSecureCheckOut() {
-
-		return driver.findElement(
-				By.xpath("//h1[contains(.,'NFHS Secure Checkout')]"))
-				.isDisplayed();
-
-	}
-
-	public boolean verifyUserRedirectedOnPaymentInformationPage() {
-
-		return driver.findElement(
-				By.xpath("//li[contains(.,'Payment Information')]"))
-				.isDisplayed();
-
-	}
-
-	public boolean verifyFreeOrPaidCourse() {
-
-		boolean bool = false;
-
-		Common.pause(5);
-		try {
-
-			if (driver.findElement(By.xpath("//div[@class='selListWrap']"))
-					.isDisplayed()) {
-				System.out.println(driver.findElement(
-						By.xpath("//div[@class='selListWrap']")).isDisplayed());
-				bool = true;
-			}
-		} catch (Exception e) {
-			// e.printStackTrace();
-			bool = false;
-
+	public boolean blankcompanycodeverification() {
+		WebElement Companycode_alert = driver
+				.findElement(By.xpath("//div[contains(text(),'Please enter company code')]"));
+		if (Companycode_alert.isDisplayed()) {
+			return true;
+		} else {
+			return false;
 		}
 
-		return bool;
+	}
+
+	public boolean blankemployeecodeverification() {
+		WebElement Companycode_alert = driver
+				.findElement(By.xpath("//div[contains(text(),'Please enter employee code')]"));
+		if (Companycode_alert.isDisplayed()) {
+			return true;
+		} else {
+			return false;
+		}
 
 	}
 
-	public boolean verifyValidationMessageOnPurchaseOrderPage() {
+	public boolean blankpasswordverification() {
+		WebElement Companycode_alert = driver.findElement(By.xpath("//div[contains(text(),'Please enter password')]"));
+		if (Companycode_alert.isDisplayed()) {
+			return true;
+		} else {
+			return false;
+		}
 
-		return driver
-				.findElement(
-						By.xpath("//label[@class='error'][@for='payment_source_7_po_number']"))
-				.isDisplayed()
-				&& driver
-						.findElement(
-								By.xpath("//label[@class='error'][@for='payment_source_7_organization_name']"))
-						.isDisplayed();
-
-	}
-
-	public boolean verifyValidationMessageOnBillingInformationPage() {
-
-		return driver
-				.findElement(
-						By.xpath("//label[@class='error'][@for='order_bill_address_attributes_firstname']"))
-				.isDisplayed()
-				&& driver
-						.findElement(
-								By.xpath("//label[@class='error'][@for='order_bill_address_attributes_lastname']"))
-						.isDisplayed()
-
-				&& driver
-						.findElement(
-								By.xpath("//label[@class='error'][@for='order_bill_address_attributes_phone']"))
-						.isDisplayed()
-				&& driver
-						.findElement(
-								By.xpath("//label[@class='error'][@for='order_bill_address_attributes_bill_address_email']"))
-						.isDisplayed()
-				&& driver
-						.findElement(
-								By.xpath("//label[@class='error'][@for='order_bill_address_attributes_address1']"))
-						.isDisplayed()
-				&& driver
-						.findElement(
-								By.xpath("//label[@class='error'][@for='order_bill_address_attributes_city']"))
-						.isDisplayed()
-				&& driver
-						.findElement(
-								By.xpath("//label[@class='error'][@for='order_bill_address_attributes_state_id']"))
-						.isDisplayed()
-				&& driver
-						.findElement(
-								By.xpath("//label[@class='error'][@for='order_bill_address_attributes_zipcode']"))
-						.isDisplayed();
-	}
-
-	public boolean verifyValidationMessageForAcceptTerm() {
-
-		return driver.findElement(
-				By.xpath("//label[@class='error'][@for='acceptTerm']"))
-				.isDisplayed();
-
-	}
-
-	public boolean verifyValidationMessageForCreditCardInformation() {
-
-		return driver.findElement(
-				By.xpath("//label[@class='error'][@for='order_card_name']"))
-				.isDisplayed()
-				&&
-
-				driver.findElement(
-						By.xpath("//label[@class='error'][@for='card_number']"))
-						.isDisplayed()
-				&&
-
-				driver.findElement(
-						By.xpath("//label[@class='error'][@for='card_code']"))
-						.isDisplayed();
 	}
 
 }
