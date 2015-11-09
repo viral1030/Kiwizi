@@ -1,5 +1,7 @@
 package com.zinghr.tna.verification;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -143,6 +145,28 @@ public class SettingsTimeAttendanceSetupVerification extends AbstractPage {
 			bool = true;
 		}
 
+		return bool;
+	}
+
+	@FindBy(xpath = "//div[@class='tabbable tna_group']//li/a")
+	List<WebElement> attendanceGroup_list;
+
+	public boolean verifyCreatedAtteandsGroup(String groupName,
+			int totalGroupCount) {
+		boolean bool = false;
+		
+		for (WebElement e : attendanceGroup_list) {
+
+			if (e.getText().equals(groupName)) {
+				bool = true;
+				break;
+			}
+
+		}
+
+		if ((totalGroupCount + 1) == attendanceGroup_list.size()) {
+			bool = true;
+		}
 		return bool;
 	}
 

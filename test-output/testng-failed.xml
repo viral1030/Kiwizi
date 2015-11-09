@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="10" name="Failed suite [ZingHr - SignUp Page Verification]">
+<suite thread-count="1" verbose="10" name="Failed suite [ZingHr - Time and Attendance Setup]">
   <parameter name="selenium.port" value="4444"/>
   <parameter name="selenium.host" value="localhost"/>
   <parameter name="selenium.browser" value="firefox"/>
-  <parameter name="selenium.url" value="http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx"/>
+  <parameter name="selenium.url" value="http://qa.zinghr.com/2015/pages/authentication/login.aspx"/>
   <listeners>
     <listener class-name="com.zinghr.utility.CustomReporter"/>
   </listeners>
-  <test name="SignUp Successfully and activation page verification(failed)">
+  <test name="Time And Attendance Page(failed)">
     <classes>
-      <class name="com.zinghr.signup.index.SignupIndex">
+      <class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
         <methods>
-          <include name="tearDown"/>
+          <include name="timeAndAttendancePage"/>
           <include name="tearDown"/>
           <include name="fetchSuiteConfiguration"/>
-          <include name="fetchSuiteConfiguration"/>
-          <include name="SignUpSuccessfully"/>
-          <include name="setUp"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+      </class> <!-- com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex -->
     </classes>
-  </test> <!-- SignUp Successfully and activation page verification(failed) -->
-</suite> <!-- Failed suite [ZingHr - SignUp Page Verification] -->
+  </test> <!-- Time And Attendance Page(failed) -->
+</suite> <!-- Failed suite [ZingHr - Time and Attendance Setup] -->

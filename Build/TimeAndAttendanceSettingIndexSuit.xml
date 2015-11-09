@@ -24,7 +24,7 @@
 	</listeners>
 
 
-	<test name="Time And Attendance Page">
+	<test name="Setup_02,Setup_03,Setup_04 : To test TNA functionality">
 		<classes>
 			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
 				<methods>
@@ -34,7 +34,7 @@
 		</classes>
 	</test>
 
-	<test name="Set my Attendance Page">
+	<test name="Setup_05,Setup_06,Setup_07,Setup_09 : To test TNA functionality">
 		<classes>
 			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
 				<methods>
@@ -43,7 +43,6 @@
 			</class>
 		</classes>
 	</test>
-
 
 
 </suite>
