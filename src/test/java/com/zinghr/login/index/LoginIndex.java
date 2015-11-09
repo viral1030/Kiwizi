@@ -13,7 +13,7 @@ public class LoginIndex extends SeleniumInit {
 	public void loginlandingpage() {
 
 		int numOfFailure = 0;
-		log("Step 1 : Open url:<a>"+testUrl+"</a>");
+		log("Step 1 : Open url:<a href="+testUrl+">"+testUrl+"</a>");
 		
 		
 		loginVerificationPage=loginIndexpage.loginlandingpage();
