@@ -6,9 +6,8 @@ import org.openqa.selenium.support.FindBy;
 
 import com.zinghr.init.AbstractPage;
 import com.zinghr.init.Common;
-import com.zinghr.signup.verification.SignupVerificationPage;
 import com.zinghr.init.TestData;
-import com.zinghr.login.verification.LoginVerificationPage;
+import com.zinghr.signup.verification.SignupVerificationPage;
 
 public class SignupIndexPage extends AbstractPage {
 

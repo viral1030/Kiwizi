@@ -208,6 +208,79 @@ public void SignUpSuccessfully4() throws Exception
 	
 	}
 
+@Test(priority=7)
+public void SignUpSuccessfully5() throws Exception
+{
+	int numOfFailure = 0;		
+
+	log("Test Case Id : SU_07 ");
+	log("Testcase Discription : Field validation for 'Company name' field");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter 'Company Name':"+TestData.rndmString(4));
+	log("Step 3: Enter alphabet in 'Display Name': "+TestData.rndmString(6));
+	/*log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	*/
+	
+	signupVerification = signupIndexpage.emptyCompanyCode();
+	
+	log("To verify that user is able to enter alphabets in 'Display Name' field");	
+	
+	if(signupVerification.verifySignupSuccessfully())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
+
+@Test(priority=8)
+public void SignUpSuccessfully6() throws Exception
+{
+	int numOfFailure = 0;		
+
+	log("Test Case Id : SU_07 ");
+	log("Testcase Discription : Field validation for 'Company name' field");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Do not enter any data into 'Company Code'.");
+	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	
+	
+	signupVerification = signupIndexpage.emptyCompanyCode();
+	
+	log("To verify that appropriate error message is displayed if user enters less than three characters in 'Company Name' field");	
+	
+	if(signupVerification.verifyemptyCompanycode())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
+
+
 
 }
 
