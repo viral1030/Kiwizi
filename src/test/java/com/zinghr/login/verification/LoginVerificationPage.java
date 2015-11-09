@@ -101,6 +101,19 @@ public class LoginVerificationPage extends AbstractPage {
 		}
 		
 	}
+	public boolean blankpasswordverification()
+	{
+		WebElement Companycode_alert =driver.findElement(By.xpath("//div[contains(text(),'Please enter password')]"));
+		if(Companycode_alert.isDisplayed())
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+	}
 	
 	
 	

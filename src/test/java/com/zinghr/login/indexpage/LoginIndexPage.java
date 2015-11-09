@@ -110,4 +110,11 @@ public class LoginIndexPage extends AbstractPage {
 		clickLoginButton();
 		return new LoginVerificationPage(driver);
 	}
+	public LoginVerificationPage blankpassword()
+	{
+		enterCompanyCode(TestData.company_code);
+		enterEmployeeCode(TestData.employe_code);
+		clickLoginButton();
+		return new LoginVerificationPage(driver);
+	}
 }

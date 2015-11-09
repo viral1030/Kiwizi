@@ -22,7 +22,7 @@ public class LoginIndex extends SeleniumInit {
 		{
 				Common.logStatus("pass");
 		}
-		else
+		else				
 		{
 				Common.logStatus("fail");
 				numOfFailure++;
@@ -134,6 +134,29 @@ public class LoginIndex extends SeleniumInit {
 		loginVerificationPage=loginIndexpage.blankemployeecode();
 		log("To verify that alert message is displayed if user logins with empty Employee Code");
 		if(loginVerificationPage.blankemployeecodeverification())
+		{
+			Common.logStatus("pass");
+		}
+		else
+		{
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+	@Test
+	public void blankpassword()
+	{
+		int numOfFailure = 0;
+		loginlandingpage();
+		log("Step 2: Enter Company Code:"+TestData.company_code);
+		log("Step 3: Enter Employeey Code:"+TestData.employe_code);
+		loginVerificationPage=loginIndexpage.blankpassword();
+		log("To verify that alert message is displayed if user logins with empty password");
+		if(loginVerificationPage.blankpasswordverification())
 		{
 			Common.logStatus("pass");
 		}

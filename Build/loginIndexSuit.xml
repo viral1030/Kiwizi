@@ -83,6 +83,15 @@
 			</class>
 		</classes>
 	</test>
-
+	
+	<test name="Empty Password field">
+		<classes>
+			<class name="com.zinghr.login.index.LoginIndex">
+				<methods>
+					<include name="blankpassword" />
+				</methods>
+			</class>
+		</classes>
+	</test>
 
 </suite>
