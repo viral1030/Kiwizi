@@ -154,7 +154,7 @@ public class SettingsTimeAttendanceSetupVerification extends AbstractPage {
 	public boolean verifyCreatedAtteandsGroup(String groupName,
 			int totalGroupCount) {
 		boolean bool = false;
-		
+
 		for (WebElement e : attendanceGroup_list) {
 
 			if (e.getText().equals(groupName)) {
@@ -168,6 +168,32 @@ public class SettingsTimeAttendanceSetupVerification extends AbstractPage {
 			bool = true;
 		}
 		return bool;
+	}
+
+	@FindBy(xpath = "//div[@id='box-config']//div[@class='modal-content']")
+	WebElement addNewgroup_tab;
+
+	public boolean verifyCancleButton() {
+
+		return !addNewgroup_tab.isDisplayed();
+	}
+
+	public boolean verifyCommonGroup() {
+
+		return attendanceGroup_list.get(0).isDisplayed();
+	}
+
+	@FindBy(xpath = "//h4[contains(.,'Question')]")
+	List<WebElement> questionHeader_list;
+
+	public boolean verifyQuestionHeader() {
+
+		return questionHeader_list.get(0).isDisplayed();
+	}
+
+	public boolean verifyQuestionChangeFromCommonGroupHeaderAvailibility() {
+
+		return questionHeader_list.get(1).isDisplayed();
 	}
 
 }

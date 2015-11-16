@@ -16,14 +16,14 @@
 
 
 
-	<listeners>
+<listeners>
 
 		<listener class-name="com.zinghr.utility.CustomReporter" />
 
 </listeners>
 
 
-<test name="SignUp page verification">
+<test name="SU_03: SignUp page verification">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
@@ -43,7 +43,7 @@
 		</classes>
 </test> -->
 
-<test name="SignUp page 'Company Name' field verification1">
+<test name="SU_04: SignUp page 'Company Name' field verification1">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
@@ -53,7 +53,7 @@
 		</classes>
 </test> 
 
-<test name="SignUp page 'Company Name' field verification2">
+<test name="SU_05: SignUp page 'Company Name' field verification2">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
@@ -63,7 +63,7 @@
 		</classes>
 </test>
 
-<test name="SignUp page 'Company Name' field verification3">
+<test name="SU_06: SignUp page 'Company Name' field verification3">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
@@ -73,11 +73,51 @@
 		</classes>
 </test>
 
-<test name="SignUp page 'Company Name' field verification4">
+<test name="SU_07: SignUp page 'Company Name' field verification4">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
 					<include name="SignUpSuccessfully4" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_08: To verify that user is able to enter alphabets in 'Display Name' field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="SignUpSuccessfully5" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_09: To verify that appropriate error message is displayed when user enters special characters and numeric value in 'display Name' field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="SignUpSuccessfully6" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_11: To verify that appropriate error message is displayed when user enters blank space 'display Name' field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="SignUpSuccessfully7" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_12: To verify that valid email format for 'Email id' field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="SignUpSuccessfully8" />
 				</methods>
 			</class>
 		</classes>

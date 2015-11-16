@@ -149,4 +149,51 @@ public SignupVerificationPage clicksignup30days()
 		clicksignup30days();
 		return new SignupVerificationPage(driver);
 	}
+
+	public SignupVerificationPage invalidDisplayAdminName()
+	{
+		Common.pause(2);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.invalid);
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(3));
+		selectcountry();
+		selectcountry();
+		entercontactno(TestData.contactno_s);
+		clicksignup30days();
+		return new SignupVerificationPage(driver);
+	}
+
+
+	public SignupVerificationPage blankDisplayAdminName()
+	{
+		Common.pause(2);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.blank);
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(3));
+		selectcountry();
+		selectcountry();
+		entercontactno(TestData.contactno_s);
+		clicksignup30days();
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage validEmailId() 
+	{
+
+		Common.pause(2);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(3));
+		selectcountry();
+		selectcountry();
+		entercontactno(TestData.contactno_s);
+		clicksignup30days();
+	
+		return new SignupVerificationPage(driver);
+	}
+	
+	
 }

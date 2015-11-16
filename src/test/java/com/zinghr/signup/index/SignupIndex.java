@@ -217,13 +217,13 @@ public void SignUpSuccessfully5() throws Exception
 	log("Testcase Discription : Field validation for 'Company name' field");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter 'Company Name':"+TestData.rndmString(4));
-	log("Step 3: Enter alphabet in 'Display Name': "+TestData.rndmString(6));
+	log("Step 3: Enter alphabet in 'Display  Admin Name': "+TestData.rndmString(6));
 	/*log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
 	*/
 	
-	signupVerification = signupIndexpage.emptyCompanyCode();
+	signupVerification = signupIndexpage.SignUpsuccessfully();
 	
 	log("To verify that user is able to enter alphabets in 'Display Name' field");	
 	
@@ -252,18 +252,18 @@ public void SignUpSuccessfully6() throws Exception
 	log("Test Case Id : SU_07 ");
 	log("Testcase Discription : Field validation for 'Company name' field");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Do not enter any data into 'Company Code'.");
-	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 2: Enter 'Company Name':"+TestData.rndmString(4));
+	log("Step 3: Enter invalid data in 'Display Admin Name': "+TestData.invalid);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
 	
 	
-	signupVerification = signupIndexpage.emptyCompanyCode();
+	signupVerification = signupIndexpage.invalidDisplayAdminName();
 	
 	log("To verify that appropriate error message is displayed if user enters less than three characters in 'Company Name' field");	
 	
-	if(signupVerification.verifyemptyCompanycode())
+	if(signupVerification.verifyInvalidDisplayAdminName())
 		{
 			log("<Strong><font color=#008000>Pass</font></strong>");
 	
@@ -280,6 +280,68 @@ public void SignUpSuccessfully6() throws Exception
 	
 	}
 
+
+@Test(priority=9)
+public void SignUpSuccessfully7() throws Exception
+{
+	int numOfFailure = 0;		
+
+	log("Test Case Id : SU_10 ");
+	log("Testcase Discription : Field validation for 'Display Admin Name' field");
+	log("Step 1: Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter Blank space in 'Display AdminName': "+TestData.blank);
+		
+	signupVerification = signupIndexpage.blankCompanyCode();
+	
+	log("To verify that the company name field do not accept blank space");	
+	
+	if(signupVerification.verifyblankCompanycode())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
+
+@Test(priority=10)
+public void SignUpSuccessfully8() throws Exception
+{
+	int numOfFailure = 0;		
+
+	log("Test Case Id : SU_10 ");
+	log("Testcase Discription : Field validation for 'Email ID' field");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter valid 'Email Id': "+TestData.rndmemail(3));
+		
+	signupVerification = signupIndexpage.validEmailId();
+	
+	log("To verify that Email id field accepts valid email id format.");	
+	
+	if(signupVerification.verifyValidEmailId())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
 
 
 }

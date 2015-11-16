@@ -43,6 +43,16 @@
 			</class>
 		</classes>
 	</test>
+	
 
+<test name="Setup_08,Setup_10 : To test TNA functionality">
+		<classes>
+			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
+				<methods>
+					<include name="addNewAttendanceGroupTapFunctionality" />
+				</methods>
+			</class>
+		</classes>
+	</test>
 
 </suite>
