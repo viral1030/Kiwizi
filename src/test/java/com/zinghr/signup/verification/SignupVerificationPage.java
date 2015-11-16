@@ -65,4 +65,37 @@ public class SignupVerificationPage extends AbstractPage {
 		return driver.findElement(
 				By.xpath(".//p[@class='font-14']")).isDisplayed();
 	}
+	
+	public boolean verifyInvalidEmailId() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath("//div[@class='bootbox-body']")).isDisplayed();
+	}
+	
+	public boolean verifyblankEmailId() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//input[@data-content='Please enter email address']")).isDisplayed();
+	}
+	
+	public boolean verifyCountrySelection() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//*[@id='countries_title']/img")).isDisplayed();
+			
+	}
+	
+	public boolean verifynoCountry() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//*[@data-content='Please select country']")).isDisplayed();
+			
+	}
+	
+	public boolean verifyvalidcontactnum() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//p[@class='font-14']")).isDisplayed();
+			
+	}
 }
