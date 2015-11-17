@@ -939,4 +939,6 @@ public class Common {
 	public static void stopPageLoading(WebDriver driver) {
 		driver.findElement(By.tagName("body")).sendKeys(Keys.ESCAPE);
 	}
+
+	
 }

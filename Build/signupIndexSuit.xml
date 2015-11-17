@@ -23,7 +23,7 @@
 </listeners>
 
 
-<!-- <test name="SignUp page verification">
+<test name="SignUp page verification">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
@@ -31,9 +31,9 @@
 				</methods>
 			</class>
 		</classes>
-</test> -->
+</test>
 
-<!-- <test name="SU_02: SignUp Successfully and Activation page verification">
+<test name="SU_02: SignUp Successfully and Activation page verification">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
@@ -122,7 +122,7 @@
 			</class>
 		</classes>
 </test>
- -->
+
 
 <test name="SU_13: To verify error message is displayed when user enter invalid email in Email field">
 		<classes>
@@ -169,6 +169,66 @@
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
 					<include name="contactNumField1" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_18: To verify that error message is displayed when user enters alphabets and special characters in 'Contact Number' field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="contactNumField2" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_20: To verify that Max length of 10 characters is provided to Contact Number field.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="contactNumField3" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_21: To verify that Contact Number field do not accept blank data.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="contactNumField4" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_22: To verify that user is redirected to taregeted page after clicking on 'terms of use' and 'privacy policy' hyperlink">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="termsAndprivacy" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_23: To verify that Alert message is displayed if user unchecked the Terms and condition checkbox.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="checkbox" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="A_SU_01: To verify that user is redirected to Active Sign up page after clicking on 'Sign Up for 30 days trial' button">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="activationPage" />
 				</methods>
 			</class>
 		</classes>

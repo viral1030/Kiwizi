@@ -92,10 +92,54 @@ public class SignupVerificationPage extends AbstractPage {
 			
 	}
 	
-	public boolean verifyvalidcontactnum() {
+	public boolean verifyvalidcontactNum() {
 		Common.pause(2);
 		return driver.findElement(
 				By.xpath(".//p[@class='font-14']")).isDisplayed();
 			
 	}
+	
+	public boolean verifyInvalidcontactNum() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath("//div[@class='bootbox-body']")).isDisplayed();
+			
+	}
+	
+	public boolean verifyInvalidcontactNum1() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath("//div[@class='bootbox-body']")).isDisplayed();
+			
+	}
+	
+	public boolean verifyBlankcontactNum() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//*[@id='txtContact']//.[@data-content='Please enter contact number']")).isDisplayed();
+			
+	}
+	
+	public boolean verifyTermsOfUse() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//h1[@class='industries']//.[contains(text(),'Terms')]")).isDisplayed();
+			
+	}
+	
+	public boolean verifyPrivacyPolicy() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//h1[@class='industries']//.[contains(text(),'Privacy')]")).isDisplayed();
+			
+	}
+	
+	public boolean verifyCheckbox() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath("//div[@class='bootbox-body']")).isDisplayed();
+			
+	 }
+	
+	
 }

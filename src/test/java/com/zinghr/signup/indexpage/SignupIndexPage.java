@@ -23,6 +23,8 @@ public class SignupIndexPage extends AbstractPage {
 		// TODO Auto-generated constructor stub
 	}
 	
+	public static String url = "https://mailinator.com/";
+	
 	@FindBy(xpath=".//*[@id='btnSignIn']")
 	private WebElement signUp_30_day_btn;
 	
@@ -47,13 +49,20 @@ public class SignupIndexPage extends AbstractPage {
 	@FindBy(xpath=".//*[@id='countries_title']")
 	private WebElement allcountry_List;
 	
-	@FindBy(xpath=".//div[@id='countries_child']//.[Contains(text(),'Select Country')]")
+	@FindBy(xpath=".//div[@id='countries_child']//li[1]")
 	private WebElement no_country;
 	
 	@FindBy(xpath=".//*[@id='countries_msdd']//li[not(contains(.,'Select Country'))]")
 	private List<WebElement> country_list ;
 	
+	@FindBy(xpath=".//form[@id='form1']//label/a[1]")
+	private WebElement termsOfUse_link;
 	
+	@FindBy(xpath=".//form[@id='form1']//label/a[2]")
+	private WebElement privacyPolicy_link;
+	
+	@FindBy(xpath=".//*[@id='form1']//label/input")
+	private WebElement checkbox;
 	
 	
 public SignupVerificationPage enterCompanyCode(String cmpCode_s) 
@@ -115,13 +124,35 @@ public SignupVerificationPage entercontactno(String conct_s)
 	return new SignupVerificationPage(driver);
 }
 
+
+
+public SignupVerificationPage clickTermsOfUse() 
+{
+	Common.clickOn(driver, termsOfUse_link);
+	
+	return new SignupVerificationPage(driver);
+}
+
+public SignupVerificationPage clickPrivacyPolicy() 
+{
+	Common.clickOn(driver, privacyPolicy_link);
+	
+	return new SignupVerificationPage(driver);
+}
+
+public SignupVerificationPage checkCheckbox() 
+{
+	Common.clickOn(driver, checkbox);
+	
+	return new SignupVerificationPage(driver);
+}
+	
 public SignupVerificationPage clicksignup30days() 
 {
 	Common.clickOn(driver, signUp_30_day_btn);
 	
 	return new SignupVerificationPage(driver);
 }
-	
 
 	public SignupVerificationPage SignupPage()
 	{
@@ -325,7 +356,7 @@ public SignupVerificationPage clicksignup30days()
 		return new SignupVerificationPage(driver);
 	}
 	
-	public SignupVerificationPage validContactnum()
+	public SignupVerificationPage validContactNum()
 	{
 
 		Common.pause(2);
@@ -337,6 +368,109 @@ public SignupVerificationPage clicksignup30days()
 		selectOthercountry();
 		entercontactno(TestData.contactno_s);
 		clicksignup30days();
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage invalidContactNum()
+	{
+
+		Common.pause(2);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(8));
+		
+		selectOthercountry();
+		entercontactno(TestData.invalidContactno);
+		clicksignup30days();
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage invalidContactNum1()
+	{
+
+		Common.pause(2);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(8));
+		
+		selectOthercountry();
+		entercontactno(TestData.largeContactNum);
+		clicksignup30days();
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage blankContactNum()
+	{
+
+		Common.pause(2);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(8));
+		
+		selectOthercountry();
+		entercontactno(TestData.blank);
+		clicksignup30days();
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage termsOfUse()
+	{
+
+		Common.pause(2);
+		clickTermsOfUse();
+		
+		
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage privacyPolicy()
+	{
+
+		Common.pause(2);
+		clickPrivacyPolicy();
+		
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage checkbox()
+	{
+
+		Common.pause(2);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(2));
+		
+		selectOthercountry();
+		entercontactno(TestData.contactno_s);
+		
+		checkCheckbox();
+		clicksignup30days();
+		
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage emailVerification()
+	{
+
+		Common.pause(2);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(TestData.rndmemail(2));
+		
+		selectOthercountry();
+		entercontactno(TestData.contactno_s);
+		
+		clicksignup30days();
+		Common.pause(2);
+		Common.goToUrl(driver, url);
+		Common.pause(3);
+		Common.clickOn(driver, inbox);
+		
 		return new SignupVerificationPage(driver);
 	}
 	

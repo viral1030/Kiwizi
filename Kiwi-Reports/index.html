@@ -21,7 +21,7 @@
    <div class='small-box bg-aqua'>
  <div class='inner'>
   <h3>
-1</h3>
+21</h3>
  <p>TOTAL</p>
  </div>
  <div class='icon'> 
@@ -33,7 +33,7 @@
    <div class='small-box bg-green'>
  <div class='inner'>
   <h3>
-0</h3>
+21</h3>
  <p>PASSED</p>
  </div>
   <div class='icon'>
@@ -53,7 +53,7 @@
       </div>
       </div>
  </div>
-<div class='col-lg-3 col-xs-6'>         <div class='small-box bg-red'>         <div class='inner'>           <h3>1</h3>             <p>FAILED</p>           </div>           <div class='icon'>             </i>            </div>
+<div class='col-lg-3 col-xs-6'>         <div class='small-box bg-red'>         <div class='inner'>           <h3>0</h3>             <p>FAILED</p>           </div>           <div class='icon'>             </i>            </div>
            </div>
           </div><!-- ./col -->
           </div><!-- /.row -->
@@ -78,7 +78,7 @@
 	                     </div>
 	             </div>
 			     <div class='box-body' style='width: 500' >
-				<div class='box-body'> <table id='exampsle2' class='table table-bordered table-hover'> <thead> <tr><th>Index</th><th>Suite Name</th></tr></thead><tbody>	<tr> 	<td>1</td>	<td>NFHS - Purchase_Course_functionality</td> 	</tr>	</tbody>	</table>	</div></div>	             </div>
+				<div class='box-body'> <table id='exampsle2' class='table table-bordered table-hover'> <thead> <tr><th>Index</th><th>Suite Name</th></tr></thead><tbody>	<tr> 	<td>1</td>	<td>ZingHr - SignUp Page Verification</td> 	</tr>	</tbody>	</table>	</div></div>	             </div>
 	          </div>
 	      </div>
 	<div class='row'>
@@ -121,13 +121,13 @@
        var pieChart = new Chart(pieChartCanvas);
         var PieData = [
          {
-            value: 1,
+            value: 0,
             color: '#f56954',
             highlight: '#f56954',
           label: 'FAILED'
        },
          {
-           value:0,
+           value:21,
         color: '#00a65a',
        highlight: '#00a65a',
       label: 'PASSED'
@@ -152,7 +152,7 @@
       maintainAspectRatio: false, 
        legendTemplate: '<ul class="<%=name.toLowerCase()%>-legend"><% for (var i=0; i<segments.length; i++){%><li><span style="background-color:<%=segments[i].fillColor%>"></span><%if(segments[i].label){%><%=segments[i].label%><%}%></li><%}%></ul> ' 
   };      pieChart.Doughnut(PieData, pieOptions); 
-  			 var data = {    labels: [  ' Build :5 ', ' Build :6 ', ' Build :7 ', ' Build :8 ', ' Build :9' ],   datasets: [          {              label: 'PASSED',       fillColor: '#44ae44',       strokeColor: '#0d7a0d',       highlightFill: '#53ea53',     highlightStroke: '#0d7a0d',     data: [ 0,0,0,0,0]  },   {    label:'FAILED',     fillColor: '#f56954',  strokeColor: '#d82b0c',    highlightFill: '#fb4221',   highlightStroke: '#d82b0c',      data: [ 1,1,1,1,1]},    {     label: 'Skipped',   fillColor: '#f9b040',   strokeColor: '#ff8101',    highlightFill: '#f29505',     highlightStroke: '#ffa801',      data: [ ]    }   ]   };    var barChartOptions = {        scaleBeginAtZero: true,     scaleShowGridLines: false,    scaleGridLineColor: 'rgba(0,0,0,.05)',    scaleGridLineWidth: 1 ,   scaleShowHorizontalLines: true,   scaleShowVerticalLines: true,  barShowStroke: true,  barStrokeWidth: 2,   barValueSpacing: 50,  barDatasetSpacing: 10,   legendTemplate: '<ul class="<%=name.toLowerCase()%>-legend"><% for (var i=0; i<datasets.length; i++){%><li><span style="background-color:<%=datasets[i].fillColor%>"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>',    responsive: true,   maintainAspectRatio: false    };    var ctx = document.getElementById('barChart').getContext('2d');    var myBarChart = new Chart(ctx).Bar(data, barChartOptions);  });
+  			 var data = {    labels: [  ' Build :7 ', ' Build :8 ', ' Build :9 ', ' Build :10 ', ' Build :11' ],   datasets: [          {              label: 'PASSED',       fillColor: '#44ae44',       strokeColor: '#0d7a0d',       highlightFill: '#53ea53',     highlightStroke: '#0d7a0d',     data: [ 0,0,0,4,21]  },   {    label:'FAILED',     fillColor: '#f56954',  strokeColor: '#d82b0c',    highlightFill: '#fb4221',   highlightStroke: '#d82b0c',      data: [ 1,1,1,1,0]},    {     label: 'Skipped',   fillColor: '#f9b040',   strokeColor: '#ff8101',    highlightFill: '#f29505',     highlightStroke: '#ffa801',      data: [ ]    }   ]   };    var barChartOptions = {        scaleBeginAtZero: true,     scaleShowGridLines: false,    scaleGridLineColor: 'rgba(0,0,0,.05)',    scaleGridLineWidth: 1 ,   scaleShowHorizontalLines: true,   scaleShowVerticalLines: true,  barShowStroke: true,  barStrokeWidth: 2,   barValueSpacing: 50,  barDatasetSpacing: 10,   legendTemplate: '<ul class="<%=name.toLowerCase()%>-legend"><% for (var i=0; i<datasets.length; i++){%><li><span style="background-color:<%=datasets[i].fillColor%>"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>',    responsive: true,   maintainAspectRatio: false    };    var ctx = document.getElementById('barChart').getContext('2d');    var myBarChart = new Chart(ctx).Bar(data, barChartOptions);  });
  </script>
 </body> 
 </html>

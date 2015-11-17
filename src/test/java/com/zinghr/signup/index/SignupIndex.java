@@ -16,7 +16,7 @@ public void SignUpPage() throws Exception
 		int numOfFailure = 0;
 		
 		log("Test Case Id : SU_02 ");
-		log("Testcase Discription : To test TNA functionality ");
+		log("Testcase Discription : SignUp page verification. ");
 		log("Step 1 : Open url:<a>"+testUrl+"</a>");
 		
 		signupVerification = signupIndexpage.SignupPage();
@@ -487,11 +487,11 @@ public void contactNumField1() throws Exception
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
 		
-	signupVerification = signupIndexpage.validContactnum();
+	signupVerification = signupIndexpage.validContactNum();
 	
 	log("To verify that user is able to enter numeric values in Contact Number field");	
 	
-	if(signupVerification.verifyvalidcontactnum())
+	if(signupVerification.verifyvalidcontactNum())
 		{
 			log("<Strong><font color=#008000>Pass</font></strong>");
 	
@@ -506,6 +506,240 @@ public void contactNumField1() throws Exception
 		Assert.assertTrue(false);
 		}
 }
+
+@Test(priority=16)
+public void contactNumField2() throws Exception
+{
+	int numOfFailure = 0;		
+
+	log("Test Case Id : SU_18 ");
+	log("Testcase Discription : Enter alphabets and special characters into Contact Number' field.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.invalidContactno);
+		
+	signupVerification = signupIndexpage.invalidContactNum();
+	
+	log("To verify that error message is displayed when user enters alphabets and special characters in Contact Number field");	
+	
+	if(signupVerification.verifyInvalidcontactNum())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+}
+
+@Test(priority=17)
+public void contactNumField3() throws Exception
+{
+	int numOfFailure = 0;		
+
+	log("Test Case Id : SU_20 ");
+	log("Testcase Discription : Enter more than 10 digits into 'Contact Number' field.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.largeContactNum);
+		
+	signupVerification = signupIndexpage.invalidContactNum1();
+	
+	log("To verify that Max length of 10 characters is provided to Contact Number field");	
+	
+	if(signupVerification.verifyInvalidcontactNum1())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+}
+
+@Test(priority=18)
+public void contactNumField4() throws Exception
+{
+	int numOfFailure = 0;		
+
+	log("Test Case Id : SU_21 ");
+	log("Testcase Discription : Enter more than 10 digits into 'Contact Number' field.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.blank);
+		
+	signupVerification = signupIndexpage.blankContactNum();
+	
+	log("To verify that Contact Number field do not accept blank data.");	
+	
+	if(signupVerification.verifyBlankcontactNum())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+}
+
+@Test(priority=19)
+public void termsAndprivacy() throws Exception
+{
+	int numOfFailure = 0;		
+
+	log("Test Case Id : SU_22 ");
+	log("Testcase Discription : Click on 'Terms of Use' and 'Privacy Policy' link.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2 : Click on 'Terms of Use' link.");
+		
+	signupVerification = signupIndexpage.termsOfUse();
+	
+	log("To verify that user is redirected to taregeted page after clicking on 'Terms of Use' hyperlink");	
+	String winHandleBefore= driver.getWindowHandle();
+	
+	for(String winHandle : driver.getWindowHandles()){
+		driver.switchTo().window(winHandle);
+	}
+	
+	if(signupVerification.verifyTermsOfUse())
+	{
+		log("<Strong><font color=#008000>Pass</font></strong>");
+
+	}
+	else
+	{
+		log("Fail");
+		numOfFailure++;
+	}
+	
+	log("Step 3 : Click on 'Privacy Policy' link.");
+	
+	driver.switchTo().window(winHandleBefore);
+	
+	signupVerification = signupIndexpage.privacyPolicy();
+	
+	log("To verify that user is redirected to taregeted page after clicking on 'Privacy Policy' hyperlink");	
+	String winHandleBefore1= driver.getWindowHandle();
+	
+	for(String winHandle : driver.getWindowHandles())
+	{
+		driver.switchTo().window(winHandle);
+	}
+	
+	if(signupVerification.verifyPrivacyPolicy())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+}
+
+@Test(priority=20)
+public void checkbox() throws Exception
+{
+	int numOfFailure = 0;		
+
+	log("Test Case Id : SU_23 ");
+	log("Testcase Discription : Checkbox Checked-unchecked ");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 7: Uncheck checkbox.");
+		
+	signupVerification = signupIndexpage.checkbox();
+	
+	log("To verify that Alert message is displayed if user unchecked the Terms and condition checkbox");	
+	
+	if(signupVerification.verifyCheckbox())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+}
+
+
+@Test(priority=21)
+public void activationPage() throws Exception
+{
+	int numOfFailure = 0;		
+	
+	log("Test Case Id : A_SU_01 ");
+	log("Testcase Discription : SignUp successfully and 'Activation Page' verification.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+		
+	signupVerification = signupIndexpage.SignUpsuccessfully();
+	
+	log("To verify Activation page is open or not with Successfully SignUp.");	
+	
+	if(signupVerification.verifySignupSuccessfully())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
 
 }
 

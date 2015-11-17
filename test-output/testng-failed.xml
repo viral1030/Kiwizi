@@ -8,19 +8,16 @@
   <listeners>
     <listener class-name="com.zinghr.utility.CustomReporter"/>
   </listeners>
-  <test name="SignUp Successfully and activation page verification(failed)">
+  <test name="SU_23: To verify that Alert message is displayed if user unchecked the Terms and condition checkbox.(failed)">
     <classes>
       <class name="com.zinghr.signup.index.SignupIndex">
         <methods>
           <include name="tearDown"/>
-          <include name="tearDown"/>
           <include name="fetchSuiteConfiguration"/>
-          <include name="fetchSuiteConfiguration"/>
-          <include name="SignUpSuccessfully"/>
-          <include name="setUp"/>
+          <include name="checkbox"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.zinghr.signup.index.SignupIndex -->
     </classes>
-  </test> <!-- SignUp Successfully and activation page verification(failed) -->
+  </test> <!-- SU_23: To verify that Alert message is displayed if user unchecked the Terms and condition checkbox.(failed) -->
 </suite> <!-- Failed suite [ZingHr - SignUp Page Verification] -->

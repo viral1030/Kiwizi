@@ -51,4 +51,7 @@ public class TestData {
 	public static String dispayname_s = "Test";
 	public static String email_s = "tarpan999@mailinator.com";
 	public static String contactno_s = "9429186891";
+	public static String invalidContactno = "dsjh(*&^(^("; 
+	
+	public static String largeContactNum = new StringBuilder(14).append(rndmNumber(14)).append(rndmNumber(14)).toString(); 
 }
