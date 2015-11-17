@@ -141,5 +141,11 @@ public class SignupVerificationPage extends AbstractPage {
 			
 	 }
 	
+	public boolean verifymail() {
+		Common.pause(2);
+		return driver.findElement(
+				By.xpath(".//*[@id='mailcontainer']//.[contains(text(),'Your')]")).isDisplayed();
+			
+	 }
 	
 }

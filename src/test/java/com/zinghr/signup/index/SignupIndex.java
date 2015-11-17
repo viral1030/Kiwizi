@@ -715,7 +715,7 @@ public void activationPage() throws Exception
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter company Name: "+TestData.rndmString(4));
 	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
-	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 4: Enter Email id: "+TestData.rndmemail(2));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
 	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
@@ -725,6 +725,43 @@ public void activationPage() throws Exception
 	log("To verify Activation page is open or not with Successfully SignUp.");	
 	
 	if(signupVerification.verifySignupSuccessfully())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
+
+
+@Test(priority=22)
+public void emailverification() throws Exception
+{
+	int numOfFailure = 0;		
+	
+	log("Test Case Id : A_SU_01 ");
+	log("Testcase Discription : SignUp successfully and email verification.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 4: Enter Email id: "+emailt);
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+		
+	signupVerification = signupIndexpage.emailVerification(emailt);
+	
+	log("To verify Activation page is open or not with Successfully SignUp.");	
+	
+	if(signupVerification.verifymail())
 		{
 			log("<Strong><font color=#008000>Pass</font></strong>");
 	

@@ -67,6 +67,16 @@ public class SignupIndexPage extends AbstractPage {
 	@FindBy(xpath=".//*[@id='inboxfield']")
 	private WebElement inbox;
 	
+	@FindBy(xpath=".//*[@class='btn btn-dark']")
+	private WebElement go_btn;
+	
+	@FindBy(xpath=".//*[@id='mailcontainer']//.[contains(text(),'Your')]")
+	private WebElement mail;
+	
+	@FindBy(xpath=".//*[@id='signup']")
+	private WebElement click_here_btn;
+	
+	
 public SignupVerificationPage enterCompanyCode(String cmpCode_s) 
 	{
 		Common.clickOn(driver, compnyname_txt_fld);
@@ -455,14 +465,14 @@ public SignupVerificationPage clicksignup30days()
 		return new SignupVerificationPage(driver);
 	}
 	
-	public SignupVerificationPage emailVerification()
+	public SignupVerificationPage emailVerification(String email2)
 	{
 
 		Common.pause(2);
 		enterCompanyCode(TestData.rndmString(4));
 		enterDisplayName(TestData.rndmString(6));
 		Common.pause(2);
-		enterEmailid(TestData.rndmemail(2));
+		enterEmailid(email2);
 		
 		selectOthercountry();
 		entercontactno(TestData.contactno_s);
@@ -472,8 +482,11 @@ public SignupVerificationPage clicksignup30days()
 		Common.goToUrl(driver, url);
 		Common.pause(2);
 		Common.clickOn(driver, inbox);
+		Common.type(inbox, email2);
 		Common.pause(2);
-		
+		Common.clickOn(driver, go_btn);
+		/*Common.clickOn(driver, mail);
+		Common.clickOn(driver, click_here_btn);*/
 		
 		return new SignupVerificationPage(driver);
 	}

@@ -33,6 +33,9 @@ import com.zinghr.signup.verification.SignupVerificationPage;
 
 public class SeleniumInit {
 
+	
+	public String emailt=TestData.rndmemail(3);
+	
 	public String suiteName = "";
 	public String testName = "";
 	/* Minimum requirement for test configur ation */
