@@ -107,6 +107,7 @@ public class SettingsTimeAttendanceSetupIndex extends SeleniumInit {
 		log("Step 2: Enter Company Code:" + TestData.company_code);
 		log("Step 3: Enter Employee Code: " + TestData.employe_code);
 		log("Step 4: Enter Password: " + TestData.password);
+		log("Step 5: Click on Proceed Button");
 
 		loginVerificationPage = loginIndexpage.loginSuccessfully();
 		log("Verify that Home page is open or not");
@@ -117,8 +118,6 @@ public class SettingsTimeAttendanceSetupIndex extends SeleniumInit {
 			Common.logStatus("fail");
 			numOfFailure++;
 		}
-
-		log("Step 5: Click on Proceed Button");
 
 		log("Step 6: Click on Setting Icon");
 
@@ -357,6 +356,332 @@ public class SettingsTimeAttendanceSetupIndex extends SeleniumInit {
 		 * Common.logStatus("pass"); } else { Common.logStatus("Fail");
 		 * numOfFailure++; }
 		 */
+
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	/*
+	 * @Test public void oasMenuFunctionality() {
+	 * 
+	 * int numOfFailure = 0; log("Testcase Id : , ");
+	 * log("Testcase Discription :  ");
+	 * 
+	 * log("Step 1 : Open url:<a>" + testUrl + "</a>");
+	 * 
+	 * log("Step 2: Enter Company Code:" + TestData.company_code);
+	 * log("Step 3: Enter Employee Code: " + TestData.employe_code);
+	 * log("Step 4: Enter Password: " + TestData.password);
+	 * 
+	 * loginVerificationPage = loginIndexpage.loginSuccessfully();
+	 * log("Verify that Home page is open or not");
+	 * 
+	 * if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
+	 * Common.logStatus("pass"); } else { Common.logStatus("fail");
+	 * numOfFailure++; }
+	 * 
+	 * log("Step 5: Click on Proceed Button");
+	 * 
+	 * log("Step 6: Click on OAS Option from Left Menu");
+	 * 
+	 * taSetupIndexPage.clickOASMenu();
+	 * 
+	 * if (taSetupVerificationPage.verifyOASPageisDisplayed()) {
+	 * 
+	 * Common.logStatus("pass"); } else { Common.logStatus("Fail");
+	 * numOfFailure++; }
+	 * 
+	 * if (numOfFailure > 0) { Assert.assertTrue(false); }
+	 * 
+	 * }
+	 */
+
+	@Test
+	public void timeAndAttendanceCalanderFunctionalityOnDashBoard() {
+
+		int numOfFailure = 0;
+		log("Testcase Id : , ");
+		log("Testcase Discription :  ");
+
+		log("Step 1 : Open url:<a>" + testUrl + "</a>");
+
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employee Code: " + TestData.employe_code);
+		log("Step 4: Enter Password: " + TestData.password);
+
+		loginVerificationPage = loginIndexpage.loginSuccessfully();
+		log("Verify that Home page is open or not");
+
+		if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 5: Click on Proceed Button");
+
+		log("Verify Time And Attendance calendar is displayed on Dashboard");
+
+		if (taSetupVerificationPage
+				.verifyTimeAndAttendanceCalendarOnDashboardIsDisplayed())
+
+		{
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Time and Attendance Header on Dashboard");
+
+		if (taSetupVerificationPage.verifyTimeAndAttendanceHeaderIsDisplayed())
+
+		{
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Current Month is displayed By default");
+
+		if (taSetupVerificationPage.verifyCurrentMonthOnTNAOnDashboard())
+
+		{
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	@Test
+	public void forwardAndBackwardArrowFunctionalityOnMyTNA() {
+		int numOfFailure = 0;
+		log("Testcase Id : , ");
+		log("Testcase Discription :  ");
+
+		log("Step 1 : Open url:<a>" + testUrl + "</a>");
+
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employee Code: " + TestData.employe_code);
+		log("Step 4: Enter Password: " + TestData.password);
+
+		loginVerificationPage = loginIndexpage.loginSuccessfully();
+		log("Verify that Home page is open or not");
+
+		if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 5: Click on Proceed Button");
+
+		log("Step 6 : Click on Forward Arrow");
+
+		taSetupIndexPage.clickOnForwardArrow();
+
+		log("Verify Next Month is displayed");
+
+		if (taSetupVerificationPage.verifyNextMonthIsDisplayed())
+
+		{
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 7 : Click on Backward Arrow");
+
+		taSetupIndexPage.clickOnbackwordArrow();
+
+		taSetupIndexPage.clickOnbackwordArrow();
+		log("Verify Previous Month is displayed");
+
+		if (taSetupVerificationPage.verifyPreviousMonthIsDisplayed())
+
+		{
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	@Test
+	public void holidaytabFunctionality() {
+
+		int numOfFailure = 0;
+		log("Testcase Id : TNA_6,TNA_7,TNA_8 ");
+		log("Testcase Discription :  ");
+
+		log("Step 1 : Open url:<a>" + testUrl + "</a>");
+
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employee Code: " + TestData.employe_code);
+		log("Step 4: Enter Password: " + TestData.password);
+
+		loginVerificationPage = loginIndexpage.loginSuccessfully();
+		log("Verify that Home page is open or not");
+
+		if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 5: Click on Proceed Button");
+
+		log("Verify that Holiday list button is displayed");
+
+		if (taSetupVerificationPage.verifyHolidayListButtonIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 5: Click on HolidayList Button");
+
+		taSetupIndexPage.clickOnHolyDayListTab();
+
+		log("Verify Holiday List pop is displayed");
+
+		if (taSetupVerificationPage.verifyHolidayListPopupIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Holiday Details is displayed on pop up");
+
+		if (taSetupVerificationPage.verifyHolidayDetailsisDisplayedOnPopup()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	@Test
+	public void regularizeButtonFunctionality() {
+
+		int numOfFailure = 0;
+		log("Testcase Id : TNA_18, TNA_19");
+		log("Testcase Discription :  ");
+
+		log("Step 1 : Open url:<a>" + testUrl + "</a>");
+
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employee Code: " + TestData.employe_code);
+		log("Step 4: Enter Password: " + TestData.password);
+
+		loginVerificationPage = loginIndexpage.loginSuccessfully();
+		log("Verify that Home page is open or not");
+
+		if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 5: Click on Proceed Button");
+
+		log("Step 6: Click on Regularize Button");
+
+		taSetupIndexPage.clickRegularizeButton();
+
+		log("Verify Apply Regularization Pop up is displayed");
+
+		if (taSetupVerificationPage.verifyRegularizationPopupIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Apply Regulatization header is displayed");
+
+		if (taSetupVerificationPage
+				.verifyRegularizationPopupHeaderIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	@Test
+	public void applyNowButtonFunctionalityOnRefulationPopup() {
+		int numOfFailure = 0;
+		log("Testcase Id : TNA_18, TNA_19");
+		log("Testcase Discription :  ");
+
+		log("Step 1 : Open url:<a>" + testUrl + "</a>");
+
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employee Code: " + TestData.employe_code);
+		log("Step 4: Enter Password: " + TestData.password);
+
+		loginVerificationPage = loginIndexpage.loginSuccessfully();
+		log("Verify that Home page is open or not");
+
+		if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 5: Click on Proceed Button");
+
+		log("Step 6: Click on Regularize Button");
+
+		taSetupIndexPage.clickRegularizeButton();
+
+		log("Step 7: Click on Apply Now Button");
+
+		taSetupIndexPage.clickApplyNowButton();
+
+		log("Verify validation message is displayed");
+
+		if (taSetupVerificationPage.verifyBlankActionValidationMessage())
+
+		{
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
 
 		if (numOfFailure > 0) {
 			Assert.assertTrue(false);

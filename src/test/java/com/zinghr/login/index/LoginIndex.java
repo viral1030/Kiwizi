@@ -1,5 +1,7 @@
 package com.zinghr.login.index;
 
+import java.util.Random;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,21 +15,17 @@ public class LoginIndex extends SeleniumInit {
 	public void loginlandingpage() {
 
 		int numOfFailure = 0;
-		log("Step 1 : Open url:<a href="+testUrl+">"+testUrl+"</a>");
-		
-		
-		loginVerificationPage=loginIndexpage.loginlandingpage();
+		log("Step 1 : Open url:<a href=" + testUrl + ">" + testUrl + "</a>");
+
+		loginVerificationPage = loginIndexpage.loginlandingpage();
 		log("Verify that ZingHR login page is open or not.");
-		if(loginVerificationPage.loginlandingpageverification())
-		{
-				Common.logStatus("pass");
+		if (loginVerificationPage.loginlandingpageverification()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
 		}
-		else				
-		{
-				Common.logStatus("fail");
-				numOfFailure++;
-		}
-		
+
 		if (numOfFailure > 0) {
 			Assert.assertTrue(false);
 		}
@@ -35,22 +33,18 @@ public class LoginIndex extends SeleniumInit {
 	}
 
 	@Test
-	public void loginwithvalidcredential()
-	{
+	public void loginwithvalidcredential() {
 		int numOfFailure = 0;
 		loginlandingpage();
-		log("Step 2: Enter Company Code:"+TestData.company_code);
-		log("Step 3: Enter Employee Code: "+TestData.employe_code);
-		log("Step 4: Enter Password: "+TestData.password);
-		
-		loginVerificationPage=loginIndexpage.loginSuccessfully();
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employee Code: " + TestData.employe_code);
+		log("Step 4: Enter Password: " + TestData.password);
+
+		loginVerificationPage = loginIndexpage.loginSuccessfully();
 		log("Verify that Home page is open or not");
-		if(loginVerificationPage.loginpagewithvalidcredentialverification())
-		{
+		if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
 			Common.logStatus("pass");
-		}
-		else
-		{
+		} else {
 			Common.logStatus("fail");
 			numOfFailure++;
 		}
@@ -59,20 +53,17 @@ public class LoginIndex extends SeleniumInit {
 		}
 
 	}
+
 	@Test
-	public void compnycodeeditableornot()
-	{
+	public void compnycodeeditableornot() {
 		int numOfFailure = 0;
 		loginlandingpage();
-		log("Step 2: Enter Company Code:"+TestData.company_code);
-		loginVerificationPage=loginIndexpage.compnycodeiseditableornot();
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		loginVerificationPage = loginIndexpage.compnycodeiseditableornot();
 		log("Company code field id editable or not");
-		if(loginVerificationPage.compnycodeiseditableornotverification())
-		{
+		if (loginVerificationPage.compnycodeiseditableornotverification()) {
 			Common.logStatus("pass");
-		}
-		else
-		{
+		} else {
 			Common.logStatus("fail");
 			numOfFailure++;
 		}
@@ -81,20 +72,17 @@ public class LoginIndex extends SeleniumInit {
 		}
 
 	}
+
 	@Test
-	public void employeecodeeditableornot()
-	{
+	public void employeecodeeditableornot() {
 		int numOfFailure = 0;
 		loginlandingpage();
-		log("Step 2: Enter Employeey Code:"+TestData.employe_code);
-		loginVerificationPage=loginIndexpage.employeecodeiseditableornot();
+		log("Step 2: Enter Employeey Code:" + TestData.employe_code);
+		loginVerificationPage = loginIndexpage.employeecodeiseditableornot();
 		log("Employee code field id editable or not");
-		if(loginVerificationPage.employeecodeiseditableornotverification())
-		{
+		if (loginVerificationPage.employeecodeiseditableornotverification()) {
 			Common.logStatus("pass");
-		}
-		else
-		{
+		} else {
 			Common.logStatus("fail");
 			numOfFailure++;
 		}
@@ -103,20 +91,17 @@ public class LoginIndex extends SeleniumInit {
 		}
 
 	}
+
 	@Test
-	public void blankcomponycode()
-	{
+	public void blankcomponycode() {
 		int numOfFailure = 0;
 		loginlandingpage();
-		
-		loginVerificationPage=loginIndexpage.blankcomponycode();
+
+		loginVerificationPage = loginIndexpage.blankcomponycode();
 		log("To verify that alert message is displayed if user logins with empty Company Code");
-		if(loginVerificationPage.blankcompanycodeverification())
-		{
+		if (loginVerificationPage.blankcompanycodeverification()) {
 			Common.logStatus("pass");
-		}
-		else
-		{
+		} else {
 			Common.logStatus("fail");
 			numOfFailure++;
 		}
@@ -125,20 +110,17 @@ public class LoginIndex extends SeleniumInit {
 		}
 
 	}
+
 	@Test
-	public void blankemployeecode()
-	{
+	public void blankemployeecode() {
 		int numOfFailure = 0;
 		loginlandingpage();
-		log("Step 2: Enter Employeey Code:"+TestData.employe_code);
-		loginVerificationPage=loginIndexpage.blankemployeecode();
+		log("Step 2: Enter Employeey Code:" + TestData.employe_code);
+		loginVerificationPage = loginIndexpage.blankemployeecode();
 		log("To verify that alert message is displayed if user logins with empty Employee Code");
-		if(loginVerificationPage.blankemployeecodeverification())
-		{
+		if (loginVerificationPage.blankemployeecodeverification()) {
 			Common.logStatus("pass");
-		}
-		else
-		{
+		} else {
 			Common.logStatus("fail");
 			numOfFailure++;
 		}
@@ -147,23 +129,18 @@ public class LoginIndex extends SeleniumInit {
 		}
 
 	}
-	
-	
+
 	@Test
-	public void blankpassword()
-	{
+	public void blankpassword() {
 		int numOfFailure = 0;
 		loginlandingpage();
-		log("Step 2: Enter Company Code:"+TestData.company_code);
-		log("Step 3: Enter Employeey Code:"+TestData.employe_code);
-		loginVerificationPage=loginIndexpage.blankpassword();
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employeey Code:" + TestData.employe_code);
+		loginVerificationPage = loginIndexpage.blankpassword();
 		log("To verify that alert message is displayed if user logins with empty password");
-		if(loginVerificationPage.blankpasswordverification())
-		{
+		if (loginVerificationPage.blankpasswordverification()) {
 			Common.logStatus("pass");
-		}
-		else
-		{
+		} else {
 			Common.logStatus("fail");
 			numOfFailure++;
 		}
