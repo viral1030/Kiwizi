@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 196.838 sec <<< FAILURE! - in TestSuite
+selectNoCountry(com.zinghr.signup.index.SignupIndex)  Time elapsed: 28.955 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Timed out after 15 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:41)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
+	at com.google.common.collect.Iterators$8.transform(Iterators.java:794)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Iterators.addAll(Iterators.java:357)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:147)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:500)
+	at com.zinghr.init.Common.highlightElement(Common.java:929)
+	at com.zinghr.init.Common.clickOn(Common.java:519)
+	at com.zinghr.signup.indexpage.SignupIndexPage.NoCountry(SignupIndexPage.java:104)
+	at com.zinghr.signup.indexpage.SignupIndexPage.selectNoCountry(SignupIndexPage.java:323)
+	at com.zinghr.signup.index.SignupIndex.selectNoCountry(SignupIndex.java:456)
+Caused by: org.openqa.selenium.InvalidSelectorException: The given selector .//div[@id='countries_child']//.[Contains(text(),'Select Country')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression .//div[@id='countries_child']//.[Contains(text(),'Select Country')] because of the following error:
+SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10273)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10304)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10308)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12287)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12229)
+

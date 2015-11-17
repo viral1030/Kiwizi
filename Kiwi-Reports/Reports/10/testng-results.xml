@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_13 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Email ID' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter invalid 'Email Id': kw-902675222@mi@ki]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that appropriate error message is displayed when user enter invalid email format in Email field.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_14 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Email ID' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter blank data in 'Email Id':  ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that Email id field do not accept blank data]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_15 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Select other country from country list.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: ZKfZ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: VAygmQ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1862260234@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select any country]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that user is able to select other country name]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_16 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Select 'Select Country ' country list.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: UaBa]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: ijyqTp]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest125512898@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select 'Select Country' option from country name field]]>
+    </line>
+    <line>
+      <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='../test-output/screenshots/1117111426170selectNoCountry.png' target='_new'>1117111426170selectNoCountry.png</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><h3>Failure Reason:</h3>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>org.openqa.selenium.NoSuchElementException: Timed out after 15 seconds. Unable to locate the element]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_17 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Enter numeric value into Contact Number' field.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: OfTM]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: gKlKuU]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1937381396@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select any country]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that user is able to enter numeric values in Contact Number field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+  </reporter-output>
+  <suite name="ZingHr - SignUp Page Verification" duration-ms="196208" started-at="2015-11-17T05:41:50Z" finished-at="2015-11-17T05:45:06Z">
+    <groups>
+    </groups>
+    <test name="SU_13: To verify error message is displayed when user enter invalid email in Email field" duration-ms="40809" started-at="2015-11-17T05:41:50Z" finished-at="2015-11-17T05:42:31Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@668bc3d5]" name="fetchSuiteConfiguration" is-config="true" duration-ms="16" started-at="2015-11-17T11:11:50Z" finished-at="2015-11-17T11:11:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e057f43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@668bc3d5]" name="setUp" is-config="true" duration-ms="8948" started-at="2015-11-17T11:11:50Z" finished-at="2015-11-17T11:11:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.emailidField2() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e057f43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emailidField2()[pri:0, instance:com.zinghr.signup.index.SignupIndex@668bc3d5]" name="emailidField2" duration-ms="21488" started-at="2015-11-17T11:11:59Z" finished-at="2015-11-17T11:12:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_13 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Email ID' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter invalid 'Email Id': kw-902675222@mi@ki]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that appropriate error message is displayed when user enter invalid email format in Email field.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emailidField2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@668bc3d5]" name="tearDown" is-config="true" duration-ms="10340" started-at="2015-11-17T11:12:20Z" finished-at="2015-11-17T11:12:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emailidField2 status=SUCCESS method=SignupIndex.emailidField2()[pri:0, instance:com.zinghr.signup.index.SignupIndex@668bc3d5] output=<br></br>Test Case Id : SU_13 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_13: To verify error message is displayed when user enter invalid email in Email field -->
+    <test name="SU_14: To verify error message is displayed when user enter invalid email in Email field" duration-ms="40844" started-at="2015-11-17T05:42:31Z" finished-at="2015-11-17T05:43:12Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3567135c]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T11:12:31Z" finished-at="2015-11-17T11:12:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c284af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3567135c]" name="setUp" is-config="true" duration-ms="9005" started-at="2015-11-17T11:12:31Z" finished-at="2015-11-17T11:12:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.emailidField3() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c284af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emailidField3()[pri:0, instance:com.zinghr.signup.index.SignupIndex@3567135c]" name="emailidField3" duration-ms="21411" started-at="2015-11-17T11:12:40Z" finished-at="2015-11-17T11:13:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_14 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Email ID' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter blank data in 'Email Id':  ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that Email id field do not accept blank data]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emailidField3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3567135c]" name="tearDown" is-config="true" duration-ms="10427" started-at="2015-11-17T11:13:01Z" finished-at="2015-11-17T11:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emailidField3 status=SUCCESS method=SignupIndex.emailidField3()[pri:0, instance:com.zinghr.signup.index.SignupIndex@3567135c] output=<br></br>Test Case Id : SU_14 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_14: To verify error message is displayed when user enter invalid email in Email field -->
+    <test name="SU_15: To verify that user is able to select other country name" duration-ms="35545" started-at="2015-11-17T05:43:12Z" finished-at="2015-11-17T05:43:47Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6b143ee9]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-17T11:13:12Z" finished-at="2015-11-17T11:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5890e879]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6b143ee9]" name="setUp" is-config="true" duration-ms="7977" started-at="2015-11-17T11:13:12Z" finished-at="2015-11-17T11:13:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.selectCountry() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5890e879]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectCountry()[pri:0, instance:com.zinghr.signup.index.SignupIndex@6b143ee9]" name="selectCountry" duration-ms="17263" started-at="2015-11-17T11:13:20Z" finished-at="2015-11-17T11:13:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_15 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Select other country from country list.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: ZKfZ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: VAygmQ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1862260234@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select any country]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that user is able to select other country name]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectCountry -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6b143ee9]" name="tearDown" is-config="true" duration-ms="10302" started-at="2015-11-17T11:13:37Z" finished-at="2015-11-17T11:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCountry status=SUCCESS method=SignupIndex.selectCountry()[pri:0, instance:com.zinghr.signup.index.SignupIndex@6b143ee9] output=<br></br>Test Case Id : SU_15 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_15: To verify that user is able to select other country name -->
+    <test name="SU_16: To verify error message is displayed when user selects &#039;Select Country&#039; option" duration-ms="39588" started-at="2015-11-17T05:43:47Z" finished-at="2015-11-17T05:44:27Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@617c74e5]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T11:13:47Z" finished-at="2015-11-17T11:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6440112d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@617c74e5]" name="setUp" is-config="true" duration-ms="9471" started-at="2015-11-17T11:13:47Z" finished-at="2015-11-17T11:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.selectNoCountry() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6440112d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="selectNoCountry()[pri:0, instance:com.zinghr.signup.index.SignupIndex@617c74e5]" name="selectNoCountry" duration-ms="28945" started-at="2015-11-17T11:13:57Z" finished-at="2015-11-17T11:14:26Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Timed out after 15 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 15 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:89)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
+	at com.google.common.collect.Iterators$8.transform(Iterators.java:794)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Iterators.addAll(Iterators.java:357)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:147)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:500)
+	at com.zinghr.init.Common.highlightElement(Common.java:929)
+	at com.zinghr.init.Common.clickOn(Common.java:519)
+	at com.zinghr.signup.indexpage.SignupIndexPage.NoCountry(SignupIndexPage.java:104)
+	at com.zinghr.signup.indexpage.SignupIndexPage.selectNoCountry(SignupIndexPage.java:323)
+	at com.zinghr.signup.index.SignupIndex.selectNoCountry(SignupIndex.java:456)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.InvalidSelectorException: The given selector .//div[@id='countries_child']//.[Contains(text(),'Select Country')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression .//div[@id='countries_child']//.[Contains(text(),'Select Country')] because of the following error:
+SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 293 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=535f0921-3e5b-4e56-b1ce-ef0492497233, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 535f0921-3e5b-4e56-b1ce-ef0492497233
+*** Element info: {Using=xpath, value=.//div[@id='countries_child']//.[Contains(text(),'Select Country')]}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:41)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
+	... 41 more
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 51 more
+Caused by: org.openqa.selenium.InvalidSelectorException: The given selector .//div[@id='countries_child']//.[Contains(text(),'Select Country')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression .//div[@id='countries_child']//.[Contains(text(),'Select Country')] because of the following error:
+SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10273)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10304)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10308)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12287)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/KSPL08/AppData/Local/Temp/anonymous8843598253661737849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12229)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_16 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Select 'Select Country ' country list.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: UaBa]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: ijyqTp]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest125512898@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select 'Select Country' option from country name field]]>
+            </line>
+            <line>
+              <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='../test-output/screenshots/1117111426170selectNoCountry.png' target='_new'>1117111426170selectNoCountry.png</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><h3>Failure Reason:</h3>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>org.openqa.selenium.NoSuchElementException: Timed out after 15 seconds. Unable to locate the element]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectNoCountry -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@617c74e5]" name="tearDown" is-config="true" duration-ms="1161" started-at="2015-11-17T11:14:26Z" finished-at="2015-11-17T11:14:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectNoCountry status=FAILURE method=SignupIndex.selectNoCountry()[pri:0, instance:com.zinghr.signup.index.SignupIndex@617c74e5] output=<br></br>Test Case Id : SU_16 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_16: To verify error message is displayed when user selects 'Select Country' option -->
+    <test name="SU_17: To verify that user is able to enter numeric values in Contact Number field" duration-ms="39367" started-at="2015-11-17T05:44:27Z" finished-at="2015-11-17T05:45:06Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3cbbc1e0]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T11:14:27Z" finished-at="2015-11-17T11:14:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31ea9581]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3cbbc1e0]" name="setUp" is-config="true" duration-ms="8558" started-at="2015-11-17T11:14:27Z" finished-at="2015-11-17T11:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.contactNumField1() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@31ea9581]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactNumField1()[pri:0, instance:com.zinghr.signup.index.SignupIndex@3cbbc1e0]" name="contactNumField1" duration-ms="20501" started-at="2015-11-17T11:14:35Z" finished-at="2015-11-17T11:14:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_17 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Enter numeric value into Contact Number' field.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: OfTM]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: gKlKuU]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1937381396@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select any country]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that user is able to enter numeric values in Contact Number field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactNumField1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="10306" started-at="2015-11-17T11:14:56Z" finished-at="2015-11-17T11:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactNumField1 status=SUCCESS method=SignupIndex.contactNumField1()[pri:0, instance:com.zinghr.signup.index.SignupIndex@3cbbc1e0] output=<br></br>Test Case Id : SU_17 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_17: To verify that user is able to enter numeric values in Contact Number field -->
+  </suite> <!-- ZingHr - SignUp Page Verification -->
+</testng-results>

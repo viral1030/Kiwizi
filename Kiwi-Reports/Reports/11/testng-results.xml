@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="21" passed="21">
+  <reporter-output>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_02 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : SignUp page verification. ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR SignUp page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_02 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : SignUp page verification. ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that ZingHR SignUp page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: Anyr]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: ROaPPf]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest-2078170894@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select any country]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify Activation page is open or not with Successfully SignUp.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_03 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Company name' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Alphanumeric value in company Name: gbzV]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that user is able to enter Alphanumeric characters in 'Company Name' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_04 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Company name' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Blank space in company Name:  ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that the company name field do not accept blank space]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_06 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Company name' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter less than three characters in company Name: Pn]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that appropriate error message is displayed if user enters less than three characters in 'Company Name' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_07 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Company name' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Do not enter any data into 'Company Code'.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: qbktZh]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1667221878@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select any country]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that appropriate alert message 'Please Enter company name' is displayed when user sign ups with empty Company Name field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_08 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Display name' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter 'Company Name':NFGu]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Enter alphabet in 'Display  Admin Name': hLYvbb]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that user is able to enter alphabets in 'Display Name' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_09 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Display name' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter 'Company Name':VdPz]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Enter invalid data in 'Display Admin Name': %&^%6545as]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that appropriate error message is displayed if user enters less than three characters in 'Company Name' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_11 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Display Name' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1: Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter Blank space in 'Display AdminName':  ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that the company name field do not accept blank space]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_12 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Email ID' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter valid 'Email Id': kiwitest937010684@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that Email id field accepts valid email id format.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_13 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Email ID' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter invalid 'Email Id': kw-476108995@mi@ki]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that appropriate error message is displayed when user enter invalid email format in Email field.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_14 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Field validation for 'Email ID' field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter blank data in 'Email Id':  ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that Email id field do not accept blank data]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_15 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Select other country from country list.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: HDHw]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: jtecZW]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1332410974@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select any country]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that user is able to select other country name]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_16 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Select 'Select Country ' country list.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: XrTn]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: CoVJDG]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest-1870025391@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select 'Select Country' option from country name field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that appropriate error message is displayed when user selects 'Select Country' option from Country Name field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_17 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Enter numeric value into Contact Number' field.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: bFfy]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: KiUrNV]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest-1365759916@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select any country]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that user is able to enter numeric values in Contact Number field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_18 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Enter alphabets and special characters into Contact Number' field.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: MdxY]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: zPLEEI]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest384413635@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select any country]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Enter Contact no: dsjh(*&^(^(]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that error message is displayed when user enters alphabets and special characters in Contact Number field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_20 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Enter more than 10 digits into 'Contact Number' field.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: siWZ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: RazAWY]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest2024437103@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select any country]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Enter Contact no: 1142931708-2022284079]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that Max length of 10 characters is provided to Contact Number field]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_21 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Enter more than 10 digits into 'Contact Number' field.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: Atex]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: kiVqKA]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1192784201@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select any country]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Enter Contact no:  ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that Contact Number field do not accept blank data.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_22 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Click on 'Terms of Use' and 'Privacy Policy' link.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2 : Click on 'Terms of Use' link.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that user is redirected to taregeted page after clicking on 'Terms of Use' hyperlink]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3 : Click on 'Privacy Policy' link.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that user is redirected to taregeted page after clicking on 'Privacy Policy' hyperlink]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : SU_23 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : Checkbox Checked-unchecked ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: Mkki]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: DeSaZK]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest-971821166@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select any country]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 7: Uncheck checkbox.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify that Alert message is displayed if user unchecked the Terms and condition checkbox]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Test Case Id : A_SU_01 ]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Testcase Discription : SignUp successfully and 'Activation Page' verification.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2: Enter company Name: HbZh]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3: Display Employee Name: uPbfwW]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1001283516@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 5: Select any country]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 7: Click on 'Sign Up for 30 days trial' button.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>To verify Activation page is open or not with Successfully SignUp.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+  </reporter-output>
+  <suite name="ZingHr - SignUp Page Verification" duration-ms="818653" started-at="2015-11-17T09:51:09Z" finished-at="2015-11-17T10:04:48Z">
+    <groups>
+    </groups>
+    <test name="SignUp page verification" duration-ms="22152" started-at="2015-11-17T09:51:09Z" finished-at="2015-11-17T09:51:31Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@668bc3d5]" name="fetchSuiteConfiguration" is-config="true" duration-ms="16" started-at="2015-11-17T15:21:09Z" finished-at="2015-11-17T15:21:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f8cd79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@668bc3d5]" name="setUp" is-config="true" duration-ms="10725" started-at="2015-11-17T15:21:09Z" finished-at="2015-11-17T15:21:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.SignUpPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f8cd79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUpPage()[pri:0, instance:com.zinghr.signup.index.SignupIndex@668bc3d5]" name="SignUpPage" duration-ms="1068" started-at="2015-11-17T15:21:20Z" finished-at="2015-11-17T15:21:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_02 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : SignUp page verification. ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR SignUp page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@668bc3d5]" name="tearDown" is-config="true" duration-ms="10329" started-at="2015-11-17T15:21:21Z" finished-at="2015-11-17T15:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpPage status=SUCCESS method=SignupIndex.SignUpPage()[pri:0, instance:com.zinghr.signup.index.SignupIndex@668bc3d5] output=<br></br>Test Case Id : SU_02 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SignUp page verification -->
+    <test name="SU_02: SignUp Successfully and Activation page verification" duration-ms="41752" started-at="2015-11-17T09:51:31Z" finished-at="2015-11-17T09:52:13Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3567135c]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:21:31Z" finished-at="2015-11-17T15:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2055d6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3567135c]" name="setUp" is-config="true" duration-ms="7903" started-at="2015-11-17T15:21:31Z" finished-at="2015-11-17T15:21:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.SignUpSuccessfully() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2055d6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUpSuccessfully()[pri:0, instance:com.zinghr.signup.index.SignupIndex@3567135c]" name="SignUpSuccessfully" duration-ms="23595" started-at="2015-11-17T15:21:39Z" finished-at="2015-11-17T15:22:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_02 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : SignUp page verification. ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that ZingHR SignUp page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: Anyr]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: ROaPPf]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest-2078170894@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select any country]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify Activation page is open or not with Successfully SignUp.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpSuccessfully -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3567135c]" name="tearDown" is-config="true" duration-ms="10252" started-at="2015-11-17T15:22:03Z" finished-at="2015-11-17T15:22:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpSuccessfully status=SUCCESS method=SignupIndex.SignUpSuccessfully()[pri:0, instance:com.zinghr.signup.index.SignupIndex@3567135c] output=<br></br>Test Case Id : SU_02 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_02: SignUp Successfully and Activation page verification -->
+    <test name="SU_03: To verify that user is able to enter alphanumeric characters in &#039;Company Name&#039; field" duration-ms="40272" started-at="2015-11-17T09:52:13Z" finished-at="2015-11-17T09:52:53Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6b143ee9]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:22:13Z" finished-at="2015-11-17T15:22:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50029372]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6b143ee9]" name="setUp" is-config="true" duration-ms="8417" started-at="2015-11-17T15:22:13Z" finished-at="2015-11-17T15:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.companynameField1() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@50029372]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="companynameField1()[pri:0, instance:com.zinghr.signup.index.SignupIndex@6b143ee9]" name="companynameField1" duration-ms="21522" started-at="2015-11-17T15:22:22Z" finished-at="2015-11-17T15:22:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_03 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Company name' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Alphanumeric value in company Name: gbzV]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that user is able to enter Alphanumeric characters in 'Company Name' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- companynameField1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6b143ee9]" name="tearDown" is-config="true" duration-ms="10331" started-at="2015-11-17T15:22:43Z" finished-at="2015-11-17T15:22:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=companynameField1 status=SUCCESS method=SignupIndex.companynameField1()[pri:0, instance:com.zinghr.signup.index.SignupIndex@6b143ee9] output=<br></br>Test Case Id : SU_03 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_03: To verify that user is able to enter alphanumeric characters in 'Company Name' field -->
+    <test name="SU_04: To verify that the company name field do not accept blank space" duration-ms="40767" started-at="2015-11-17T09:52:53Z" finished-at="2015-11-17T09:53:34Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@617c74e5]" name="setUp" is-config="true" duration-ms="9002" started-at="2015-11-17T15:22:53Z" finished-at="2015-11-17T15:23:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.companynameField2() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@e3b3b2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@617c74e5]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:22:53Z" finished-at="2015-11-17T15:22:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@e3b3b2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="companynameField2()[pri:0, instance:com.zinghr.signup.index.SignupIndex@617c74e5]" name="companynameField2" duration-ms="21392" started-at="2015-11-17T15:23:02Z" finished-at="2015-11-17T15:23:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_04 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Company name' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Blank space in company Name:  ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that the company name field do not accept blank space]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- companynameField2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@617c74e5]" name="tearDown" is-config="true" duration-ms="10373" started-at="2015-11-17T15:23:24Z" finished-at="2015-11-17T15:23:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=companynameField2 status=SUCCESS method=SignupIndex.companynameField2()[pri:0, instance:com.zinghr.signup.index.SignupIndex@617c74e5] output=<br></br>Test Case Id : SU_04 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_04: To verify that the company name field do not accept blank space -->
+    <test name="SU_06: To verify that error message is displayed when enters less than three characters in &#039;Company Name&#039; field" duration-ms="40660" started-at="2015-11-17T09:53:34Z" finished-at="2015-11-17T09:54:15Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3cbbc1e0]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:23:34Z" finished-at="2015-11-17T15:23:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50f6ac94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3cbbc1e0]" name="setUp" is-config="true" duration-ms="8875" started-at="2015-11-17T15:23:34Z" finished-at="2015-11-17T15:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.companynameField3() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@50f6ac94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="companynameField3()[pri:0, instance:com.zinghr.signup.index.SignupIndex@3cbbc1e0]" name="companynameField3" duration-ms="21397" started-at="2015-11-17T15:23:43Z" finished-at="2015-11-17T15:24:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_06 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Company name' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter less than three characters in company Name: Pn]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that appropriate error message is displayed if user enters less than three characters in 'Company Name' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- companynameField3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="10387" started-at="2015-11-17T15:24:04Z" finished-at="2015-11-17T15:24:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=companynameField3 status=SUCCESS method=SignupIndex.companynameField3()[pri:0, instance:com.zinghr.signup.index.SignupIndex@3cbbc1e0] output=<br></br>Test Case Id : SU_06 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_06: To verify that error message is displayed when enters less than three characters in 'Company Name' field -->
+    <test name="SU_07: To verify alert message is displayed when sign ups with empty Company Name field" duration-ms="38245" started-at="2015-11-17T09:54:15Z" finished-at="2015-11-17T09:54:53Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3551a94]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-17T15:24:15Z" finished-at="2015-11-17T15:24:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6cc4cdb9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3551a94]" name="setUp" is-config="true" duration-ms="8820" started-at="2015-11-17T15:24:15Z" finished-at="2015-11-17T15:24:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.companynameField4() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6cc4cdb9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="companynameField4()[pri:0, instance:com.zinghr.signup.index.SignupIndex@3551a94]" name="companynameField4" duration-ms="19129" started-at="2015-11-17T15:24:24Z" finished-at="2015-11-17T15:24:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_07 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Company name' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Do not enter any data into 'Company Code'.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: qbktZh]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1667221878@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select any country]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that appropriate alert message 'Please Enter company name' is displayed when user sign ups with empty Company Name field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- companynameField4 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@3551a94]" name="tearDown" is-config="true" duration-ms="10294" started-at="2015-11-17T15:24:43Z" finished-at="2015-11-17T15:24:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=companynameField4 status=SUCCESS method=SignupIndex.companynameField4()[pri:0, instance:com.zinghr.signup.index.SignupIndex@3551a94] output=<br></br>Test Case Id : SU_07 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_07: To verify alert message is displayed when sign ups with empty Company Name field -->
+    <test name="SU_08: To verify that user is able to enter alphabets in &#039;Display Name&#039; field" duration-ms="41803" started-at="2015-11-17T09:54:53Z" finished-at="2015-11-17T09:55:35Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@9f70c54]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-17T15:24:53Z" finished-at="2015-11-17T15:24:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28194a50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@9f70c54]" name="setUp" is-config="true" duration-ms="10060" started-at="2015-11-17T15:24:53Z" finished-at="2015-11-17T15:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.displaynameField1() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@28194a50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="displaynameField1()[pri:0, instance:com.zinghr.signup.index.SignupIndex@9f70c54]" name="displaynameField1" duration-ms="21356" started-at="2015-11-17T15:25:03Z" finished-at="2015-11-17T15:25:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_08 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Display name' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter 'Company Name':NFGu]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Enter alphabet in 'Display  Admin Name': hLYvbb]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that user is able to enter alphabets in 'Display Name' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- displaynameField1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@9f70c54]" name="tearDown" is-config="true" duration-ms="10385" started-at="2015-11-17T15:25:25Z" finished-at="2015-11-17T15:25:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displaynameField1 status=SUCCESS method=SignupIndex.displaynameField1()[pri:0, instance:com.zinghr.signup.index.SignupIndex@9f70c54] output=<br></br>Test Case Id : SU_08 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_08: To verify that user is able to enter alphabets in 'Display Name' field -->
+    <test name="SU_09: To verify that appropriate error message is displayed when user enters special characters and numeric value in &#039;display Name&#039; field" duration-ms="39911" started-at="2015-11-17T09:55:35Z" finished-at="2015-11-17T09:56:15Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@13c78c0b]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-17T15:25:35Z" finished-at="2015-11-17T15:25:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f2cfe3f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@13c78c0b]" name="setUp" is-config="true" duration-ms="8148" started-at="2015-11-17T15:25:35Z" finished-at="2015-11-17T15:25:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.displaynameField2() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f2cfe3f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="displaynameField2()[pri:0, instance:com.zinghr.signup.index.SignupIndex@13c78c0b]" name="displaynameField2" duration-ms="21371" started-at="2015-11-17T15:25:43Z" finished-at="2015-11-17T15:26:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_09 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Display name' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter 'Company Name':VdPz]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Enter invalid data in 'Display Admin Name': %&^%6545as]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that appropriate error message is displayed if user enters less than three characters in 'Company Name' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- displaynameField2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@13c78c0b]" name="tearDown" is-config="true" duration-ms="10391" started-at="2015-11-17T15:26:04Z" finished-at="2015-11-17T15:26:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displaynameField2 status=SUCCESS method=SignupIndex.displaynameField2()[pri:0, instance:com.zinghr.signup.index.SignupIndex@13c78c0b] output=<br></br>Test Case Id : SU_09 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_09: To verify that appropriate error message is displayed when user enters special characters and numeric value in 'display Name' field -->
+    <test name="SU_11: To verify that the company name field do not accept blank space" duration-ms="39456" started-at="2015-11-17T09:56:15Z" finished-at="2015-11-17T09:56:54Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@7f560810]" name="setUp" is-config="true" duration-ms="7242" started-at="2015-11-17T15:26:15Z" finished-at="2015-11-17T15:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.displaynameField3() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a5b6f42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@7f560810]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:26:15Z" finished-at="2015-11-17T15:26:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a5b6f42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="displaynameField3()[pri:0, instance:com.zinghr.signup.index.SignupIndex@7f560810]" name="displaynameField3" duration-ms="21883" started-at="2015-11-17T15:26:22Z" finished-at="2015-11-17T15:26:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_11 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Display Name' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1: Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter Blank space in 'Display AdminName':  ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that the company name field do not accept blank space]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- displaynameField3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@7f560810]" name="tearDown" is-config="true" duration-ms="10331" started-at="2015-11-17T15:26:44Z" finished-at="2015-11-17T15:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displaynameField3 status=SUCCESS method=SignupIndex.displaynameField3()[pri:0, instance:com.zinghr.signup.index.SignupIndex@7f560810] output=<br></br>Test Case Id : SU_11 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_11: To verify that the company name field do not accept blank space -->
+    <test name="SU_12: To verify that valid email format for &#039;Email id&#039; field" duration-ms="42363" started-at="2015-11-17T09:56:54Z" finished-at="2015-11-17T09:57:37Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@61a485d2]" name="setUp" is-config="true" duration-ms="9435" started-at="2015-11-17T15:26:54Z" finished-at="2015-11-17T15:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.emailidField1() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5038d0b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@61a485d2]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:26:54Z" finished-at="2015-11-17T15:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5038d0b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="emailidField1()[pri:0, instance:com.zinghr.signup.index.SignupIndex@61a485d2]" name="emailidField1" duration-ms="22445" started-at="2015-11-17T15:27:04Z" finished-at="2015-11-17T15:27:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_12 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Email ID' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter valid 'Email Id': kiwitest937010684@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that Email id field accepts valid email id format.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emailidField1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@61a485d2]" name="tearDown" is-config="true" duration-ms="10483" started-at="2015-11-17T15:27:26Z" finished-at="2015-11-17T15:27:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emailidField1 status=SUCCESS method=SignupIndex.emailidField1()[pri:0, instance:com.zinghr.signup.index.SignupIndex@61a485d2] output=<br></br>Test Case Id : SU_12 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_12: To verify that valid email format for 'Email id' field -->
+    <test name="SU_13: To verify error message is displayed when user enter invalid email in Email field" duration-ms="42357" started-at="2015-11-17T09:57:37Z" finished-at="2015-11-17T09:58:19Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@b97c004]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-17T15:27:37Z" finished-at="2015-11-17T15:27:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@32115b28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@b97c004]" name="setUp" is-config="true" duration-ms="10300" started-at="2015-11-17T15:27:37Z" finished-at="2015-11-17T15:27:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.emailidField2() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@32115b28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emailidField2()[pri:0, instance:com.zinghr.signup.index.SignupIndex@b97c004]" name="emailidField2" duration-ms="21620" started-at="2015-11-17T15:27:47Z" finished-at="2015-11-17T15:28:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_13 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Email ID' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter invalid 'Email Id': kw-476108995@mi@ki]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that appropriate error message is displayed when user enter invalid email format in Email field.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emailidField2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@b97c004]" name="tearDown" is-config="true" duration-ms="10436" started-at="2015-11-17T15:28:09Z" finished-at="2015-11-17T15:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emailidField2 status=SUCCESS method=SignupIndex.emailidField2()[pri:0, instance:com.zinghr.signup.index.SignupIndex@b97c004] output=<br></br>Test Case Id : SU_13 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_13: To verify error message is displayed when user enter invalid email in Email field -->
+    <test name="SU_14: To verify error message is displayed when user enter invalid email in Email field" duration-ms="42305" started-at="2015-11-17T09:58:19Z" finished-at="2015-11-17T09:59:01Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@2344fc66]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:28:19Z" finished-at="2015-11-17T15:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ad48653]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@2344fc66]" name="setUp" is-config="true" duration-ms="9657" started-at="2015-11-17T15:28:19Z" finished-at="2015-11-17T15:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.emailidField3() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ad48653]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emailidField3()[pri:0, instance:com.zinghr.signup.index.SignupIndex@2344fc66]" name="emailidField3" duration-ms="22322" started-at="2015-11-17T15:28:29Z" finished-at="2015-11-17T15:28:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_14 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Field validation for 'Email ID' field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter blank data in 'Email Id':  ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that Email id field do not accept blank data]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emailidField3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@2344fc66]" name="tearDown" is-config="true" duration-ms="10325" started-at="2015-11-17T15:28:51Z" finished-at="2015-11-17T15:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emailidField3 status=SUCCESS method=SignupIndex.emailidField3()[pri:0, instance:com.zinghr.signup.index.SignupIndex@2344fc66] output=<br></br>Test Case Id : SU_14 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_14: To verify error message is displayed when user enter invalid email in Email field -->
+    <test name="SU_15: To verify that user is able to select other country name" duration-ms="37548" started-at="2015-11-17T09:59:01Z" finished-at="2015-11-17T09:59:39Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@174d20a]" name="setUp" is-config="true" duration-ms="9998" started-at="2015-11-17T15:29:01Z" finished-at="2015-11-17T15:29:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.selectCountry() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bb4dd34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@174d20a]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:29:01Z" finished-at="2015-11-17T15:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bb4dd34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="selectCountry()[pri:0, instance:com.zinghr.signup.index.SignupIndex@174d20a]" name="selectCountry" duration-ms="17151" started-at="2015-11-17T15:29:11Z" finished-at="2015-11-17T15:29:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_15 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Select other country from country list.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: HDHw]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: jtecZW]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1332410974@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select any country]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that user is able to select other country name]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectCountry -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@174d20a]" name="tearDown" is-config="true" duration-ms="10398" started-at="2015-11-17T15:29:28Z" finished-at="2015-11-17T15:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCountry status=SUCCESS method=SignupIndex.selectCountry()[pri:0, instance:com.zinghr.signup.index.SignupIndex@174d20a] output=<br></br>Test Case Id : SU_15 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_15: To verify that user is able to select other country name -->
+    <test name="SU_16: To verify error message is displayed when user selects &#039;Select Country&#039; option" duration-ms="40253" started-at="2015-11-17T09:59:39Z" finished-at="2015-11-17T10:00:19Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@7c0e2abd]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-17T15:29:39Z" finished-at="2015-11-17T15:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d9f158f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@7c0e2abd]" name="setUp" is-config="true" duration-ms="10736" started-at="2015-11-17T15:29:39Z" finished-at="2015-11-17T15:29:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.selectNoCountry() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d9f158f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectNoCountry()[pri:0, instance:com.zinghr.signup.index.SignupIndex@7c0e2abd]" name="selectNoCountry" duration-ms="19213" started-at="2015-11-17T15:29:50Z" finished-at="2015-11-17T15:30:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_16 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Select 'Select Country ' country list.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: XrTn]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: CoVJDG]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest-1870025391@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select 'Select Country' option from country name field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that appropriate error message is displayed when user selects 'Select Country' option from Country Name field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectNoCountry -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@7c0e2abd]" name="tearDown" is-config="true" duration-ms="10303" started-at="2015-11-17T15:30:09Z" finished-at="2015-11-17T15:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectNoCountry status=SUCCESS method=SignupIndex.selectNoCountry()[pri:0, instance:com.zinghr.signup.index.SignupIndex@7c0e2abd] output=<br></br>Test Case Id : SU_16 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_16: To verify error message is displayed when user selects 'Select Country' option -->
+    <test name="SU_17: To verify that user is able to enter numeric values in Contact Number field" duration-ms="40837" started-at="2015-11-17T10:00:19Z" finished-at="2015-11-17T10:01:00Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@548b7f67]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:30:19Z" finished-at="2015-11-17T15:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45efd90f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@548b7f67]" name="setUp" is-config="true" duration-ms="9837" started-at="2015-11-17T15:30:19Z" finished-at="2015-11-17T15:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.contactNumField1() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@45efd90f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactNumField1()[pri:0, instance:com.zinghr.signup.index.SignupIndex@548b7f67]" name="contactNumField1" duration-ms="20722" started-at="2015-11-17T15:30:29Z" finished-at="2015-11-17T15:30:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_17 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Enter numeric value into Contact Number' field.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: bFfy]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: KiUrNV]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest-1365759916@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select any country]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that user is able to enter numeric values in Contact Number field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactNumField1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@548b7f67]" name="tearDown" is-config="true" duration-ms="10277" started-at="2015-11-17T15:30:50Z" finished-at="2015-11-17T15:31:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactNumField1 status=SUCCESS method=SignupIndex.contactNumField1()[pri:0, instance:com.zinghr.signup.index.SignupIndex@548b7f67] output=<br></br>Test Case Id : SU_17 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_17: To verify that user is able to enter numeric values in Contact Number field -->
+    <test name="SU_18: To verify that error message is displayed when user enters alphabets and special characters in &#039;Contact Number&#039; field" duration-ms="41133" started-at="2015-11-17T10:01:00Z" finished-at="2015-11-17T10:01:41Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@215be6bb]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-17T15:31:00Z" finished-at="2015-11-17T15:31:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4b8729ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@215be6bb]" name="setUp" is-config="true" duration-ms="11464" started-at="2015-11-17T15:31:00Z" finished-at="2015-11-17T15:31:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.contactNumField2() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4b8729ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactNumField2()[pri:0, instance:com.zinghr.signup.index.SignupIndex@215be6bb]" name="contactNumField2" duration-ms="19324" started-at="2015-11-17T15:31:11Z" finished-at="2015-11-17T15:31:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_18 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Enter alphabets and special characters into Contact Number' field.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: MdxY]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: zPLEEI]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest384413635@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select any country]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Enter Contact no: dsjh(*&^(^(]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that error message is displayed when user enters alphabets and special characters in Contact Number field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactNumField2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@215be6bb]" name="tearDown" is-config="true" duration-ms="10344" started-at="2015-11-17T15:31:31Z" finished-at="2015-11-17T15:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactNumField2 status=SUCCESS method=SignupIndex.contactNumField2()[pri:0, instance:com.zinghr.signup.index.SignupIndex@215be6bb] output=<br></br>Test Case Id : SU_18 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_18: To verify that error message is displayed when user enters alphabets and special characters in 'Contact Number' field -->
+    <test name="SU_20: To verify that Max length of 10 characters is provided to Contact Number field." duration-ms="39357" started-at="2015-11-17T10:01:41Z" finished-at="2015-11-17T10:02:20Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6cc4c815]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:31:41Z" finished-at="2015-11-17T15:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61710c6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6cc4c815]" name="setUp" is-config="true" duration-ms="9616" started-at="2015-11-17T15:31:41Z" finished-at="2015-11-17T15:31:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.contactNumField3() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@61710c6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactNumField3()[pri:0, instance:com.zinghr.signup.index.SignupIndex@6cc4c815]" name="contactNumField3" duration-ms="19414" started-at="2015-11-17T15:31:51Z" finished-at="2015-11-17T15:32:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_20 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Enter more than 10 digits into 'Contact Number' field.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: siWZ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: RazAWY]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest2024437103@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select any country]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Enter Contact no: 1142931708-2022284079]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that Max length of 10 characters is provided to Contact Number field]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactNumField3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6cc4c815]" name="tearDown" is-config="true" duration-ms="10327" started-at="2015-11-17T15:32:10Z" finished-at="2015-11-17T15:32:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactNumField3 status=SUCCESS method=SignupIndex.contactNumField3()[pri:0, instance:com.zinghr.signup.index.SignupIndex@6cc4c815] output=<br></br>Test Case Id : SU_20 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_20: To verify that Max length of 10 characters is provided to Contact Number field. -->
+    <test name="SU_21: To verify that Contact Number field do not accept blank data." duration-ms="37203" started-at="2015-11-17T10:02:20Z" finished-at="2015-11-17T10:02:58Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6d00a15d]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:32:20Z" finished-at="2015-11-17T15:32:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3214ee6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6d00a15d]" name="setUp" is-config="true" duration-ms="6946" started-at="2015-11-17T15:32:20Z" finished-at="2015-11-17T15:32:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.contactNumField4() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3214ee6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactNumField4()[pri:0, instance:com.zinghr.signup.index.SignupIndex@6d00a15d]" name="contactNumField4" duration-ms="19878" started-at="2015-11-17T15:32:27Z" finished-at="2015-11-17T15:32:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_21 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Enter more than 10 digits into 'Contact Number' field.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: Atex]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: kiVqKA]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1192784201@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select any country]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Enter Contact no:  ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that Contact Number field do not accept blank data.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactNumField4 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@6d00a15d]" name="tearDown" is-config="true" duration-ms="10378" started-at="2015-11-17T15:32:47Z" finished-at="2015-11-17T15:32:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactNumField4 status=SUCCESS method=SignupIndex.contactNumField4()[pri:0, instance:com.zinghr.signup.index.SignupIndex@6d00a15d] output=<br></br>Test Case Id : SU_21 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_21: To verify that Contact Number field do not accept blank data. -->
+    <test name="SU_22: To verify that user is redirected to taregeted page after clicking on &#039;terms of use&#039; and &#039;privacy policy&#039; hyperlink" duration-ms="31207" started-at="2015-11-17T10:02:58Z" finished-at="2015-11-17T10:03:29Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@9629756]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-17T15:32:58Z" finished-at="2015-11-17T15:32:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@383dc82c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@9629756]" name="setUp" is-config="true" duration-ms="7168" started-at="2015-11-17T15:32:58Z" finished-at="2015-11-17T15:33:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.termsAndprivacy() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@383dc82c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="termsAndprivacy()[pri:0, instance:com.zinghr.signup.index.SignupIndex@9629756]" name="termsAndprivacy" duration-ms="13584" started-at="2015-11-17T15:33:05Z" finished-at="2015-11-17T15:33:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_22 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Click on 'Terms of Use' and 'Privacy Policy' link.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2 : Click on 'Terms of Use' link.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that user is redirected to taregeted page after clicking on 'Terms of Use' hyperlink]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3 : Click on 'Privacy Policy' link.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that user is redirected to taregeted page after clicking on 'Privacy Policy' hyperlink]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- termsAndprivacy -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@9629756]" name="tearDown" is-config="true" duration-ms="10454" started-at="2015-11-17T15:33:18Z" finished-at="2015-11-17T15:33:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=termsAndprivacy status=SUCCESS method=SignupIndex.termsAndprivacy()[pri:0, instance:com.zinghr.signup.index.SignupIndex@9629756] output=<br></br>Test Case Id : SU_22 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_22: To verify that user is redirected to taregeted page after clicking on 'terms of use' and 'privacy policy' hyperlink -->
+    <test name="SU_23: To verify that Alert message is displayed if user unchecked the Terms and condition checkbox." duration-ms="39328" started-at="2015-11-17T10:03:29Z" finished-at="2015-11-17T10:04:08Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@7dc7cbad]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-11-17T15:33:29Z" finished-at="2015-11-17T15:33:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a07d605]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@7dc7cbad]" name="setUp" is-config="true" duration-ms="6852" started-at="2015-11-17T15:33:29Z" finished-at="2015-11-17T15:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.checkbox() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a07d605]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkbox()[pri:0, instance:com.zinghr.signup.index.SignupIndex@7dc7cbad]" name="checkbox" duration-ms="22102" started-at="2015-11-17T15:33:36Z" finished-at="2015-11-17T15:33:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : SU_23 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : Checkbox Checked-unchecked ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: Mkki]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: DeSaZK]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest-971821166@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select any country]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 7: Uncheck checkbox.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify that Alert message is displayed if user unchecked the Terms and condition checkbox]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkbox -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@7dc7cbad]" name="tearDown" is-config="true" duration-ms="10373" started-at="2015-11-17T15:33:58Z" finished-at="2015-11-17T15:34:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkbox status=SUCCESS method=SignupIndex.checkbox()[pri:0, instance:com.zinghr.signup.index.SignupIndex@7dc7cbad] output=<br></br>Test Case Id : SU_23 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- SU_23: To verify that Alert message is displayed if user unchecked the Terms and condition checkbox. -->
+    <test name="A_SU_01: To verify that user is redirected to Active Sign up page after clicking on &#039;Sign Up for 30 days trial&#039; button" duration-ms="39614" started-at="2015-11-17T10:04:08Z" finished-at="2015-11-17T10:04:48Z">
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@2a2d45ba]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-17T15:34:08Z" finished-at="2015-11-17T15:34:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74287ea3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.signup.index.SignupIndex@2a2d45ba]" name="setUp" is-config="true" duration-ms="6847" started-at="2015-11-17T15:34:08Z" finished-at="2015-11-17T15:34:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zinghr.signup.index.SignupIndex.activationPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@74287ea3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="activationPage()[pri:0, instance:com.zinghr.signup.index.SignupIndex@2a2d45ba]" name="activationPage" duration-ms="22424" started-at="2015-11-17T15:34:15Z" finished-at="2015-11-17T15:34:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Test Case Id : A_SU_01 ]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Testcase Discription : SignUp successfully and 'Activation Page' verification.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2: Enter company Name: HbZh]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3: Display Employee Name: uPbfwW]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4: Enter Email id: kiwitest1001283516@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5: Select any country]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Enter Contact no: 9429186891]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 7: Click on 'Sign Up for 30 days trial' button.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>To verify Activation page is open or not with Successfully SignUp.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- activationPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.signup.index.SignupIndex@2a2d45ba]" name="tearDown" is-config="true" duration-ms="10342" started-at="2015-11-17T15:34:37Z" finished-at="2015-11-17T15:34:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=activationPage status=SUCCESS method=SignupIndex.activationPage()[pri:0, instance:com.zinghr.signup.index.SignupIndex@2a2d45ba] output=<br></br>Test Case Id : A_SU_01 ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </test> <!-- A_SU_01: To verify that user is redirected to Active Sign up page after clicking on 'Sign Up for 30 days trial' button -->
+  </suite> <!-- ZingHr - SignUp Page Verification -->
+</testng-results>

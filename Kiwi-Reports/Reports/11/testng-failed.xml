@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [ZingHr - SignUp Page Verification]">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="firefox"/>
+  <parameter name="selenium.url" value="http://automation.zinghr.com/2015/pages/Authentication/SignUp.aspx"/>
+  <listeners>
+    <listener class-name="com.zinghr.utility.CustomReporter"/>
+  </listeners>
+  <test name="SU_23: To verify that Alert message is displayed if user unchecked the Terms and condition checkbox.(failed)">
+    <classes>
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <methods>
+          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="checkbox"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </classes>
+  </test> <!-- SU_23: To verify that Alert message is displayed if user unchecked the Terms and condition checkbox.(failed) -->
+</suite> <!-- Failed suite [ZingHr - SignUp Page Verification] -->
