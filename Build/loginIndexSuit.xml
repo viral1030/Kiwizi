@@ -291,7 +291,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
+	</test> 
 	<test name="FP_04: To verify that appropriate error messages is displayed when user enters invalid Company code and Employee code">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
