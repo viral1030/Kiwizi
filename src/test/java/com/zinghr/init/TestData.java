@@ -14,6 +14,16 @@ public class TestData {
 	public static String employe_code_dl = "Admin123";
 	public static String password_dl = "Admin@1234";
 	
+	public static String company_code_se = "AMBUJA";
+	public static String employe_code_se = "ADMIN";
+	public static String password_se = "Baps@2000";
+	public static String password_s = "Baps@200";
+	public static String facebook = "https://www.facebook.com/zinghr";
+	public static String twitter = "https://twitter.com/ZingHR";
+	public static String youtube= "https://www.youtube.com/channel/";
+	public static String gplus = "https://plus.google.com/+Zinghr/posts";
+	public static String linkedin= "https://www.linkedin.com/company/zinghr";
+	
 	public static String blank = " ";
 	
 	public static String rndmString(int length)
