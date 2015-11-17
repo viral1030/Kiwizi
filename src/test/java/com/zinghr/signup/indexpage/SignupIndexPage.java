@@ -64,6 +64,8 @@ public class SignupIndexPage extends AbstractPage {
 	@FindBy(xpath=".//*[@id='form1']//label/input")
 	private WebElement checkbox;
 	
+	@FindBy(xpath=".//*[@id='inboxfield']")
+	private WebElement inbox;
 	
 public SignupVerificationPage enterCompanyCode(String cmpCode_s) 
 	{
@@ -468,8 +470,10 @@ public SignupVerificationPage clicksignup30days()
 		clicksignup30days();
 		Common.pause(2);
 		Common.goToUrl(driver, url);
-		Common.pause(3);
+		Common.pause(2);
 		Common.clickOn(driver, inbox);
+		Common.pause(2);
+		
 		
 		return new SignupVerificationPage(driver);
 	}

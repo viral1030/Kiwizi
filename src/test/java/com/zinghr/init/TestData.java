@@ -37,8 +37,11 @@ public class TestData {
 	public static String rndmemail(int i)
 	{
 		String email = new StringBuilder(30).append("kiwitest").append(rndmNumber(i)).append("@mailinator.com").toString();
+		
 		return email;
 	}
+	
+	
 	
 	public static String rndm_invalid_email(int i)
 	{
