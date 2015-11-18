@@ -25,7 +25,7 @@ public class SettingsTimeAttendanceSetupIndexPage extends AbstractPage {
 	@FindBy(xpath = "//li[@id='HeaderSetting']")
 	WebElement settingIcon_btn;
 
-	@FindBy(xpath = "//div[@id='dvTNA']/p[1]")
+	@FindBy(xpath = "//p[contains(.,'Time')]")
 	WebElement timeAndAttendence_btn;
 
 	public SettingsTimeAttendanceSetupVerification clickProceedButtonofCurrentPlanAndDemoData() {
@@ -48,7 +48,25 @@ public class SettingsTimeAttendanceSetupIndexPage extends AbstractPage {
 
 	public SettingsTimeAttendanceSetupVerification clickTimeAndAttendenseFromCircle() {
 
-		Common.clickOn(driver, timeAndAttendence_btn);
+		driver.switchTo()
+				.frame(driver.findElement(By
+						.xpath("//div[@id='seup-content']/object")));
+		try {
+			if (driver
+					.findElement(
+							By.xpath("//p[contains(.,'Travel')]/../../div[contains(@class,'disable')][@id='dvTNA']"))
+					.isDisplayed()) {
+
+				driver.navigate().refresh();
+				Common.pause(2);
+				clickTimeAndAttendenseFromCircle();
+
+			}
+		} catch (Exception e) {
+
+			Common.clickOn(driver, timeAndAttendence_btn);
+
+		}
 
 		return new SettingsTimeAttendanceSetupVerification(driver);
 
@@ -145,61 +163,5 @@ public class SettingsTimeAttendanceSetupIndexPage extends AbstractPage {
 		return new SettingsTimeAttendanceSetupVerification(driver);
 	}
 
-	@FindBy(xpath = "//span[contains(@class,'fc-button-next')]")
-	WebElement nextMonthArrow_button;
-
-	@FindBy(xpath = "//span[contains(@class,'fc-button-next')]")
-	WebElement previousMonthArrow_button;
-
-	public SettingsTimeAttendanceSetupVerification clickOnForwardArrow() {
-		Common.pause(1);
-		Common.clickOn(driver, nextMonthArrow_button);
-
-		return new SettingsTimeAttendanceSetupVerification(driver);
-	}
-
-	public SettingsTimeAttendanceSetupVerification clickOnbackwordArrow() {
-		Common.pause(1);
-		Common.clickOn(driver, previousMonthArrow_button);
-
-		return new SettingsTimeAttendanceSetupVerification(driver);
-	}
-
-	@FindBy(xpath = "//a[contains(.,'Holiday List')]")
-	WebElement holidayList_button;
-
-	public SettingsTimeAttendanceSetupVerification clickOnHolyDayListTab()
-
-	{
-
-		Common.pause(1);
-		Common.clickOn(driver, holidayList_button);
-
-		return new SettingsTimeAttendanceSetupVerification(driver);
-
-	}
-
-	@FindBy(xpath = "//a[contains(.,'Regularize')]")
-	WebElement regularize_button;
-
-	public SettingsTimeAttendanceSetupVerification clickRegularizeButton() {
-		Common.pause(1);
-		Common.clickOn(driver, regularize_button);
-		Common.pause(2);
-
-		Common.waitForElement(driver,
-				By.xpath("//div[contains(@id,'RegularizationPopup')]"));
-
-		return new SettingsTimeAttendanceSetupVerification(driver);
-	}
-
-	@FindBy(xpath = "//button[@id='BtnApplyReg'][contains(.,'Apply Now')]")
-	WebElement applyNow_button;
-
-	public SettingsTimeAttendanceSetupVerification clickApplyNowButton() {
-
-		Common.clickOn(driver, applyNow_button);
-		return new SettingsTimeAttendanceSetupVerification(driver);
-	}
-
+	
 }

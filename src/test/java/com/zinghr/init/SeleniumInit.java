@@ -31,7 +31,9 @@ import com.zinghr.login.indexpage.LoginIndexPage;
 import com.zinghr.login.verification.LoginVerificationPage;
 import com.zinghr.signup.indexpage.SignupIndexPage;
 import com.zinghr.signup.verification.SignupVerificationPage;
+import com.zinghr.tna.indexpage.DashboardTimeNAttendanceCaIndexPage;
 import com.zinghr.tna.indexpage.SettingsTimeAttendanceSetupIndexPage;
+import com.zinghr.tna.verification.DashboardTimeNAttendanceCaVerification;
 import com.zinghr.tna.verification.SettingsTimeAttendanceSetupVerification;
 
 
@@ -56,6 +58,11 @@ public class SeleniumInit {
 	protected SignupVerificationPage signupVerification;
 	protected SettingsTimeAttendanceSetupIndexPage taSetupIndexPage;
 	protected SettingsTimeAttendanceSetupVerification taSetupVerificationPage;
+	protected DashboardTimeNAttendanceCaIndexPage dbTnaCalIndexPage;
+	protected DashboardTimeNAttendanceCaVerification dbTnaCalVerificationPage;
+	
+	
+	
 	
 	
 	
@@ -266,7 +273,7 @@ public class SeleniumInit {
 
 			capability = DesiredCapabilities.chrome();
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\chromedriver.exe");
+					"C:/chromedriver_win32/chromedriver.exe");
 			// driver = new RemoteWebDriver(new
 			// URL("http://localhost:4444/wd/hub"), capability);
 			capability.setBrowserName("chrome");

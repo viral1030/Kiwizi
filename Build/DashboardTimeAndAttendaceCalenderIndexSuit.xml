@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="ZingHr - Time and Attendance Setup" verbose="10"
-	parallel="false" thread-count="1">
+<suite name="ZingHr - Dashboardd Time and Attendance Calender"
+	verbose="10" parallel="false" thread-count="1">
 
 	<!-- Put IP of localhost/Grid Hub machine -->
 	<parameter name="selenium.host" value="localhost" />
@@ -23,35 +23,7 @@
 
 	</listeners>
 
-	<test name="Setup_02,Setup_03,Setup_04 : To test TNA functionality">
-		<classes>
-			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
-				<methods>
-					<include name="timeAndAttendancePage" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-	<test name="Setup_05,Setup_06,Setup_07,Setup_09 : To test TNA functionality">
-		<classes>
-			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
-				<methods>
-					<include name="addNewAttendanceGroupTapFunctionality" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-	
-	<test name="Setup_08,Setup_10,Setup_13,Setup_14 : To test TNA functionality">
-		<classes>
-			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
-				<methods>
-					<include name="addedGroupVerifiaction" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-<!-- 	<test name="TNA_1,TNA_2,TNA_3 : To test My TNA section on dashboard">
+	<test name="TNA_1,TNA_2,TNA_3 : To test My TNA section on dashboard">
 		<classes>
 			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
 				<methods>
@@ -109,9 +81,9 @@
 		</classes>
 	</test>
 
- -->
 
- 
+
+
 
 
 </suite>
