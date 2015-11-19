@@ -76,6 +76,14 @@ public class SignupIndexPage extends AbstractPage {
 	@FindBy(xpath=".//*[@id='signup']")
 	private WebElement click_here_btn;
 	
+	@FindBy (xpath=".//input[@id='txtChooseYourPassword']")
+	private WebElement a_pswd;
+	
+	@FindBy (xpath=".//input[@id='txtChooseYourSubDomain']")
+	private WebElement a_account_name;
+	
+	@FindBy (xpath=".//*[@id='btnSignIn']")
+	private WebElement activat_btn;
 	
 public SignupVerificationPage enterCompanyCode(String cmpCode_s) 
 	{
@@ -165,6 +173,74 @@ public SignupVerificationPage clicksignup30days()
 	
 	return new SignupVerificationPage(driver);
 }
+
+public SignupVerificationPage enterAccountName(String acName) 
+{
+	Common.clickOn(driver, a_account_name);
+	Common.type(a_pswd, acName);
+	
+	return new SignupVerificationPage(driver);
+}
+
+public SignupVerificationPage enterPassword(String pswd) 
+{
+	Common.clickOn(driver, a_pswd);
+	Common.type(a_pswd, pswd);
+	
+	return new SignupVerificationPage(driver);
+}
+
+public SignupVerificationPage clickActivateButton()
+{
+	
+	Common.pause(2);
+	Common.clickOn(driver, activat_btn);
+	return new SignupVerificationPage(driver);
+}
+
+public SignupVerificationPage clickGoButton(String email2)
+{
+	Common.pause(2);
+	Common.goToUrl(driver, url);
+	Common.pause(2);
+	Common.clickOn(driver, inbox);
+	Common.type(inbox, email2);
+	Common.pause(2);
+	Common.clickOn(driver, go_btn);
+	Common.pause(4);
+	return new SignupVerificationPage(driver);
+}
+
+public SignupVerificationPage clickMail(String email2)
+{
+
+	if(mail.isDisplayed()){
+	Common.clickOn(driver, mail);
+	}
+	else
+	{
+		clickGoButton(email2);
+	}
+	Common.pause(3);
+	driver.switchTo().frame(driver.findElement(By.xpath(".//iframe[@name='rendermail']")));
+	return new SignupVerificationPage(driver);
+}
+
+public SignupVerificationPage clickHereButton() 
+{
+	Common.clickOn(driver, click_here_btn);
+	driver.switchTo().defaultContent();
+	Common.pause(3);
+	for(String winHandle : driver.getWindowHandles())
+	{
+		driver.switchTo().window(winHandle);
+	}
+	
+	return new SignupVerificationPage(driver);
+}
+
+
+
 
 	public SignupVerificationPage SignupPage()
 	{
@@ -473,20 +549,73 @@ public SignupVerificationPage clicksignup30days()
 		enterDisplayName(TestData.rndmString(6));
 		Common.pause(2);
 		enterEmailid(email2);
+		selectOthercountry();
+		entercontactno(TestData.contactno_s);
+		clicksignup30days();
+		clickGoButton(email2);
+		/*Common.clickOn(driver, mail);
+		Common.clickOn(driver, click_here_btn);*/
+		
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage emailFormat(String email2)
+	{
+
+		Common.pause(2);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(email2);
+		selectOthercountry();
+		entercontactno(TestData.contactno_s);
+		clicksignup30days();
+		clickGoButton(email2);
+		clickMail(email2);
+	//	Common.clickOn(driver, click_here_btn);
+		
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage emailClickbutton(String email2)
+	{
+
+		Common.pause(2);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.rndmString(6));
+		Common.pause(2);
+		enterEmailid(email2);
 		
 		selectOthercountry();
 		entercontactno(TestData.contactno_s);
 		
 		clicksignup30days();
+		clickGoButton(email2);
+		clickMail(email2);
+		clickHereButton();
+		
+		return new SignupVerificationPage(driver);
+	}
+	
+	public SignupVerificationPage enterData(String email2, String ac_name, String pswd)
+	{
+
 		Common.pause(2);
-		Common.goToUrl(driver, url);
+		enterCompanyCode(TestData.rndmString(4));
+		enterDisplayName(TestData.rndmString(6));
 		Common.pause(2);
-		Common.clickOn(driver, inbox);
-		Common.type(inbox, email2);
-		Common.pause(2);
-		Common.clickOn(driver, go_btn);
-		/*Common.clickOn(driver, mail);
-		Common.clickOn(driver, click_here_btn);*/
+		enterEmailid(email2);
+		
+		selectOthercountry();
+		entercontactno(TestData.contactno_s);
+		
+		clicksignup30days();
+		clickGoButton(email2);
+		clickMail(email2);
+		clickHereButton();
+		enterPassword(pswd);
+		enterAccountName(ac_name);
+		clickActivateButton();
 		
 		return new SignupVerificationPage(driver);
 	}

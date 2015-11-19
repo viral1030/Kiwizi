@@ -48,7 +48,7 @@ public void SignUpSuccessfully() throws Exception
 		
 		SignUpPage();
 		log("Step 2: Enter company Name: "+TestData.rndmString(4));
-		log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+		log("Step 3: Display Employee Name: "+s_display_name);
 		log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 		log("Step 5: Select any country");
 		log("Step 6: Enter Contact no: "+TestData.contactno_s);
@@ -180,7 +180,7 @@ public void companynameField4() throws Exception
 	log("Testcase Discription : Field validation for 'Company name' field");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Do not enter any data into 'Company Code'.");
-	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
@@ -216,7 +216,7 @@ public void displaynameField1() throws Exception
 	log("Testcase Discription : Field validation for 'Display name' field");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter 'Company Name':"+TestData.rndmString(4));
-	log("Step 3: Enter alphabet in 'Display  Admin Name': "+TestData.rndmString(6));
+	log("Step 3: Enter alphabet in 'Display  Admin Name': "+s_display_name);
 	/*log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
@@ -413,7 +413,7 @@ public void selectCountry() throws Exception
 	log("Testcase Discription : Select other country from country list.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter company Name: "+TestData.rndmString(4));
-	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
@@ -448,7 +448,7 @@ public void selectNoCountry() throws Exception
 	log("Testcase Discription : Select 'Select Country ' country list.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter company Name: "+TestData.rndmString(4));
-	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select 'Select Country' option from country name field");
 	/*log("Step 6: Enter Contact no: "+TestData.contactno_s);*/
@@ -482,7 +482,7 @@ public void contactNumField1() throws Exception
 	log("Testcase Discription : Enter numeric value into Contact Number' field.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter company Name: "+TestData.rndmString(4));
-	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
@@ -516,7 +516,7 @@ public void contactNumField2() throws Exception
 	log("Testcase Discription : Enter alphabets and special characters into Contact Number' field.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter company Name: "+TestData.rndmString(4));
-	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.invalidContactno);
@@ -550,7 +550,7 @@ public void contactNumField3() throws Exception
 	log("Testcase Discription : Enter more than 10 digits into 'Contact Number' field.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter company Name: "+TestData.rndmString(4));
-	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.largeContactNum);
@@ -584,7 +584,7 @@ public void contactNumField4() throws Exception
 	log("Testcase Discription : Enter more than 10 digits into 'Contact Number' field.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter company Name: "+TestData.rndmString(4));
-	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.blank);
@@ -678,7 +678,7 @@ public void checkbox() throws Exception
 	log("Testcase Discription : Checkbox Checked-unchecked ");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter company Name: "+TestData.rndmString(4));
-	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
@@ -714,7 +714,7 @@ public void activationPage() throws Exception
 	log("Testcase Discription : SignUp successfully and 'Activation Page' verification.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter company Name: "+TestData.rndmString(4));
-	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(2));
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
@@ -747,11 +747,11 @@ public void emailverification() throws Exception
 {
 	int numOfFailure = 0;		
 	
-	log("Test Case Id : A_SU_01 ");
+	log("Test Case Id : A_SU_02 ");
 	log("Testcase Discription : SignUp successfully and email verification.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter company Name: "+TestData.rndmString(4));
-	log("Step 3: Display Employee Name: "+TestData.rndmString(6));
+	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
@@ -764,6 +764,160 @@ public void emailverification() throws Exception
 	if(signupVerification.verifymail())
 		{
 			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
+
+@Test(priority=23)
+public void emailFormat() throws Exception
+{
+	int numOfFailure = 0;		
+	
+	log("Test Case Id : A_SU_03 ");
+	log("Testcase Discription : Email format verification.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+s_display_name);
+	log("Step 4: Enter Email id: "+emailt);
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+		
+	signupVerification = signupIndexpage.emailFormat(emailt);
+	
+	log("To verify that the Email is in Proper format.");	
+	
+	if(signupVerification.verifymailFormat())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
+
+@Test(priority=24)
+public void emailContents() throws Exception
+{
+	int numOfFailure = 0;		
+	
+	log("Test Case Id : A_SU_04 ");
+	log("Testcase Discription : Email Contents verification.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+s_display_name);
+	log("Step 4: Enter Email id: "+emailt);
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+		
+	signupVerification = signupIndexpage.emailFormat(emailt);
+	
+	log("To verify that user is able to view 'Thank You message' and 'Click Here' button in Email");	
+	
+	if(signupVerification.verifyEmailContents())
+		{
+			log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
+
+@Test(priority=25)
+public void emailClickHereBtn() throws Exception
+{
+	int numOfFailure = 0;		
+	
+	log("Test Case Id : A_SU_05 ");
+	log("Testcase Discription : Click here button in email.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+s_display_name);
+	log("Step 4: Enter Email id: "+emailt);
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+		
+	signupVerification = signupIndexpage.emailClickbutton(emailt);
+	
+	log("To verify that user is redirected to Active Sign up page after clicking on 'Click Here' button.");	
+	
+	for(String winHandle : driver.getWindowHandles())
+	{
+		driver.switchTo().window(winHandle);
+	}
+	if(signupVerification.verifyActivationPage())
+		{
+			
+		log("<Strong><font color=#008000>Pass</font></strong>");
+	
+		}
+	else
+		{
+			log("Fail");
+			numOfFailure++;
+		}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
+
+@Test(priority=26)
+public void enterPaswd() throws Exception
+{
+	int numOfFailure = 0;		
+	
+	log("Test Case Id : A_SU_08 ");
+	log("Testcase Discription : Click here button in email.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+s_display_name);
+	log("Step 4: Enter Email id: "+emailt);
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+		
+	signupVerification = signupIndexpage.enterData(emailt,a_pswd,s_display_name);
+	
+	log("To verify that user is able to enter alphanumeric characters in Password field.");	
+	
+	for(String winHandle : driver.getWindowHandles())
+	{
+		driver.switchTo().window(winHandle);
+	}
+	if(signupVerification.verifyEnterPsswd())
+		{
+			
+		log("<Strong><font color=#008000>Pass</font></strong>");
 	
 		}
 	else

@@ -233,12 +233,53 @@
 			</class>
 		</classes>
 </test>
- -->
+
 <test name="A_SU_02: To verify that after clicking on Sign up button an email is received by the user.">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
 					<include name="emailverification" />
+				</methods>
+			</class>
+		</classes>
+</test>
+-->
+<!-- 
+<test name="A_SU_03: To verify that the Email is in Proper format.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="emailFormat" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="A_SU_04: To verify that user is able to view Thank You message and Click Here button in Email">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="emailContents" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="A_SU_05: To verify that user is redirected to Active Sign up page after clicking on 'Click Here' button">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="emailClickHereBtn" />
+				</methods>
+			</class>
+		</classes>
+</test> -->
+
+<test name="A_SU_08: To verify that user is able to enter alphanumeric characters in Password field.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="enterPaswd" />
 				</methods>
 			</class>
 		</classes>

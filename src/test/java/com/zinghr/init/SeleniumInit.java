@@ -37,7 +37,8 @@ public class SeleniumInit {
 
 	
 	public String emailt=TestData.rndmemail(3);
-	
+	public String a_pswd=TestData.password_s;
+	public String s_display_name=TestData.rndmString(6);	
 	public String suiteName = "";
 	public String testName = "";
 	/* Minimum requirement for test configur ation */
