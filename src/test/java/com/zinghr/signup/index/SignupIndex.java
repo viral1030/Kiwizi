@@ -3,6 +3,7 @@ package com.zinghr.signup.index;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.zinghr.init.Common;
 import com.zinghr.init.SeleniumInit;
 import com.zinghr.init.TestData;
 
@@ -25,12 +26,12 @@ public void SignUpPage() throws Exception
 		
 		if(signupVerification.verifySignupPage())
 			{
-				log("<Strong><font color=#008000>Pass</font></strong>");
+				Common.logStatus("Pass");
 		
 			}
 		else
 			{
-				log("Fail");
+				Common.logStatus("Fail");
 				numOfFailure++;
 			}
 
@@ -59,12 +60,12 @@ public void SignUpSuccessfully() throws Exception
 		
 		if(signupVerification.verifySignupSuccessfully())
 			{
-				log("<Strong><font color=#008000>Pass</font></strong>");
+				Common.logStatus("Pass");
 		
 			}
 		else
 			{
-				log("Fail");
+				Common.logStatus("Fail");
 				numOfFailure++;
 			}
 
@@ -91,12 +92,12 @@ public void companynameField1() throws Exception
 	
 	if(signupVerification.verifySignupSuccessfully())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -123,12 +124,12 @@ public void companynameField2() throws Exception
 	
 	if(signupVerification.verifyblankCompanycode())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -155,12 +156,12 @@ public void companynameField3() throws Exception
 	
 	if(signupVerification.verifylessthan3Companycode())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -192,12 +193,12 @@ public void companynameField4() throws Exception
 	
 	if(signupVerification.verifyemptyCompanycode())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -228,12 +229,12 @@ public void displaynameField1() throws Exception
 	
 	if(signupVerification.verifySignupSuccessfully())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -264,12 +265,12 @@ public void displaynameField2() throws Exception
 	
 	if(signupVerification.verifyInvalidDisplayAdminName())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -296,12 +297,12 @@ public void displaynameField3() throws Exception
 	
 	if(signupVerification.verifyblankCompanycode())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -327,12 +328,12 @@ public void emailidField1() throws Exception
 	
 	if(signupVerification.verifyValidEmailId())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -359,12 +360,12 @@ public void emailidField2() throws Exception
 	
 	if(signupVerification.verifyInvalidEmailId())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -390,12 +391,12 @@ public void emailidField3() throws Exception
 	
 	if(signupVerification.verifyblankEmailId())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -424,12 +425,12 @@ public void selectCountry() throws Exception
 	
 	if(signupVerification.verifyCountrySelection())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -459,12 +460,12 @@ public void selectNoCountry() throws Exception
 	
 	if(signupVerification.verifynoCountry())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -493,12 +494,12 @@ public void contactNumField1() throws Exception
 	
 	if(signupVerification.verifyvalidcontactNum())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -527,12 +528,12 @@ public void contactNumField2() throws Exception
 	
 	if(signupVerification.verifyInvalidcontactNum())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -561,12 +562,12 @@ public void contactNumField3() throws Exception
 	
 	if(signupVerification.verifyInvalidcontactNum1())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -595,12 +596,12 @@ public void contactNumField4() throws Exception
 	
 	if(signupVerification.verifyBlankcontactNum())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -630,12 +631,12 @@ public void termsAndprivacy() throws Exception
 	
 	if(signupVerification.verifyTermsOfUse())
 	{
-		log("<Strong><font color=#008000>Pass</font></strong>");
+		Common.logStatus("Pass");
 
 	}
 	else
 	{
-		log("Fail");
+		Common.logStatus("Fail");
 		numOfFailure++;
 	}
 	
@@ -655,12 +656,12 @@ public void termsAndprivacy() throws Exception
 	
 	if(signupVerification.verifyPrivacyPolicy())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -690,12 +691,12 @@ public void checkbox() throws Exception
 	
 	if(signupVerification.verifyCheckbox())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -726,12 +727,12 @@ public void activationPage() throws Exception
 	
 	if(signupVerification.verifySignupSuccessfully())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -763,12 +764,12 @@ public void emailverification() throws Exception
 	
 	if(signupVerification.verifymail())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -799,12 +800,12 @@ public void emailFormat() throws Exception
 	
 	if(signupVerification.verifymailFormat())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -835,12 +836,12 @@ public void emailContents() throws Exception
 	
 	if(signupVerification.verifyEmailContents())
 		{
-			log("<Strong><font color=#008000>Pass</font></strong>");
+			Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -876,12 +877,12 @@ public void emailClickHereBtn() throws Exception
 	if(signupVerification.verifyActivationPage())
 		{
 			
-		log("<Strong><font color=#008000>Pass</font></strong>");
+		Common.logStatus("Pass");
 	
 		}
 	else
 		{
-			log("Fail");
+			Common.logStatus("Fail");
 			numOfFailure++;
 		}
 
@@ -892,11 +893,11 @@ public void emailClickHereBtn() throws Exception
 	}
 
 @Test(priority=26)
-public void enterPaswd() throws Exception
+public void activateTwice() throws Exception
 {
 	int numOfFailure = 0;		
 	
-	log("Test Case Id : A_SU_08 ");
+	log("Test Case Id : A_SU_06 ");
 	log("Testcase Discription : Click here button in email.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
 	log("Step 2: Enter company Name: "+TestData.rndmString(4));
@@ -905,32 +906,210 @@ public void enterPaswd() throws Exception
 	log("Step 5: Select any country");
 	log("Step 6: Enter Contact no: "+TestData.contactno_s);
 	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+	log("Step 8: Open ZingHR activation mail.");
+	log("Step 9: Click on 'Click Here' button in mail.");
+	log("Step 10: Enter Password: "+a_pswd);
 		
-	signupVerification = signupIndexpage.enterData(emailt,a_pswd,s_display_name);
+	signupVerification = signupIndexpage.activateTwice(emailt,s_display_name,a_pswd);
 	
-	log("To verify that user is able to enter alphanumeric characters in Password field.");	
-	
-	for(String winHandle : driver.getWindowHandles())
-	{
+	log("To verify that user is not able to Activate account twice.");	
+
+	for(String winHandle : driver.getWindowHandles()){
 		driver.switchTo().window(winHandle);
 	}
-	if(signupVerification.verifyEnterPsswd())
-		{
-			
-		log("<Strong><font color=#008000>Pass</font></strong>");
-	
-		}
-	else
-		{
-			log("Fail");
-			numOfFailure++;
-		}
+	if(signupVerification.verifyactivateTwice()){
+		Common.logStatus("Pass");
+	}
+	else{
+		Common.logStatus("Fail");
+		numOfFailure++;
+	}
 
 	if (numOfFailure > 0) {
 		Assert.assertTrue(false);
 		}
 	
+}
+
+
+@Test(priority=27)
+public void enterPaswd() throws Exception
+{
+	int numOfFailure = 0;		
+	
+	log("Test Case Id : A_SU_08 A_SU_10 ");
+	log("Testcase Discription : Click here button in email.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+s_display_name);
+	log("Step 4: Enter Email id: "+emailt);
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+	log("Step 8: Open ZingHR activation mail.");
+	log("Step 9: Click on 'Click Here' button in mail.");
+	log("Step 10: Enter Password: "+a_pswd1);
+	
+	String winHandleBefore= driver.getWindowHandle();
+	signupVerification = signupIndexpage.enterData(emailt,s_display_name,a_pswd1);
+	
+	log("To verify that user is able to enter alphanumeric characters in Password field.");	
+	
+	for(String winHandle : driver.getWindowHandles()){
+		driver.switchTo().window(winHandle);
 	}
+	
+	if(signupVerification.verifyBetterPsswd()){
+		Common.logStatus("Pass");
+	}
+	else{
+		Common.logStatus("Fail");
+		numOfFailure++;
+	}
+
+	log("Step 11: Enter Password:"+a_pswd);	
+	
+	driver.switchTo().window(winHandleBefore);
+	
+	signupVerification = signupIndexpage.enterData1(s_display_name,a_pswd);
+	
+	log("To verify that user is able to enter alphanumeric characters in Password field.");	
+	
+	for(String winHandle : driver.getWindowHandles()){
+		driver.switchTo().window(winHandle);
+	}
+	
+	if(signupVerification.verifyStrongPsswd()){
+		Common.logStatus("Pass");
+	}
+	else{
+		Common.logStatus("Fail");
+		numOfFailure++;
+	}
+	
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+	}
+
+
+
+@Test(priority=28)
+public void enterBlankPassword() throws Exception
+{
+	int numOfFailure = 0;		
+	
+	log("Test Case Id : A_SU_12 ");
+	log("Testcase Discription : Click here button in email.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+s_display_name);
+	log("Step 4: Enter Email id: "+emailt);
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+	log("Step 8: Open ZingHR activation mail.");
+	log("Step 9: Click on 'Click Here' button in mail.");
+	log("Step 10: Enter Blank Password: "+TestData.blank);
+		
+	signupVerification = signupIndexpage.blankPassword(emailt,s_display_name,TestData.blank);
+	
+	log("To verify that Password field do not accept blank data.");	
+
+	for(String winHandle : driver.getWindowHandles()){
+		driver.switchTo().window(winHandle);
+	}
+	if(signupVerification.verifyBlankPsswd()){
+		Common.logStatus("Pass");
+	}
+	else{
+		Common.logStatus("Fail");
+		numOfFailure++;
+	}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+}
+
+
+@Test(priority=29)
+public void pswdProgressStatus() throws Exception
+{
+	int numOfFailure = 0;		
+	
+	log("Test Case Id : A_SU_13 ");
+	log("Testcase Discription : Click here button in email.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 3: Display Employee Name: "+s_display_name);
+	log("Step 4: Enter Email id: "+emailt);
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+	log("Step 8: Open ZingHR activation mail.");
+	log("Step 9: Click on 'Click Here' button in mail.");
+		
+	signupVerification = signupIndexpage.pswdStatus1(emailt,s_display_name,a_pswd2);
+	
+	log("To verify Password progress status as per user enter the password.");	
+
+	log("Step 11: Enter Password: "+a_pswd2);
+	log("Password status <br>Weak</br>");
+	for(String winHandle : driver.getWindowHandles()){
+		driver.switchTo().window(winHandle);
+	}
+	if(signupVerification.verifyWeakPsswd()){
+		Common.logStatus("Pass");
+	}
+	else{
+		Common.logStatus("Fail");
+		numOfFailure++;
+	}
+	
+	signupVerification = signupIndexpage.pswdStatus2(a_pswd3);
+	
+	log("Step 11: Enter Password: "+a_pswd3);
+	log("Password status <br>Better</br>");
+	if(signupVerification.verifyBetterPsswd()){
+		Common.logStatus("Pass");
+	}
+	else{
+		Common.logStatus("Fail");
+		numOfFailure++;
+	}
+	
+	signupVerification = signupIndexpage.pswdStatus3(a_pswd4);
+	
+	log("Step 11: Enter Password: "+a_pswd4);
+	log("Password status <br>Medium</br>");
+	if(signupVerification.verifyMediumPsswd()){
+		Common.logStatus("Pass");
+	}
+	else{
+		Common.logStatus("Fail");
+		numOfFailure++;
+	}
+	
+	signupVerification = signupIndexpage.pswdStatus4(a_pswd5);
+	
+	log("Step 11: Enter Password: "+a_pswd5);
+	log("Password status <br>Strong</br>");
+	if(signupVerification.verifyStrongPsswd()){
+		Common.logStatus("Pass");
+	}
+	else{
+		Common.logStatus("Fail");
+		numOfFailure++;
+	}
+	
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+		}
+	
+}
 
 }
 

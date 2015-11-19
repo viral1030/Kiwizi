@@ -37,7 +37,12 @@ public class SeleniumInit {
 
 	
 	public String emailt=TestData.rndmemail(3);
-	public String a_pswd=TestData.password_s;
+	public String a_pswd2="T";
+	public String a_pswd3="Test@";
+	public String a_pswd4="Test@1";
+	public String a_pswd5="Test@123";
+	public String a_pswd1="Test123";
+	public String a_pswd="Test@123";
 	public String s_display_name=TestData.rndmString(6);	
 	public String suiteName = "";
 	public String testName = "";

@@ -206,11 +206,41 @@ public class SignupVerificationPage extends AbstractPage {
 		}
 	}
 	
-	public boolean verifyEnterPsswd() {
+		
+	public boolean verifyactivateTwice() {
+		Common.pause(30000);
+		return driver.findElement(By.xpath(""))
+				.isDisplayed();
+		}
+	
+
+	public boolean verifyBetterPsswd() {
 		Common.pause(2);
-		return driver.findElement(By.xpath("//span[contains(text(),'Dear')]"))
+		return driver.findElement(By.xpath(".//*[@id='passwordDescription']//.[contains(@class,'2')]"))
 				.isDisplayed();
 		} 
-		
 	
+	public boolean verifyWeakPsswd() {
+		Common.pause(2);
+		return driver.findElement(By.xpath(".//*[@id='passwordDescription']//.[contains(@class,'1')]"))
+				.isDisplayed();
+		}
+		
+	public boolean verifyMediumPsswd() {
+		Common.pause(2);
+		return driver.findElement(By.xpath(".//*[@id='passwordDescription']//.[contains(@class,'3')]"))
+				.isDisplayed();
+		}
+	
+	public boolean verifyStrongPsswd() {
+		Common.pause(2);
+		return driver.findElement(By.xpath(".//*[@id='passwordDescription']//.[contains(@class,'4')]"))
+				.isDisplayed();
+		} 
+	
+	public boolean verifyBlankPsswd() {
+		Common.pause(2);
+		return driver.findElement(By.xpath(".//input[contains(@class,'invalid')]"))
+				.isDisplayed();
+		}
 }

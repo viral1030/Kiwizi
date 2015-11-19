@@ -275,7 +275,18 @@
 		</classes>
 </test> -->
 
-<test name="A_SU_08: To verify that user is able to enter alphanumeric characters in Password field.">
+<!-- 
+<test name="A_SU_06: To verify that user is not able to Activate account twice from same link.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="activateTwice" />
+				</methods>
+			</class>
+		</classes>
+</test> -->
+<!-- 
+<test name="A_SU_08, A_SU_10: To verify that user is able to enter alphanumeric and Special characters in Password field.">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
@@ -284,5 +295,26 @@
 			</class>
 		</classes>
 </test>
+
+<test name="A_SU_12: To verify that Password field do not accept blank data.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="enterBlankPassword" />
+				</methods>
+			</class>
+		</classes>
+</test> -->
+
+<test name="A_SU_13: To verify that the Password progress status changes from as per the password entered by the user.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="pswdProgressStatus" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
 
 </suite>
