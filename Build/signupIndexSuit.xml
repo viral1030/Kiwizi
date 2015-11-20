@@ -326,7 +326,7 @@
 		</classes>
 </test>
 
-<test name="A_SU_15: To verify that after clicking on Activate Account button user account is activated successfully.">
+<test name="A_SU_15  A_SU_16: To verify that after clicking on Activate Account button user account is activated successfully.">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>

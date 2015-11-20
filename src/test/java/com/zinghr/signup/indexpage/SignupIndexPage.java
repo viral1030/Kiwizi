@@ -764,6 +764,7 @@ public SignupVerificationPage clickHereButton()
 		enterAccountName(ac_name1);
 		enterPassword(pswd);
 		clickActivateButton();
+		System.out.println("========================");
 		Common.waitForElement(driver, By.xpath("//span[contains(text(),'Dear')]"));
 		
 		return new SignupVerificationPage(driver);

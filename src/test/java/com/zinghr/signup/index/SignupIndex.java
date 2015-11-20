@@ -1149,7 +1149,7 @@ int numOfFailure = 0;
 		numOfFailure++;
 	}
 
-	log("Test Case Id : A_SU_16 ");
+	log("Test Case Id : A_SU_16");
 	log("To verify that successful message along with Company Code,Employee Code and Password is displayed after clicking on Activate Account button.");
 	
 	if(signupVerification.verifyUpdateAccountName()){

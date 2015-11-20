@@ -246,6 +246,7 @@ public class SignupVerificationPage extends AbstractPage {
 	
 	public boolean verifyUpdateAccountName() {
 		
+		
 		return driver.findElement(By.xpath("//span[contains(text(),'Dear')]"))
 				.isDisplayed();
 		}
