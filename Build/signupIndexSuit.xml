@@ -33,7 +33,11 @@
 		</classes>
 </test>
 
+<<<<<<< HEAD
 <!-- <test name="SignUp Successfully and activation page verification">
+=======
+<test name="SU_02: SignUp Successfully and Activation page verification">
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
@@ -41,6 +45,7 @@
 				</methods>
 			</class>
 		</classes>
+<<<<<<< HEAD
 </test> -->
 
 <test name="SU_04: SignUp page 'Company Name' field verification1">
@@ -121,7 +126,209 @@
 				</methods>
 			</class>
 		</classes>
+=======
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 </test>
 
+<test name="SU_03: To verify that user is able to enter alphanumeric characters in 'Company Name' field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="companynameField1"/>
+				</methods>
+			</class>
+		</classes>
+</test> 
+
+<test name="SU_04: To verify that the company name field do not accept blank space">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="companynameField2" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_06: To verify that error message is displayed when enters less than three characters in 'Company Name' field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="companynameField3" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_07: To verify alert message is displayed when sign ups with empty Company Name field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="companynameField4" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_08: To verify that user is able to enter alphabets in 'Display Name' field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="displaynameField1" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_09: To verify that appropriate error message is displayed when user enters special characters and numeric value in 'display Name' field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="displaynameField2" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_11: To verify that the company name field do not accept blank space">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="displaynameField3" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_12: To verify that valid email format for 'Email id' field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="emailidField1" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+
+<test name="SU_13: To verify error message is displayed when user enter invalid email in Email field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="emailidField2" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_14: To verify error message is displayed when user enter invalid email in Email field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="emailidField3" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_15: To verify that user is able to select other country name">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="selectCountry" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_16: To verify error message is displayed when user selects 'Select Country' option">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="selectNoCountry" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_17: To verify that user is able to enter numeric values in Contact Number field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="contactNumField1" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_18: To verify that error message is displayed when user enters alphabets and special characters in 'Contact Number' field">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="contactNumField2" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_20: To verify that Max length of 10 characters is provided to Contact Number field.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="contactNumField3" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_21: To verify that Contact Number field do not accept blank data.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="contactNumField4" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_22: To verify that user is redirected to taregeted page after clicking on 'terms of use' and 'privacy policy' hyperlink">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="termsAndprivacy" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="SU_23: To verify that Alert message is displayed if user unchecked the Terms and condition checkbox.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="checkbox" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="A_SU_01: To verify that user is redirected to Active Sign up page after clicking on 'Sign Up for 30 days trial' button">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="activationPage" />
+				</methods>
+			</class>
+		</classes>
+</test>
+
+<test name="A_SU_02: To verify that after clicking on Sign up button an email is received by the user.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="emailverification" />
+				</methods>
+			</class>
+		</classes>
+</test>
 
 </suite>

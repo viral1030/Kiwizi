@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite thread-count="1" verbose="10" name="Failed suite [ZingHr - Time and Attendance Setup]">
+=======
+<suite thread-count="3" verbose="10" name="Failed suite [OAS]" parallel="tests">
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
   <parameter name="selenium.port" value="4444"/>
   <parameter name="selenium.host" value="localhost"/>
+<<<<<<< HEAD
   <parameter name="selenium.browser" value="chrome"/>
   <parameter name="selenium.url" value="http://automation.zinghr.com/2015/pages/authentication/login.aspx"/>
+=======
+  <parameter name="selenium.browser" value="firefox"/>
+  <parameter name="selenium.url" value="http://automation.zinghr.com/2015/pages/Authentication/login.aspx"/>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
   <listeners>
     <listener class-name="com.zinghr.utility.CustomReporter"/>
   </listeners>
+<<<<<<< HEAD
   <test name="Setup_02,Setup_03,Setup_04 : To test TNA functionality(failed)">
+=======
+  <test name="To verify the contents of the title(failed)" parallel="tests">
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
     <classes>
+<<<<<<< HEAD
       <class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
+=======
+      <class name="com.zinghr.tna.index.OASIndex">
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
         <methods>
+<<<<<<< HEAD
           <include name="timeAndAttendancePage"/>
+=======
+          <include name="To_verify_the_contents_of_the_title"/>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
           <include name="tearDown"/>
           <include name="fetchSuiteConfiguration"/>
           <include name="setUp"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex -->
+=======
+      </class> <!-- com.zinghr.tna.index.OASIndex -->
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
     </classes>
+<<<<<<< HEAD
   </test> <!-- Setup_02,Setup_03,Setup_04 : To test TNA functionality(failed) -->
 </suite> <!-- Failed suite [ZingHr - Time and Attendance Setup] -->
+=======
+  </test> <!-- To verify the contents of the title(failed) -->
+</suite> <!-- Failed suite [OAS] -->
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git

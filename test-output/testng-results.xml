@@ -2,15 +2,28 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
     <line>
+<<<<<<< HEAD
       <![CDATA[<br></br>Testcase Ids : Setup_02 , Setup_03 , Setup_04]]>
+=======
+      <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
     </line>
     <line>
+<<<<<<< HEAD
       <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/authentication/login.aspx</a>]]>
+=======
+      <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
     </line>
     <line>
+<<<<<<< HEAD
       <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+=======
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
     </line>
     <line>
+<<<<<<< HEAD
       <![CDATA[<br></br>Step 3: Enter Employee Code: Admin]]>
     </line>
     <line>
@@ -33,51 +46,106 @@
     </line>
     <line>
       <![CDATA[<br></br>Verify Time and attendence Page is open or not]]>
+=======
+      <![CDATA[<br></br>Step 5: Click OAS menu]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
     </line>
     <line>
       <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
     </line>
+<<<<<<< HEAD
+=======
+    <line>
+      <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='../test-output/screenshots/1120122736299To_verify_the_contents_of_the_title.png' target='_new'>1120122736299To_verify_the_contents_of_the_title.png</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><h3>Failure Reason:</h3>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>org.openqa.selenium.NoSuchElementException: Timed out after 15 seconds. Unable to locate the element]]>
+    </line>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
   </reporter-output>
+<<<<<<< HEAD
   <suite name="ZingHr - Time and Attendance Setup" duration-ms="181747" started-at="2015-11-20T07:23:43Z" finished-at="2015-11-20T07:26:45Z">
+=======
+  <suite name="OAS" duration-ms="145028" started-at="2015-11-20T06:55:16Z" finished-at="2015-11-20T06:57:41Z">
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test name="Setup_02,Setup_03,Setup_04 : To test TNA functionality" duration-ms="181747" started-at="2015-11-20T07:23:43Z" finished-at="2015-11-20T07:26:45Z">
       <class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
         <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex@7f690630]" name="fetchSuiteConfiguration" is-config="true" duration-ms="16" started-at="2015-11-20T12:53:43Z" finished-at="2015-11-20T12:53:43Z">
+=======
+    <test name="To verify the contents of the title" duration-ms="145028" started-at="2015-11-20T06:55:16Z" finished-at="2015-11-20T06:57:41Z">
+      <class name="com.zinghr.tna.index.OASIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.zinghr.tna.index.OASIndex@18ceff1]" name="fetchSuiteConfiguration" is-config="true" duration-ms="7" started-at="2015-11-20T12:25:16Z" finished-at="2015-11-20T12:25:16Z">
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[org.testng.TestRunner@32502377]]>
+=======
+                <![CDATA[org.testng.TestRunner@7471b5]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex@7f690630]" name="setUp" is-config="true" duration-ms="14352" started-at="2015-11-20T12:53:43Z" finished-at="2015-11-20T12:53:57Z">
+=======
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.zinghr.tna.index.OASIndex@18ceff1]" name="setUp" is-config="true" duration-ms="40405" started-at="2015-11-20T12:25:16Z" finished-at="2015-11-20T12:25:56Z">
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[public void com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex.timeAndAttendancePage()]]>
+=======
+                <![CDATA[public void com.zinghr.tna.index.OASIndex.To_verify_the_contents_of_the_title()]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA[org.testng.TestRunner@32502377]]>
+=======
+                <![CDATA[org.testng.TestRunner@7471b5]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+<<<<<<< HEAD
         <test-method status="FAIL" signature="timeAndAttendancePage()[pri:0, instance:com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex@7f690630]" name="timeAndAttendancePage" duration-ms="164993" started-at="2015-11-20T12:53:57Z" finished-at="2015-11-20T12:56:42Z">
           <exception class="org.openqa.selenium.WebDriverException">
+=======
+        <test-method status="FAIL" signature="To_verify_the_contents_of_the_title()[pri:0, instance:com.zinghr.tna.index.OASIndex@18ceff1]" name="To_verify_the_contents_of_the_title" duration-ms="99430" started-at="2015-11-20T12:25:56Z" finished-at="2015-11-20T12:27:36Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
             <message>
+<<<<<<< HEAD
               <![CDATA[chrome not reachable
   (Session info: chrome=46.0.2490.86)
   (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 2.04 seconds
+=======
+              <![CDATA[Timed out after 15 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+<<<<<<< HEAD
 System info: host: 'Dell-PC', ip: '192.168.1.90', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir7480_20541}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
@@ -90,13 +158,23 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir7480_20541}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=749ca6d2-a4d7-4509-9d0e-3cc48a6b06de, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
 Session ID: 749ca6d2-a4d7-4509-9d0e-3cc48a6b06de
 *** Element info: {Using=xpath, value=//h3[contains(.,'Time and Attendance')]}]]>
+=======
+System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
+Driver info: driver.version: RemoteWebDriver]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
             </message>
             <full-stacktrace>
+<<<<<<< HEAD
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=46.0.2490.86)
   (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 2.04 seconds
+=======
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 15 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+<<<<<<< HEAD
 System info: host: 'Dell-PC', ip: '192.168.1.90', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir7480_20541}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
@@ -105,10 +183,64 @@ Session ID: 4a0ad737a306bf49e3569d6b6b6caa54
 Command duration or timeout: 2.37 seconds
 Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
 System info: host: 'Dell-PC', ip: '192.168.1.90', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+=======
+System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:89)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
+	at com.google.common.collect.Iterators$8.transform(Iterators.java:799)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Iterators.addAll(Iterators.java:362)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:160)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:144)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:502)
+	at com.zinghr.init.Common.highlightElement(Common.java:931)
+	at com.zinghr.init.Common.clickOn(Common.java:519)
+	at com.zinghr.tna.indexpage.OASIndexPage.oaslandingpage(OASIndexPage.java:23)
+	at com.zinghr.tna.index.OASIndex.OASlandingpage(OASIndex.java:71)
+	at com.zinghr.tna.index.OASIndex.To_verify_the_contents_of_the_title(OASIndex.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//div[@id='menu']/ul//span[contains(text(),'OAS')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
+System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+Command duration or timeout: 30.52 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
+<<<<<<< HEAD
 Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir7480_20541}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=749ca6d2-a4d7-4509-9d0e-3cc48a6b06de, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
 Session ID: 749ca6d2-a4d7-4509-9d0e-3cc48a6b06de
 *** Element info: {Using=xpath, value=//h3[contains(.,'Time and Attendance')]}
+=======
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=678ae5f9-3474-4583-b18a-ca522d9a4359, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 678ae5f9-3474-4583-b18a-ca522d9a4359
+*** Element info: {Using=xpath, value=.//div[@id='menu']/ul//span[contains(text(),'OAS')]}
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -123,6 +255,7 @@ Session ID: 749ca6d2-a4d7-4509-9d0e-3cc48a6b06de
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$0(AjaxElementLocator.java:1)
 	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
+<<<<<<< HEAD
 	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:49)
 	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
@@ -153,17 +286,37 @@ Session ID: 749ca6d2-a4d7-4509-9d0e-3cc48a6b06de
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+=======
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
+	... 34 more
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
 Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+<<<<<<< HEAD
 System info: host: 'Dell-PC', ip: '192.168.1.90', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+=======
+System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+<<<<<<< HEAD
 	... 38 more
 Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=46.0.2490.86)
   (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 2.04 seconds
+=======
+	... 44 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//div[@id='menu']/ul//span[contains(text(),'OAS')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
+System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+<<<<<<< HEAD
 System info: host: 'Dell-PC', ip: '192.168.1.90', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir7480_20541}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
@@ -196,20 +349,39 @@ Driver info: driver.version: EventFiringWebDriver
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
+=======
+System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/KQSPL_R/AppData/Local/Temp/anonymous4634638668064123676webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/KQSPL_R/AppData/Local/Temp/anonymous4634638668064123676webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
             <line>
+<<<<<<< HEAD
               <![CDATA[<br></br>Testcase Ids : Setup_02 , Setup_03 , Setup_04]]>
+=======
+              <![CDATA[<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
             </line>
             <line>
+<<<<<<< HEAD
               <![CDATA[<br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/authentication/login.aspx</a>]]>
+=======
+              <![CDATA[<br></br>Verify that ZingHR login page is open or not.]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
             </line>
             <line>
+<<<<<<< HEAD
               <![CDATA[<br></br>Step 2: Enter Company Code:KIWIQA]]>
+=======
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
             </line>
             <line>
+<<<<<<< HEAD
               <![CDATA[<br></br>Step 3: Enter Employee Code: Admin]]>
             </line>
             <line>
@@ -232,24 +404,57 @@ Driver info: driver.version: EventFiringWebDriver
             </line>
             <line>
               <![CDATA[<br></br>Verify Time and attendence Page is open or not]]>
+=======
+              <![CDATA[<br></br>Step 5: Click OAS menu]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
             </line>
             <line>
               <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
             </line>
+<<<<<<< HEAD
+=======
+            <line>
+              <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='../test-output/screenshots/1120122736299To_verify_the_contents_of_the_title.png' target='_new'>1120122736299To_verify_the_contents_of_the_title.png</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><h3>Failure Reason:</h3>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>org.openqa.selenium.NoSuchElementException: Timed out after 15 seconds. Unable to locate the element]]>
+            </line>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- timeAndAttendancePage -->
         <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex@7f690630]" name="tearDown" is-config="true" duration-ms="2334" started-at="2015-11-20T12:56:42Z" finished-at="2015-11-20T12:56:45Z">
+=======
+        </test-method> <!-- To_verify_the_contents_of_the_title -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.zinghr.tna.index.OASIndex@18ceff1]" name="tearDown" is-config="true" duration-ms="5095" started-at="2015-11-20T12:27:36Z" finished-at="2015-11-20T12:27:41Z">
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[[TestResult name=timeAndAttendancePage status=FAILURE method=SettingsTimeAttendanceSetupIndex.timeAndAttendancePage()[pri:0, instance:com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex@7f690630] output=<br></br>Testcase Ids : Setup_02 , Setup_03 , Setup_04]]]>
+=======
+                <![CDATA[[TestResult name=To_verify_the_contents_of_the_title status=FAILURE method=OASIndex.To_verify_the_contents_of_the_title()[pri:0, instance:com.zinghr.tna.index.OASIndex@18ceff1] output=<br></br>Step 1 : Open url:<a href=http://automation.zinghr.com/2015/pages/Authentication/login.aspx>http://automation.zinghr.com/2015/pages/Authentication/login.aspx</a>]]]>
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+<<<<<<< HEAD
       </class> <!-- com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex -->
     </test> <!-- Setup_02,Setup_03,Setup_04 : To test TNA functionality -->
   </suite> <!-- ZingHr - Time and Attendance Setup -->
+=======
+      </class> <!-- com.zinghr.tna.index.OASIndex -->
+    </test> <!-- To verify the contents of the title -->
+  </suite> <!-- OAS -->
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 </testng-results>

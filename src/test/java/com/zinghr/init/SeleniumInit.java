@@ -31,14 +31,23 @@ import com.zinghr.login.indexpage.LoginIndexPage;
 import com.zinghr.login.verification.LoginVerificationPage;
 import com.zinghr.signup.indexpage.SignupIndexPage;
 import com.zinghr.signup.verification.SignupVerificationPage;
+<<<<<<< HEAD
 import com.zinghr.tna.indexpage.DashboardTimeNAttendanceCaIndexPage;
 import com.zinghr.tna.indexpage.SettingsTimeAttendanceSetupIndexPage;
 import com.zinghr.tna.verification.DashboardTimeNAttendanceCaVerification;
 import com.zinghr.tna.verification.SettingsTimeAttendanceSetupVerification;
+=======
+import com.zinghr.tna.index.OASIndex;
+import com.zinghr.tna.indexpage.OASIndexPage;
+import com.zinghr.tna.verification.OASVerificationPage;
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 
 
 public class SeleniumInit {
 
+	
+	public String emailt=TestData.rndmemail(3);
+	
 	public String suiteName = "";
 	public String testName = "";
 	/* Minimum requirement for test configur ation */
@@ -56,6 +65,7 @@ public class SeleniumInit {
 	protected LoginVerificationPage loginVerificationPage;
 	protected SignupIndexPage signupIndexpage;
 	protected SignupVerificationPage signupVerification;
+<<<<<<< HEAD
 	protected SettingsTimeAttendanceSetupIndexPage taSetupIndexPage;
 	protected SettingsTimeAttendanceSetupVerification taSetupVerificationPage;
 	protected DashboardTimeNAttendanceCaIndexPage dbTnaCalIndexPage;
@@ -64,6 +74,10 @@ public class SeleniumInit {
 	
 	
 	
+=======
+	protected OASIndexPage oasIndexPage;
+	protected OASVerificationPage oasVerificationPage;
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 	
 	
 	protected static String screenshot_folder_path = null;
@@ -313,11 +327,16 @@ public class SeleniumInit {
 		loginVerificationPage= new LoginVerificationPage(driver);	
 		signupIndexpage = new SignupIndexPage(driver);
 		signupVerification = new SignupVerificationPage(driver);
+<<<<<<< HEAD
 		taSetupIndexPage=new  SettingsTimeAttendanceSetupIndexPage(driver);
 		taSetupVerificationPage = new SettingsTimeAttendanceSetupVerification(driver);
 		dbTnaCalIndexPage = new DashboardTimeNAttendanceCaIndexPage(driver);
 		dbTnaCalVerificationPage =new DashboardTimeNAttendanceCaVerification(driver);
 
+=======
+		oasIndexPage = new OASIndexPage(driver);
+		oasVerificationPage =new OASVerificationPage(driver);
+>>>>>>> branch 'master' of https://github.com/viral1030/Kiwizi.git
 	}
 
 	/**
