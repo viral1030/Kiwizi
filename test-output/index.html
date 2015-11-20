@@ -127,26 +127,43 @@
                   <a name="timeAndAttendancePage">
                   </a> <!-- timeAndAttendancePage -->
                   <span class="method-name">timeAndAttendancePage</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 15 seconds. Unable to locate the element
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
 Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
 System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.1.90&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:89)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir7480_20541}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a0ad737a306bf49e3569d6b6b6caa54
+*** Element info: {Using=xpath, value=//h3[contains(.,&apos;Time and Attendance&apos;)]}
+Command duration or timeout: 2.37 seconds
+Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
+System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.1.90&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir7480_20541}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=749ca6d2-a4d7-4509-9d0e-3cc48a6b06de, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 749ca6d2-a4d7-4509-9d0e-3cc48a6b06de
+*** Element info: {Using=xpath, value=//h3[contains(.,&apos;Time and Attendance&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$0(AjaxElementLocator.java:1)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:49)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
-	at com.google.common.collect.Iterators$8.transform(Iterators.java:799)
-	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
-	at com.google.common.collect.Iterators.addAll(Iterators.java:362)
-	at com.google.common.collect.Lists.newArrayList(Lists.java:160)
-	at com.google.common.collect.Lists.newArrayList(Lists.java:144)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:502)
-	at com.zinghr.init.Common.highlightElement(Common.java:929)
-	at com.zinghr.init.Common.clickOn(Common.java:519)
-	at com.zinghr.tna.indexpage.SettingsTimeAttendanceSetupIndexPage.clickTimeAndAttendenseFromCircle(SettingsTimeAttendanceSetupIndexPage.java:47)
-	at com.zinghr.tna.indexpage.SettingsTimeAttendanceSetupIndexPage.TimeAndAttendancePageOpen(SettingsTimeAttendanceSetupIndexPage.java:66)
-	at com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex.timeAndAttendancePage(SettingsTimeAttendanceSetupIndex.java:48)
+	at com.sun.proxy.$Proxy7.isDisplayed(Unknown Source)
+	at com.zinghr.tna.verification.SettingsTimeAttendanceSetupVerification.verifyTimeAndAttendancePageisDisplayed(SettingsTimeAttendanceSetupVerification.java:29)
+	at com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex.timeAndAttendancePage(SettingsTimeAttendanceSetupIndex.java:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -171,19 +188,25 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;dvTNA&apos;]/p[1]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.46.0&apos;, revision: &apos;87c69e2&apos;, time: &apos;2015-06-04 16:16:47&apos;
-System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.1.90&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
-Driver info: driver.version: unknown
-Command duration or timeout: 30.46 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
 Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
 System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.1.90&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=21be3607-62f3-4848-baf1-aa9a59569ff3, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 21be3607-62f3-4848-baf1-aa9a59569ff3
-*** Element info: {Using=xpath, value=//div[@id=&apos;dvTNA&apos;]/p[1]}
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 38 more
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
+System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.1.90&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir7480_20541}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a0ad737a306bf49e3569d6b6b6caa54
+*** Element info: {Using=xpath, value=//h3[contains(.,&apos;Time and Attendance&apos;)]}
+Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
+System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.1.90&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: driver.version: EventFiringWebDriver
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -195,29 +218,19 @@ Session ID: 21be3607-62f3-4848-baf1-aa9a59569ff3
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$0(AjaxElementLocator.java:1)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
-	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
-	... 38 more
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
-System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.1.90&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
-	... 48 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;dvTNA&apos;]/p[1]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.46.0&apos;, revision: &apos;87c69e2&apos;, time: &apos;2015-06-04 16:16:47&apos;
-System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.1.90&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
-System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.1.90&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Dell/AppData/Local/Temp/anonymous2486424542284673135webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Dell/AppData/Local/Temp/anonymous2486424542284673135webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:185)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -236,12 +249,12 @@ Driver info: driver.version: unknown
 &lt;suite thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;ZingHr - Time and Attendance Setup&quot;&gt;
   &lt;parameter name=&quot;selenium.port&quot; value=&quot;4444&quot;/&gt;
   &lt;parameter name=&quot;selenium.host&quot; value=&quot;localhost&quot;/&gt;
-  &lt;parameter name=&quot;selenium.browser&quot; value=&quot;firefox&quot;/&gt;
-  &lt;parameter name=&quot;selenium.url&quot; value=&quot;http://qa.zinghr.com/2015/pages/authentication/login.aspx&quot;/&gt;
+  &lt;parameter name=&quot;selenium.browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;selenium.url&quot; value=&quot;http://automation.zinghr.com/2015/pages/authentication/login.aspx&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.zinghr.utility.CustomReporter&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;Time And Attendance Page&quot;&gt;
+  &lt;test name=&quot;Setup_02,Setup_03,Setup_04 : To test TNA functionality&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex&quot;&gt;
         &lt;methods&gt;
@@ -249,7 +262,7 @@ Driver info: driver.version: unknown
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Time And Attendance Page --&gt;
+  &lt;/test&gt; &lt;!-- Setup_02,Setup_03,Setup_04 : To test TNA functionality --&gt;
 &lt;/suite&gt; &lt;!-- ZingHr - Time and Attendance Setup --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -261,7 +274,7 @@ Driver info: driver.version: unknown
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Time And Attendance Page (1 class)</span>
+                <span class="test-name">Setup_02,Setup_03,Setup_04 : To test TNA functionality (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -291,7 +304,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'timeAndAttendancePage')
 data.setCell(0, 2, 'com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex')
-data.setCell(0, 3, 124750);
+data.setCell(0, 3, 164993);
 window.suiteTableData['ZingHr_-_Time_and_Attendance_Setup']= { tableData: data, tableDiv: 'times-div-ZingHr_-_Time_and_Attendance_Setup'}
 return data;
 }
@@ -310,39 +323,43 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">timeAndAttendancePage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br></br>Testcase Id : Setup_02 </span>
-                <span class="reporter-method-output"><br></br>Testcase Discription : To test TNA functionality </span>
-                <span class="reporter-method-output"><br></br>Testcase Id : Setup_03 </span>
-                <span class="reporter-method-output"><br></br>Testcase Discription : To test TNA functionality </span>
-                <span class="reporter-method-output"><br></br>Testcase Id : Setup_04 </span>
-                <span class="reporter-method-output"><br></br>Testcase Discription : To test TNA functionality </span>
-                <span class="reporter-method-output"><br></br>Step 1 : Open url:<a>http://qa.zinghr.com/2015/pages/authentication/login.aspx</a></span>
+                <span class="reporter-method-output"><br></br>Testcase Ids : Setup_02 , Setup_03 , Setup_04</span>
+                <span class="reporter-method-output"><br></br>Step 1 : Open url:<a>http://automation.zinghr.com/2015/pages/authentication/login.aspx</a></span>
                 <span class="reporter-method-output"><br></br>Step 2: Enter Company Code:KIWIQA</span>
                 <span class="reporter-method-output"><br></br>Step 3: Enter Employee Code: Admin</span>
                 <span class="reporter-method-output"><br></br>Step 4: Enter Password: Admin@123</span>
                 <span class="reporter-method-output"><br></br>Verify that Home page is open or not</span>
-                <span class="reporter-method-output"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><Strong><font color=#008000><br>Pass</font></strong></span>
                 <span class="reporter-method-output"><br></br>Step 5: Click on Proceed Button</span>
                 <span class="reporter-method-output"><br></br>Step 6: Click on Setting Icon</span>
                 <span class="reporter-method-output"><br></br>Step 7: Click on Time and attendence option from Circle</span>
+                <span class="reporter-method-output"><br></br>Verify Time and attendence Page is open or not</span>
                 <span class="reporter-method-output"><br> <b>Please look to the screenshot - </b></span>
-                <span class="reporter-method-output"><br><Strong><font color=#FF0000>--Failed</font></strong></span>
-                <span class="reporter-method-output"><a href='../test-output/screenshots/1109120814831timeAndAttendancePage.png' target='_new'>1109120814831timeAndAttendancePage.png</a></span>
-                <span class="reporter-method-output"><br></br><h3>Failure Reason:</h3></span>
-                <span class="reporter-method-output"><br></br>org.openqa.selenium.NoSuchElementException: Timed out after 15 seconds. Unable to locate the element</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-ZingHr_-_Time_and_Attendance_Setup" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">7 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">shiftRosteringYesButtonFunctionality</span>
+                <br/>
                 <span class="ignored-method-name">addNewAttendanceGroupTapFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">shiftRosteringManadatoryFieldFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">secondBlockOfQuestionSecFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">thirdBlockOfQuestionSecFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">firstBlockOFQuestionSecFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">addedGroupVerifiaction</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -356,22 +373,22 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@b9b00e0)</span>
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@32502377)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex.timeAndAttendancePage(), org.testn...)</span>
-                <span class="method-start">31 ms</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">timeAndAttendancePage</span>
-                <span class="method-start">18151 ms</span>
+                <span class="method-start">14384 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=timeAndAttendancePage status=FAILURE method=SettingsTimeAttendanceSetupIndex.timeAn...)</span>
-                <span class="method-start">142928 ms</span>
+                <span class="method-start">179395 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

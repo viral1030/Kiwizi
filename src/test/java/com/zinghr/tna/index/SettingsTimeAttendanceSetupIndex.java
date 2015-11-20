@@ -41,6 +41,10 @@ public class SettingsTimeAttendanceSetupIndex extends SeleniumInit {
 
 		taSetupIndexPage.TimeAndAttendancePageOpen();
 
+		
+		Common.pause(100);
+		
+		
 		log("Verify Time and attendence Page is open or not");
 
 		if (taSetupVerificationPage.verifyTimeAndAttendancePageisDisplayed()) {
@@ -667,7 +671,7 @@ public class SettingsTimeAttendanceSetupIndex extends SeleniumInit {
 	public void shiftRosteringManadatoryFieldFunctionality() {
 
 		int numOfFailure = 0;
-		log("Testcase Id :  ");
+		log("Testcase Id : Setup_33,Setup_41,Setup_42_Setup_48  ");
 		log("Testcase Discription :  ");
 
 		log("Step 1 : Open url:<a>" + testUrl + "</a>");
@@ -715,7 +719,12 @@ public class SettingsTimeAttendanceSetupIndex extends SeleniumInit {
 
 		taSetupIndexPage.clickSubmitButtonOnShiftMasterDialog();
 
-		log("Verify Validation message is displayed for mandatory field");
+		log("Verify Validation message is displayed for following mandatory field"
+				+ "<br>Shift Name"
+				+ "<br>In Time"
+				+ "<br>Out Time"
+				+ "<br>Swipe Separator Parameter"
+				+ "<br>Shift Total Minutes  ");
 
 		if (taSetupVerificationPage.verifyManadatoryFieldOfShiftMasterPage()) {
 			Common.logStatus("pass");
@@ -730,6 +739,27 @@ public class SettingsTimeAttendanceSetupIndex extends SeleniumInit {
 
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/*
 	 * @Test public void oasMenuFunctionality() {
 	 * 

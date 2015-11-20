@@ -22,6 +22,8 @@
 		<listener class-name="com.zinghr.utility.CustomReporter" />
 
 	</listeners>
+	
+	
 
 	<test name="Setup_02,Setup_03,Setup_04 : To test TNA functionality">
 		<classes>
@@ -32,7 +34,10 @@
 			</class>
 		</classes>
 	</test>
-<!-- 	<test name="Setup_05,Setup_06,Setup_07,Setup_09 : To test TNA functionality">
+	
+	
+	
+	<test name="Setup_05,Setup_06,Setup_07,Setup_09 : To test TNA functionality">
 		<classes>
 			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
 				<methods>
@@ -96,8 +101,7 @@
 	</test>
 
 
-	<test name=" 
-		: To Test Manadatory field field  of shift master dialog ">
+	<test name="  Setup_33,Setup_41,Setup_42_Setup_48: To Test Manadatory field field  of shift master dialog ">
 		<classes>
 			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
 				<methods>
@@ -107,7 +111,7 @@
 		</classes>
 	</test>
 
- -->
+ 
 
 
 

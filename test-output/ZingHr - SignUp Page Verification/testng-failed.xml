@@ -8,34 +8,328 @@
   <listeners>
     <listener class-name="com.zinghr.utility.CustomReporter"/>
   </listeners>
-  <test name="Time And Attendance Page(failed)">
+  <test name="SU_03: SignUp page verification(failed)">
     <classes>
-      <class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
+      <class name="com.zinghr.signup.index.SignupIndex">
         <methods>
-          <include name="timeAndAttendancePage"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
           <include name="fetchSuiteConfiguration"/>
           <include name="fetchSuiteConfiguration"/>
           <include name="setUp"/>
           <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="SignUpPage"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
     </classes>
-  </test> <!-- Time And Attendance Page(failed) -->
-  <test name="Set my Attendance Page(failed)">
+  </test> <!-- SU_03: SignUp page verification(failed) -->
+  <test name="SU_04: SignUp page &#039;Company Name&#039; field verification1(failed)">
     <classes>
-      <class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
+      <class name="com.zinghr.signup.index.SignupIndex">
         <methods>
-          <include name="addNewAttendanceGroupTapFunctionality"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
           <include name="fetchSuiteConfiguration"/>
           <include name="fetchSuiteConfiguration"/>
           <include name="setUp"/>
           <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="SignUpSuccessfully1"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex -->
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
     </classes>
-  </test> <!-- Set my Attendance Page(failed) -->
+  </test> <!-- SU_04: SignUp page 'Company Name' field verification1(failed) -->
+  <test name="SU_05: SignUp page &#039;Company Name&#039; field verification2(failed)">
+    <classes>
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="SignUpSuccessfully2"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </classes>
+  </test> <!-- SU_05: SignUp page 'Company Name' field verification2(failed) -->
+  <test name="SU_06: SignUp page &#039;Company Name&#039; field verification3(failed)">
+    <classes>
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="SignUpSuccessfully3"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </classes>
+  </test> <!-- SU_06: SignUp page 'Company Name' field verification3(failed) -->
+  <test name="SU_07: SignUp page &#039;Company Name&#039; field verification4(failed)">
+    <classes>
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="SignUpSuccessfully4"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </classes>
+  </test> <!-- SU_07: SignUp page 'Company Name' field verification4(failed) -->
+  <test name="SU_08: To verify that user is able to enter alphabets in &#039;Display Name&#039; field(failed)">
+    <classes>
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="SignUpSuccessfully5"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </classes>
+  </test> <!-- SU_08: To verify that user is able to enter alphabets in 'Display Name' field(failed) -->
+  <test name="SU_09: To verify that appropriate error message is displayed when user enters special characters and numeric value in &#039;display Name&#039; field(failed)">
+    <classes>
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="SignUpSuccessfully6"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </classes>
+  </test> <!-- SU_09: To verify that appropriate error message is displayed when user enters special characters and numeric value in 'display Name' field(failed) -->
+  <test name="SU_11: To verify that appropriate error message is displayed when user enters blank space &#039;display Name&#039; field(failed)">
+    <classes>
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="SignUpSuccessfully7"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </classes>
+  </test> <!-- SU_11: To verify that appropriate error message is displayed when user enters blank space 'display Name' field(failed) -->
+  <test name="SU_12: To verify that valid email format for &#039;Email id&#039; field(failed)">
+    <classes>
+      <class name="com.zinghr.signup.index.SignupIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="SignUpSuccessfully8"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zinghr.signup.index.SignupIndex -->
+    </classes>
+  </test> <!-- SU_12: To verify that valid email format for 'Email id' field(failed) -->
 </suite> <!-- Failed suite [ZingHr - SignUp Page Verification] -->

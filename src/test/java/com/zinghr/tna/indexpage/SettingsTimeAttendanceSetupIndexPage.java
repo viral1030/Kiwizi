@@ -85,10 +85,6 @@ public class SettingsTimeAttendanceSetupIndexPage extends AbstractPage {
 
 		Common.pause(2);
 		clickSettingsIcon();
-		/*
-		 * driver.get(
-		 * "http://automation.zinghr.com/2015/pages/Setup/SetupCircle.aspx");
-		 */
 
 		Common.pause(4);
 		clickTimeAndAttendenseFromCircle();
