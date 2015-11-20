@@ -16,12 +16,10 @@ public class DashboardTimeNAttendanceCaIndexPage extends AbstractPage {
 		// TODO Auto-generated constructor stub
 	}
 
-	
-	
 	@FindBy(xpath = "//span[contains(@class,'fc-button-next')]")
 	WebElement nextMonthArrow_button;
 
-	@FindBy(xpath = "//span[contains(@class,'fc-button-next')]")
+	@FindBy(xpath = "//span[contains(@class,'fc-button-prev')]")
 	WebElement previousMonthArrow_button;
 
 	public SettingsTimeAttendanceSetupVerification clickOnForwardArrow() {
@@ -70,22 +68,9 @@ public class DashboardTimeNAttendanceCaIndexPage extends AbstractPage {
 	WebElement applyNow_button;
 
 	public SettingsTimeAttendanceSetupVerification clickApplyNowButton() {
-
+		Common.pause(3);
 		Common.clickOn(driver, applyNow_button);
 		return new SettingsTimeAttendanceSetupVerification(driver);
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

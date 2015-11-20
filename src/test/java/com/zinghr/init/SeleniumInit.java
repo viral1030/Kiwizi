@@ -315,6 +315,8 @@ public class SeleniumInit {
 		signupVerification = new SignupVerificationPage(driver);
 		taSetupIndexPage=new  SettingsTimeAttendanceSetupIndexPage(driver);
 		taSetupVerificationPage = new SettingsTimeAttendanceSetupVerification(driver);
+		dbTnaCalIndexPage = new DashboardTimeNAttendanceCaIndexPage(driver);
+		dbTnaCalVerificationPage =new DashboardTimeNAttendanceCaVerification(driver);
 
 	}
 

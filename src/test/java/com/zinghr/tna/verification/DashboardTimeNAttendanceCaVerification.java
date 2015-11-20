@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.zinghr.init.AbstractPage;
+import com.zinghr.init.Common;
 
 public class DashboardTimeNAttendanceCaVerification extends AbstractPage {
 
@@ -16,8 +17,6 @@ public class DashboardTimeNAttendanceCaVerification extends AbstractPage {
 		// TODO Auto-generated constructor stub
 	}
 
-	
-	
 	@FindBy(xpath = "//div[@id='myTNA']")
 	WebElement timeAndAttendanceCalander_sec;
 
@@ -136,14 +135,8 @@ public class DashboardTimeNAttendanceCaVerification extends AbstractPage {
 	WebElement selectActionMessage_alert;
 
 	public boolean verifyBlankActionValidationMessage() {
+		Common.pause(2);
 		return selectActionMessage_alert.isDisplayed();
 	}
-	
-	
-	
-	
-	
-	
-	
-	
+
 }

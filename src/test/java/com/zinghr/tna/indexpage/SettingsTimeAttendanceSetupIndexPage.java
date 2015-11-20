@@ -46,20 +46,27 @@ public class SettingsTimeAttendanceSetupIndexPage extends AbstractPage {
 		return new SettingsTimeAttendanceSetupVerification(driver);
 	}
 
+	int counter = 1;
+
 	public SettingsTimeAttendanceSetupVerification clickTimeAndAttendenseFromCircle() {
 
-		driver.switchTo()
-				.frame(driver.findElement(By
-						.xpath("//div[@id='seup-content']/object")));
+		Common.moveToObjectelement(driver, "//div[@id='seup-content']/object");
+
 		try {
+
 			if (driver
 					.findElement(
 							By.xpath("//p[contains(.,'Travel')]/../../div[contains(@class,'disable')][@id='dvTNA']"))
 					.isDisplayed()) {
 
-				driver.navigate().refresh();
-				Common.pause(2);
-				clickTimeAndAttendenseFromCircle();
+				if (counter < 5) {
+					driver.navigate().refresh();
+					Common.pause(2);
+					counter++;
+
+					System.out.println("counter " + counter);
+					clickTimeAndAttendenseFromCircle();
+				}
 
 			}
 		} catch (Exception e) {
@@ -163,5 +170,39 @@ public class SettingsTimeAttendanceSetupIndexPage extends AbstractPage {
 		return new SettingsTimeAttendanceSetupVerification(driver);
 	}
 
-	
+	@FindBy(xpath = "//strong[contains(.,'Shift Rostering')]/../label[contains(.,'Yes')]/input")
+	WebElement shiftRosteringYes_radio;
+
+	public SettingsTimeAttendanceSetupVerification clickShiftRosterYesRadioButton() {
+		Common.pause(1);
+		Common.clickOn(driver, shiftRosteringYes_radio);
+		Common.pause(1);
+		return new SettingsTimeAttendanceSetupVerification(driver);
+	}
+
+	@FindBy(xpath = "//a[contains(.,'Shift Master')]")
+	WebElement shiftMaster_link;
+
+	public SettingsTimeAttendanceSetupVerification clickShiftMasterLink() {
+
+		Common.pause(1);
+		Common.clickOn(driver, shiftMaster_link);
+		Common.pause(1);
+
+		return new SettingsTimeAttendanceSetupVerification(driver);
+
+	}
+
+	@FindBy(xpath = "//button[@id='submitNewShift']")
+	WebElement submitButtonOnShiftMasterDialog_button;
+
+	public SettingsTimeAttendanceSetupVerification clickSubmitButtonOnShiftMasterDialog() {
+
+		Common.pause(1);
+		Common.clickOn(driver, submitButtonOnShiftMasterDialog_button);
+		Common.pause(1);
+
+		return new SettingsTimeAttendanceSetupVerification(driver);
+	}
+
 }

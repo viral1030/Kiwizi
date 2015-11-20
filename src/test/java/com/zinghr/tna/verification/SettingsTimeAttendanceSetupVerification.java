@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.zinghr.init.AbstractPage;
+import com.zinghr.init.Common;
 
 public class SettingsTimeAttendanceSetupVerification extends AbstractPage {
 
@@ -22,6 +23,9 @@ public class SettingsTimeAttendanceSetupVerification extends AbstractPage {
 
 		boolean bool = false;
 
+		Common.waitForElement(driver, "//h3[contains(.,'Time and Attendance')]");
+		
+		
 		if (timeandattendance_header.isDisplayed())
 
 		{
@@ -58,6 +62,8 @@ public class SettingsTimeAttendanceSetupVerification extends AbstractPage {
 
 	public boolean verifysetMyAttendanceHeader() {
 
+		
+		
 		boolean bool = false;
 
 		if (setMyAttendance_header.isDisplayed()
@@ -204,6 +210,184 @@ public class SettingsTimeAttendanceSetupVerification extends AbstractPage {
 		return attendanceMarketing_header.isDisplayed();
 	}
 
+	@FindBy(xpath = "//input[@value='BIO']")
+	WebElement biomatric_chechbox;
 
+	@FindBy(xpath = "//input[@value='CARD']")
+	WebElement swipecards_chechbox;
+
+	@FindBy(xpath = "//input[@value='PI']")
+	WebElement punchIN_chechbox;
+
+	@FindBy(xpath = "//input[@value='OAS']")
+	WebElement managerMarking_chechbox;
+
+	@FindBy(xpath = "//input[@value='MT']")
+	WebElement mobile_chechbox;
+
+	public boolean verifyFirstblockCheckBoxIsDisplayed() {
+
+		return biomatric_chechbox.isDisplayed()
+				&& swipecards_chechbox.isDisplayed()
+				&& punchIN_chechbox.isDisplayed()
+				&& managerMarking_chechbox.isDisplayed()
+				&& mobile_chechbox.isDisplayed();
+
+	}
+
+	public boolean verifyFirstBlockCheckboxSelectedByDefault() {
+
+		return biomatric_chechbox.isSelected() && punchIN_chechbox.isSelected()
+				&& managerMarking_chechbox.isSelected();
+	}
+
+	@FindBy(xpath = "//select[contains(@class,'CycleStart')]")
+	WebElement attendanceCycleStart_dropdown;
+
+	@FindBy(xpath = "//select[contains(@class,'CycleFrom')]")
+	WebElement attendanceOpen_dropdown;
+
+	@FindBy(xpath = "//select[contains(@class,'CycleTo')]")
+	WebElement attendanceClose_dropdown;
+
+	public boolean verifySecondBlockDropDownIsDisplayed() {
+
+		System.out.println("attendance start "
+				+ attendanceCycleStart_dropdown.getText());
+
+		return attendanceCycleStart_dropdown.isDisplayed()
+				&& attendanceOpen_dropdown.isDisplayed()
+				&& attendanceClose_dropdown.isDisplayed();
+	}
+
+	@FindBy(xpath = "//strong[contains(.,'Shift Rostering')]/../label[contains(.,'Yes')]/input")
+	WebElement shiftRosteringYes_radio;
+
+	@FindBy(xpath = "//strong[contains(.,'Shift Rostering')]/../label[contains(.,'No')]/input")
+	WebElement shiftRosteringNo_radio;
+
+	public boolean verifyThirdBlockRadioButtonIsDisplayed() {
+
+		return shiftRosteringYes_radio.isDisplayed()
+				&& shiftRosteringNo_radio.isDisplayed();
+	}
+
+	@FindBy(xpath = "//a[contains(.,'Shift Master')]")
+	WebElement shiftMaster_link;
+
+	public boolean verifyShiftMasterLinkIsDisplayed() {
+
+		return shiftMaster_link.isDisplayed();
+	}
+
+	@FindBy(xpath = "//div[@aria-describedby='dvShiftsetting']")
+	WebElement shiftMaster_popup;
+
+	public boolean verifyShiftMasterPopupIsDisplayed() {
+
+		return shiftMaster_popup.isDisplayed();
+	}
+
+	@FindBy(xpath = "//span[contains(.,'Shift Master')][@class='ui-dialog-title']")
+	WebElement shiftmasterPopup_header;
+
+	public boolean verifyShiftMasterPopuptitleIsDisplayed() {
+
+		return shiftmasterPopup_header.isDisplayed();
+	}
+
+	@FindBy(xpath = "//select[@id='ddlShiftList']")
+	WebElement selectShift_dropdown;
+
+	public boolean verifySelectShiftDropdownIsDisplayed() {
+
+		return selectShift_dropdown.isDisplayed();
+	}
+
+	@FindBy(xpath = "//input[@id='txtShiftName']")
+	WebElement shiftName_textfield;
+
+	public boolean verifyShiftNameTextFieldIsDisplayed() {
+
+		return shiftName_textfield.isDisplayed();
+	}
+
+	@FindBy(xpath = "//input[@id='txtNghtSftY']")
+	WebElement nightShiftYes_radiobutton;
+
+	@FindBy(xpath = "//input[@id='txtNghtSftN']")
+	WebElement nightShiftNo_radiobutton;
+
+	public boolean verifyNightShiftApplicableRadioButtonIsDisplayed() {
+		return nightShiftYes_radiobutton.isDisplayed()
+				&& nightShiftYes_radiobutton.isDisplayed();
+	}
+
+	@FindBy(xpath = "//input[@id='txtDtOverY']")
+	WebElement dateOverlappinginshiftYes_radiobutton;
+
+	@FindBy(xpath = "//input[@id='txtDtOverN']")
+	WebElement dateOverlappinginshiftNo_radiobutton;
+
+	public boolean verifyDateOverlappingShiftRadioButtonIsDisplayed() {
+		return dateOverlappinginshiftYes_radiobutton.isDisplayed()
+				&& dateOverlappinginshiftNo_radiobutton.isDisplayed();
+	}
+
+	@FindBy(xpath = "//input[@id='txtInTime']")
+	WebElement inTime_textField;
+
+	@FindBy(xpath = "//input[@id='txtOutTime']")
+	WebElement outTime_textField;
+
+	public boolean verifyInTimeAndOutTimeTextfieldIsDisplayed() {
+		return inTime_textField.isDisplayed()
+				&& outTime_textField.isDisplayed();
+	}
+
+	@FindBy(xpath = "//input[@id='txtSwSePar']")
+	WebElement swipeSeparatorParameter_textField;
+
+	public boolean verifyswipeSeparatorParameteTextfieldIsDisplayed() {
+		return swipeSeparatorParameter_textField.isDisplayed();
+	}
+
+	@FindBy(xpath = "//button[@id='submitNewShift']")
+	WebElement submitButtonOnShiftMasterDialog_button;
+
+	@FindBy(xpath = "//i[@id='popupclose']")
+	WebElement cancleButtonOnShiftMasterDialog_button;
+
+	public boolean verifySubmitAndCancleButtonIsDisplayed() {
+
+		return submitButtonOnShiftMasterDialog_button.isDisplayed()
+				&& cancleButtonOnShiftMasterDialog_button.isDisplayed();
+	}
+
+	@FindBy(xpath = "//input[contains(@class,'pop-hover invalid')]")
+	List<WebElement> mandatoryfieldsOfShiftMasterPopup_list;
+
+	public boolean verifyManadatoryFieldOfShiftMasterPage() {
+		int counter = 0;
+		boolean bool = false;
+
+		for (WebElement e : mandatoryfieldsOfShiftMasterPopup_list) {
+
+			if (e.isDisplayed()) {
+				bool = true;
+
+			} else {
+				counter++;
+
+			}
+
+		}
+		System.out.println("counter " + counter);
+		if (counter > 0) {
+			bool = false;
+		}
+
+		return bool;
+	}
 
 }

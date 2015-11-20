@@ -931,6 +931,22 @@ public class Common {
 		pause(2);
 	}
 
+	
+	
+	public static void moveToObjectelement(WebDriver driver, String xpath) {
+
+		driver.switchTo()
+				.frame(driver.findElement(By
+						.xpath(xpath)));
+
+	}
+
+	
+	
+	
+	
+	
+	
 	/**
 	 * Stop page loading
 	 * 

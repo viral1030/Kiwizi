@@ -13,7 +13,7 @@ public class DashboardTimeNAttendanceCalIndex extends SeleniumInit {
 	public void timeAndAttendanceCalanderFunctionalityOnDashBoard() {
 
 		int numOfFailure = 0;
-		log("Testcase Id : , ");
+		log("Testcase Id : TNA_1,TNA_2,TNA_3  ");
 		log("Testcase Discription :  ");
 
 		log("Step 1 : Open url:<a>" + testUrl + "</a>");
@@ -77,7 +77,7 @@ public class DashboardTimeNAttendanceCalIndex extends SeleniumInit {
 	@Test
 	public void forwardAndBackwardArrowFunctionalityOnMyTNA() {
 		int numOfFailure = 0;
-		log("Testcase Id : , ");
+		log("Testcase Id : TNA_4,TNA_5 , ");
 		log("Testcase Discription :  ");
 
 		log("Step 1 : Open url:<a>" + testUrl + "</a>");
@@ -254,7 +254,7 @@ public class DashboardTimeNAttendanceCalIndex extends SeleniumInit {
 	@Test
 	public void applyNowButtonFunctionalityOnRefulationPopup() {
 		int numOfFailure = 0;
-		log("Testcase Id : TNA_18, TNA_19");
+		log("Testcase Id : TNA_21");
 		log("Testcase Discription :  ");
 
 		log("Step 1 : Open url:<a>" + testUrl + "</a>");

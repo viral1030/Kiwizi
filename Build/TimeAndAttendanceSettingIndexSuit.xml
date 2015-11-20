@@ -32,7 +32,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="Setup_05,Setup_06,Setup_07,Setup_09 : To test TNA functionality">
+<!-- 	<test name="Setup_05,Setup_06,Setup_07,Setup_09 : To test TNA functionality">
 		<classes>
 			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
 				<methods>
@@ -41,8 +41,9 @@
 			</class>
 		</classes>
 	</test>
-	
-	<test name="Setup_08,Setup_10,Setup_13,Setup_14 : To test TNA functionality">
+	<test
+		name="Setup_08,Setup_10,Setup_13,Setup_14 
+		: To test TNA functionality">
 		<classes>
 			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
 				<methods>
@@ -51,59 +52,56 @@
 			</class>
 		</classes>
 	</test>
-<!-- 	<test name="TNA_1,TNA_2,TNA_3 : To test My TNA section on dashboard">
+	<test
+		name="Setup_18,Setup_19 : To test First Block option and by 
+		default value functionality ">
 		<classes>
 			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
 				<methods>
-					<include name="timeAndAttendanceCalanderFunctionalityOnDashBoard" />
+					<include name="firstBlockOFQuestionSecFunctionality" />
 				</methods>
 			</class>
 		</classes>
 	</test>
 	<test
-		name="TNA_4,TNA_5, : To test Backward and Forward Arrow in My 
-		TNA section ">
+		name="Setup_24,Setup_25(Pending) : To test 
+		Second Block option and by default value functionality ">
 		<classes>
 			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
 				<methods>
-					<include name="forwardAndBackwardArrowFunctionalityOnMyTNA" />
+					<include name="secondBlockOfQuestionSecFunctionality" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name=" Setup_26 : To Test third block Option Availability ">
+		<classes>
+			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
+				<methods>
+					<include name="thirdBlockOfQuestionSecFunctionality" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name=" Setup_27,Setup_28,Setup_29,Setup_30,Setup_31,Setup_34,Setup_35,Setup_36,Setup_35,Setup_37,Setup_45,Setup_49,Setup_50 
+		: To Test Shift Roster Yes Button Functionality ">
+		<classes>
+			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
+				<methods>
+					<include name="shiftRosteringYesButtonFunctionality" />
 				</methods>
 			</class>
 		</classes>
 	</test>
 
 
-
-	<test name="TNA_6,TNA_7,TNA_8 : To test Holiday List Button Functionality ">
+	<test name=" 
+		: To Test Manadatory field field  of shift master dialog ">
 		<classes>
 			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
 				<methods>
-					<include name="holidaytabFunctionality" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-
-
-
-
-	<test name="TNA_18,TNA_19 : To test Regularize Button Functionality">
-		<classes>
-			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
-				<methods>
-					<include name="regularizeButtonFunctionality" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-
-
-
-	<test name="TNA_21 : To test A Button Functionality">
-		<classes>
-			<class name="com.zinghr.tna.index.SettingsTimeAttendanceSetupIndex">
-				<methods>
-					<include name="applyNowButtonFunctionalityOnRefulationPopup" />
+					<include name="shiftRosteringManadatoryFieldFunctionality" />
 				</methods>
 			</class>
 		</classes>
@@ -111,7 +109,6 @@
 
  -->
 
- 
 
 
 </suite>

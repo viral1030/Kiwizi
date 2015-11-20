@@ -1,5 +1,6 @@
 package com.zinghr.tna.index;
 
+import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -363,6 +364,372 @@ public class SettingsTimeAttendanceSetupIndex extends SeleniumInit {
 
 	}
 
+	@Test
+	public void firstBlockOFQuestionSecFunctionality()
+
+	{
+
+		int numOfFailure = 0;
+		log("Testcase Id : Setup_18,Setup_19 ");
+		log("Testcase Discription :  ");
+
+		log("Step 1 : Open url:<a>" + testUrl + "</a>");
+
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employee Code: " + TestData.employe_code);
+		log("Step 4: Enter Password: " + TestData.password);
+
+		loginVerificationPage = loginIndexpage.loginSuccessfully();
+		log("Verify that Home page is open or not");
+
+		if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 5: Click on Proceed Button");
+
+		log("Step 6: Click on Setting Icon");
+
+		log("Step 7: Click on Time and attendence option from Circle");
+
+		taSetupIndexPage.TimeAndAttendancePageOpen();
+
+		log("Verify Following Options are displayed in first block of question section"
+				+ "<br> Biometric "
+				+ "<br> Swipecards "
+				+ "<br> PunchIN "
+				+ "<br> Manager Marking " + "<br> Mobile");
+
+		if (taSetupVerificationPage.verifyFirstblockCheckBoxIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Following options are selected by default"
+				+ "<br> Biometric " + "<br> PunchIN " + "<br> Manager Marking ");
+
+		if (taSetupVerificationPage.verifyFirstBlockCheckboxSelectedByDefault()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	@Test
+	public void secondBlockOfQuestionSecFunctionality() {
+
+		int numOfFailure = 0;
+		log("Testcase Id : Setup_24,Setup_25(pending) ");
+		log("Testcase Discription :  ");
+
+		log("Step 1 : Open url:<a>" + testUrl + "</a>");
+
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employee Code: " + TestData.employe_code);
+		log("Step 4: Enter Password: " + TestData.password);
+
+		loginVerificationPage = loginIndexpage.loginSuccessfully();
+		log("Verify that Home page is open or not");
+
+		if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 5: Click on Proceed Button");
+
+		log("Step 6: Click on Setting Icon");
+
+		log("Step 7: Click on Time and attendence option from Circle");
+
+		taSetupIndexPage.TimeAndAttendancePageOpen();
+
+		log("Verify Following Options are displayed in third block of question section"
+				+ "<br> Attendance Cycle starts "
+				+ "<br> Attendance Open"
+				+ "<br> Attendance Close");
+
+		if (taSetupVerificationPage.verifySecondBlockDropDownIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	@Test
+	public void thirdBlockOfQuestionSecFunctionality() {
+
+		int numOfFailure = 0;
+		log("Testcase Id : Setup_26 ");
+		log("Testcase Discription :  ");
+
+		log("Step 1 : Open url:<a>" + testUrl + "</a>");
+
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employee Code: " + TestData.employe_code);
+		log("Step 4: Enter Password: " + TestData.password);
+
+		loginVerificationPage = loginIndexpage.loginSuccessfully();
+		log("Verify that Home page is open or not");
+
+		if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 5: Click on Proceed Button");
+
+		log("Step 6: Click on Setting Icon");
+
+		log("Step 7: Click on Time and attendence option from Circle");
+
+		taSetupIndexPage.TimeAndAttendancePageOpen();
+
+		log("Verify Following Options are displayed in third block of question section"
+				+ "<br> Attendance Cycle starts "
+				+ "<br> Attendance Open"
+				+ "<br> Attendance Close");
+
+		if (taSetupVerificationPage.verifyThirdBlockRadioButtonIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	@Test
+	public void shiftRosteringYesButtonFunctionality() {
+
+		int numOfFailure = 0;
+		log("Testcase Id : Setup_27,Setup_28,Setup_29,Setup_30,Setup_31,Setup_34,Setup_35,Setup_36,Setup_35,Setup_37,Setup_45,Setup_49,Setup_50 ");
+		log("Testcase Discription :  ");
+
+		log("Step 1 : Open url:<a>" + testUrl + "</a>");
+
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employee Code: " + TestData.employe_code);
+		log("Step 4: Enter Password: " + TestData.password);
+
+		loginVerificationPage = loginIndexpage.loginSuccessfully();
+		log("Verify that Home page is open or not");
+
+		if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 5: Click on Proceed Button");
+
+		log("Step 6: Click on Setting Icon");
+
+		log("Step 7: Click on Time and attendence option from Circle");
+
+		taSetupIndexPage.TimeAndAttendancePageOpen();
+
+		log("Step 8 : Click on Yes From third block of Question sec");
+
+		taSetupIndexPage.clickShiftRosterYesRadioButton();
+
+		log("Verify Shift Master Link is displayed");
+
+		if (taSetupVerificationPage.verifyShiftMasterLinkIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 9 : Click on Shift Master link");
+
+		taSetupIndexPage.clickShiftMasterLink();
+
+		log("Verify Shift Master Dialog is displayed");
+
+		if (taSetupVerificationPage.verifyShiftMasterPopupIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Shift Master Dialog title is displayed");
+
+		if (taSetupVerificationPage.verifyShiftMasterPopuptitleIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Select Shift drop down is displayed on Shift Master Dialog");
+
+		if (taSetupVerificationPage.verifySelectShiftDropdownIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Shift Name textfield is displayed");
+
+		if (taSetupVerificationPage.verifyShiftNameTextFieldIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Night Shift Radio button is displayed");
+
+		if (taSetupVerificationPage
+				.verifyNightShiftApplicableRadioButtonIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Is Date Overlapping in shift Radio button is displayed");
+
+		if (taSetupVerificationPage
+				.verifyDateOverlappingShiftRadioButtonIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify In Time textfield and Out Time textfield is displayed");
+
+		if (taSetupVerificationPage
+				.verifyInTimeAndOutTimeTextfieldIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Swipe Separator Parameter textfield is displayed");
+
+		if (taSetupVerificationPage
+				.verifyswipeSeparatorParameteTextfieldIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Verify Cancle Button and Submit Button is displayed on Shift Master Dialog ");
+
+		if (taSetupVerificationPage.verifySubmitAndCancleButtonIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	@Test
+	public void shiftRosteringManadatoryFieldFunctionality() {
+
+		int numOfFailure = 0;
+		log("Testcase Id :  ");
+		log("Testcase Discription :  ");
+
+		log("Step 1 : Open url:<a>" + testUrl + "</a>");
+
+		log("Step 2: Enter Company Code:" + TestData.company_code);
+		log("Step 3: Enter Employee Code: " + TestData.employe_code);
+		log("Step 4: Enter Password: " + TestData.password);
+
+		loginVerificationPage = loginIndexpage.loginSuccessfully();
+		log("Verify that Home page is open or not");
+
+		if (loginVerificationPage.loginpagewithvalidcredentialverification()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 5: Click on Proceed Button");
+
+		log("Step 6: Click on Setting Icon");
+
+		log("Step 7: Click on Time and attendence option from Circle");
+
+		taSetupIndexPage.TimeAndAttendancePageOpen();
+
+		log("Step 8 : Click on Yes From third block of Question sec");
+
+		taSetupIndexPage.clickShiftRosterYesRadioButton();
+
+		log("Verify Shift Master Link is displayed");
+
+		if (taSetupVerificationPage.verifyShiftMasterLinkIsDisplayed()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		log("Step 9 : Click on Shift Master link");
+
+		taSetupIndexPage.clickShiftMasterLink();
+
+		log("Step 10 : Click on Submit Button");
+
+		taSetupIndexPage.clickSubmitButtonOnShiftMasterDialog();
+
+		log("Verify Validation message is displayed for mandatory field");
+
+		if (taSetupVerificationPage.verifyManadatoryFieldOfShiftMasterPage()) {
+			Common.logStatus("pass");
+		} else {
+			Common.logStatus("fail");
+			numOfFailure++;
+		}
+
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		}
+
+	}
+
 	/*
 	 * @Test public void oasMenuFunctionality() {
 	 * 
@@ -397,7 +764,5 @@ public class SettingsTimeAttendanceSetupIndex extends SeleniumInit {
 	 * 
 	 * }
 	 */
-
-	
 
 }
