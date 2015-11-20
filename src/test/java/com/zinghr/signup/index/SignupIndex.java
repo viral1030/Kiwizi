@@ -41,40 +41,6 @@ public void SignUpPage() throws Exception
 			
 	}	
 		
-	
-@Test(priority=2)
-public void SignUpSuccessfully() throws Exception
-	{
-		int numOfFailure = 0;		
-		
-		SignUpPage();
-		log("Step 2: Enter company Name: "+TestData.rndmString(4));
-		log("Step 3: Display Employee Name: "+s_display_name);
-		log("Step 4: Enter Email id: "+TestData.rndmemail(3));
-		log("Step 5: Select any country");
-		log("Step 6: Enter Contact no: "+TestData.contactno_s);
-			
-		signupVerification = signupIndexpage.SignUpsuccessfully();
-		
-		log("To verify Activation page is open or not with Successfully SignUp.");	
-		
-		if(signupVerification.verifySignupSuccessfully())
-			{
-				Common.logStatus("Pass");
-		
-			}
-		else
-			{
-				Common.logStatus("Fail");
-				numOfFailure++;
-			}
-
-		if (numOfFailure > 0) {
-			Assert.assertTrue(false);
-			}
-		
-		}
-
 
 @Test(priority=3)
 public void companynameField1() throws Exception
@@ -184,7 +150,7 @@ public void companynameField4() throws Exception
 	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	
 	
 	signupVerification = signupIndexpage.emptyCompanyCode();
@@ -216,11 +182,11 @@ public void displaynameField1() throws Exception
 	log("Test Case Id : SU_08 ");
 	log("Testcase Discription : Field validation for 'Display name' field");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter 'Company Name':"+TestData.rndmString(4));
+	log("Step 2: Enter 'Company Name':"+s_company_name);
 	log("Step 3: Enter alphabet in 'Display  Admin Name': "+s_display_name);
 	/*log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	*/
 	
 	signupVerification = signupIndexpage.alphabetDisplayname();
@@ -252,11 +218,11 @@ public void displaynameField2() throws Exception
 	log("Test Case Id : SU_09 ");
 	log("Testcase Discription : Field validation for 'Display name' field");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter 'Company Name':"+TestData.rndmString(4));
+	log("Step 2: Enter 'Company Name':"+s_company_name);
 	log("Step 3: Enter invalid data in 'Display Admin Name': "+TestData.invalid);
 	/*log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);*/
+	log("Step 6: Enter Contact no: "+contact_no);*/
 	
 	
 	signupVerification = signupIndexpage.invalidDisplayAdminName();
@@ -320,9 +286,9 @@ public void emailidField1() throws Exception
 	log("Test Case Id : SU_12 ");
 	log("Testcase Discription : Field validation for 'Email ID' field");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter valid 'Email Id': "+TestData.rndmemail(3));
+	log("Step 2: Enter valid 'Email Id': "+emailt);
 		
-	signupVerification = signupIndexpage.validEmailId();
+	signupVerification = signupIndexpage.validEmailId(emailt,s_company_name,s_display_name,contact_no);
 	
 	log("To verify that Email id field accepts valid email id format.");	
 	
@@ -352,9 +318,9 @@ public void emailidField2() throws Exception
 	log("Test Case Id : SU_13 ");
 	log("Testcase Discription : Field validation for 'Email ID' field");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter invalid 'Email Id': "+TestData.rndm_invalid_email(2));
+	log("Step 2: Enter invalid 'Email Id': "+invalid_email);
 		
-	signupVerification = signupIndexpage.invalidEmailId();
+	signupVerification = signupIndexpage.invalidEmailId(invalid_email,s_company_name,s_display_name,contact_no);
 	
 	log("To verify that appropriate error message is displayed when user enter invalid email format in Email field.");	
 	
@@ -383,9 +349,9 @@ public void emailidField3() throws Exception
 	log("Test Case Id : SU_14 ");
 	log("Testcase Discription : Field validation for 'Email ID' field");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter blank data in 'Email Id': "+TestData.blank);
+	log("Step 2: Enter blank data in 'Email Id': "+blank);
 		
-	signupVerification = signupIndexpage.blankEmailId();
+	signupVerification = signupIndexpage.blankEmailId(blank,s_company_name,s_display_name,contact_no);
 	
 	log("To verify that Email id field do not accept blank data");	
 	
@@ -413,13 +379,13 @@ public void selectCountry() throws Exception
 	log("Test Case Id : SU_15 ");
 	log("Testcase Discription : Select other country from country list.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 2: Enter company Name: "+s_company_name);
 	log("Step 3: Display Employee Name: "+s_display_name);
-	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 		
-	signupVerification = signupIndexpage.selectOtherCountries();
+	signupVerification = signupIndexpage.selectOtherCountries(emailt,s_company_name,s_display_name,contact_no);
 	
 	log("To verify that user is able to select other country name");	
 	
@@ -448,13 +414,13 @@ public void selectNoCountry() throws Exception
 	log("Test Case Id : SU_16 ");
 	log("Testcase Discription : Select 'Select Country ' country list.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 2: Enter company Name: "+s_company_name);
 	log("Step 3: Display Employee Name: "+s_display_name);
-	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select 'Select Country' option from country name field");
-	/*log("Step 6: Enter Contact no: "+TestData.contactno_s);*/
+	/*log("Step 6: Enter Contact no: "+contact_no);*/
 		
-	signupVerification = signupIndexpage.selectNoCountry();
+	signupVerification = signupIndexpage.selectNoCountry(emailt,s_company_name,s_display_name,contact_no);
 	
 	log("To verify that appropriate error message is displayed when user selects 'Select Country' option from Country Name field");	
 	
@@ -482,13 +448,13 @@ public void contactNumField1() throws Exception
 	log("Test Case Id : SU_17 ");
 	log("Testcase Discription : Enter numeric value into Contact Number' field.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 2: Enter company Name: "+s_company_name);
 	log("Step 3: Display Employee Name: "+s_display_name);
-	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 		
-	signupVerification = signupIndexpage.validContactNum();
+	signupVerification = signupIndexpage.validContactNum(emailt,s_company_name,s_company_name,contact_no);
 	
 	log("To verify that user is able to enter numeric values in Contact Number field");	
 	
@@ -516,13 +482,13 @@ public void contactNumField2() throws Exception
 	log("Test Case Id : SU_18 ");
 	log("Testcase Discription : Enter alphabets and special characters into Contact Number' field.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 2: Enter company Name: "+s_company_name);
 	log("Step 3: Display Employee Name: "+s_display_name);
-	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.invalidContactno);
+	log("Step 6: Enter Contact no: "+inv_contact_no);
 		
-	signupVerification = signupIndexpage.invalidContactNum();
+	signupVerification = signupIndexpage.invalidContactNum(emailt,s_company_name,s_display_name,inv_contact_no);
 	
 	log("To verify that error message is displayed when user enters alphabets and special characters in Contact Number field");	
 	
@@ -550,13 +516,13 @@ public void contactNumField3() throws Exception
 	log("Test Case Id : SU_20 ");
 	log("Testcase Discription : Enter more than 10 digits into 'Contact Number' field.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 2: Enter company Name: "+s_company_name);
 	log("Step 3: Display Employee Name: "+s_display_name);
-	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.largeContactNum);
+	log("Step 6: Enter Contact no: "+large_contact_no);
 		
-	signupVerification = signupIndexpage.invalidContactNum1();
+	signupVerification = signupIndexpage.invalidContactNum1(emailt,s_company_name,s_display_name,large_contact_no);
 	
 	log("To verify that Max length of 10 characters is provided to Contact Number field");	
 	
@@ -582,15 +548,15 @@ public void contactNumField4() throws Exception
 	int numOfFailure = 0;		
 
 	log("Test Case Id : SU_21 ");
-	log("Testcase Discription : Enter more than 10 digits into 'Contact Number' field.");
+	log("Testcase Discription : Enter blank data in contact number field.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 2: Enter company Name: "+s_company_name);
 	log("Step 3: Display Employee Name: "+s_display_name);
-	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
+	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.blank);
+	log("Step 6: Enter Contact no: "+blank);
 		
-	signupVerification = signupIndexpage.blankContactNum();
+	signupVerification = signupIndexpage.blankContactNum(emailt,s_company_name,s_display_name,blank);
 	
 	log("To verify that Contact Number field do not accept blank data.");	
 	
@@ -682,7 +648,7 @@ public void checkbox() throws Exception
 	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(3));
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	log("Step 7: Uncheck checkbox.");
 		
 	signupVerification = signupIndexpage.checkbox();
@@ -718,7 +684,7 @@ public void activationPage() throws Exception
 	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+TestData.rndmemail(2));
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
 		
 	signupVerification = signupIndexpage.SignUpsuccessfully();
@@ -755,7 +721,7 @@ public void emailverification() throws Exception
 	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
 		
 	signupVerification = signupIndexpage.emailVerification(emailt);
@@ -791,7 +757,7 @@ public void emailFormat() throws Exception
 	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
 		
 	signupVerification = signupIndexpage.emailFormat(emailt);
@@ -827,7 +793,7 @@ public void emailContents() throws Exception
 	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
 		
 	signupVerification = signupIndexpage.emailFormat(emailt);
@@ -863,7 +829,7 @@ public void emailClickHereBtn() throws Exception
 	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
 		
 	signupVerification = signupIndexpage.emailClickbutton(emailt);
@@ -904,7 +870,7 @@ public void activateTwice() throws Exception
 	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
 	log("Step 8: Open ZingHR activation mail.");
 	log("Step 9: Click on 'Click Here' button in mail.");
@@ -944,7 +910,7 @@ public void enterPaswd() throws Exception
 	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
 	log("Step 8: Open ZingHR activation mail.");
 	log("Step 9: Click on 'Click Here' button in mail.");
@@ -1007,7 +973,7 @@ public void enterBlankPassword() throws Exception
 	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
 	log("Step 8: Open ZingHR activation mail.");
 	log("Step 9: Click on 'Click Here' button in mail.");
@@ -1041,13 +1007,13 @@ public void pswdProgressStatus() throws Exception
 	int numOfFailure = 0;		
 	
 	log("Test Case Id : A_SU_13 ");
-	log("Testcase Discription : Click here button in email.");
+	log("Testcase Discription : Password progress status for 'Password' field.");
 	log("Step 1 : Open url:<a>"+testUrl+"</a>");
-	log("Step 2: Enter company Name: "+TestData.rndmString(4));
+	log("Step 2: Enter company Name: "+s_company_name);
 	log("Step 3: Display Employee Name: "+s_display_name);
 	log("Step 4: Enter Email id: "+emailt);
 	log("Step 5: Select any country");
-	log("Step 6: Enter Contact no: "+TestData.contactno_s);
+	log("Step 6: Enter Contact no: "+contact_no);
 	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
 	log("Step 8: Open ZingHR activation mail.");
 	log("Step 9: Click on 'Click Here' button in mail.");
@@ -1107,9 +1073,98 @@ public void pswdProgressStatus() throws Exception
 	
 	if (numOfFailure > 0) {
 		Assert.assertTrue(false);
+	}
+	
+}
+
+@Test(priority=30)
+public void updateAccountName() throws Exception
+{
+	int numOfFailure = 0;		
+	
+	log("Test Case Id : A_SU_14 ");
+	log("Testcase Discription : Update account name.");
+	log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+s_company_name);
+	log("Step 3: Display Employee Name: "+s_display_name);
+	log("Step 4: Enter Email id: "+emailt);
+	log("Step 5: Select any country");
+	log("Step 6: Enter Contact no: "+contact_no);
+	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+	log("Step 8: Open ZingHR activation mail.");
+	log("Step 9: Click on 'Click Here' button in mail.");
+	log("Step 10: Update Account_Name: "+account_name);
+		
+	signupVerification = signupIndexpage.updateAccountName(emailt,s_company_name,s_display_name,account_name,a_pswd);
+	
+	log("To verify that user is able to edit/update Account/Company Name.");	
+
+	for(String winHandle : driver.getWindowHandles()){
+		driver.switchTo().window(winHandle);
+	}
+	if(signupVerification.verifyUpdateAccountName()){
+		Common.logStatus("Pass");
+	}
+	else{
+		Common.logStatus("Fail");
+		numOfFailure++;
+	}
+
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
+	}
+	
+}
+
+@Test(priority=31)
+public void activateSuccessfully() throws Exception
+	{
+int numOfFailure = 0;		
+	
+    log("Test Case Id : A_SU_15 ");
+    log("Testcase Discription : Activate successfully verification. ");
+    log("Step 1 : Open url:<a>"+testUrl+"</a>");
+	log("Step 2: Enter company Name: "+s_company_name);
+	log("Step 3: Display Employee Name: "+s_display_name);
+	log("Step 4: Enter Email id: "+emailt);
+	log("Step 5: Select any one country");
+	log("Step 6: Enter Contact no: "+contact_no);
+	log("Step 7: Click on 'Sign Up for 30 days trial' button.");
+	log("Step 8: Open ZingHR activation mail.");
+	log("Step 9: Click on 'Click Here' button in mail.");
+	log("Step 10: Enter Password: "+a_pswd);
+		
+	signupVerification = signupIndexpage.activateSuccessfully(emailt,s_company_name,s_display_name,account_name,a_pswd);
+	
+	log("To verify that after clicking on Activate Account button user account is activated successfully");	
+
+	for(String winHandle : driver.getWindowHandles()){
+		driver.switchTo().window(winHandle);
+	}
+	if(signupVerification.verifyUpdateAccountName()){
+		Common.logStatus("Pass");
+	}
+	else{
+		Common.logStatus("Fail");
+		numOfFailure++;
+	}
+
+	log("Test Case Id : A_SU_16 ");
+	log("To verify that successful message along with Company Code,Employee Code and Password is displayed after clicking on Activate Account button.");
+	
+	if(signupVerification.verifyUpdateAccountName()){
+		Common.logStatus("Pass");
+	}
+	else{
+		Common.logStatus("Fail");
+		numOfFailure++;
+	}
+	if (numOfFailure > 0) {
+		Assert.assertTrue(false);
 		}
 	
 }
+
 
 }
 

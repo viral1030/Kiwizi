@@ -37,13 +37,21 @@ public class SeleniumInit {
 
 	
 	public String emailt=TestData.rndmemail(3);
+	public String s_company_name = TestData.rndmString(4);
+	public String contact_no = "9429186891"; 
+	public String inv_contact_no = "dsjh(*&^(^(";
+	public String large_contact_no=TestData.largeContactNum;
+	public String invalid_email =TestData.rndm_invalid_email(2);
+	public String blank=" ";
+	public String s_display_name=TestData.rndmString(6);
+	public String account_name=s_company_name+"test";
 	public String a_pswd2="T";
 	public String a_pswd3="Test@";
 	public String a_pswd4="Test@1";
 	public String a_pswd5="Test@123";
 	public String a_pswd1="Test123";
 	public String a_pswd="Test@123";
-	public String s_display_name=TestData.rndmString(6);	
+		
 	public String suiteName = "";
 	public String testName = "";
 	/* Minimum requirement for test configur ation */

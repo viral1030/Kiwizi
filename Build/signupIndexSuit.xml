@@ -306,7 +306,7 @@
 		</classes>
 </test> -->
 
-<test name="A_SU_13: To verify that the Password progress status changes from as per the password entered by the user.">
+<!-- <test name="A_SU_13: To verify that the Password progress status changes from as per the password entered by the user.">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
 				<methods>
@@ -314,7 +314,26 @@
 				</methods>
 			</class>
 		</classes>
+</test> -->
+
+<test name="A_SU_14: To verify that user is able to edit Account/Company Name.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="updateAccountName" />
+				</methods>
+			</class>
+		</classes>
 </test>
 
+<test name="A_SU_15: To verify that after clicking on Activate Account button user account is activated successfully.">
+		<classes>
+			<class name="com.zinghr.signup.index.SignupIndex">
+				<methods>
+					<include name="activateSuccessfully" />
+				</methods>
+			</class>
+		</classes>
+</test>
 
 </suite>

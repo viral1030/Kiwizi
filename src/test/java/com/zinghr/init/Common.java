@@ -491,7 +491,7 @@ public class Common {
 	public static void waitForElement(WebDriver driver, By element) {
 
 		try {
-			wait = new WebDriverWait(driver, 60);
+			wait = new WebDriverWait(driver, 6000);
 			wait.until(visibilityOfElementLocated(element));
 		} catch (Exception e) {
 		}
@@ -503,6 +503,7 @@ public class Common {
 	 * @param element
 	 *            Web element.
 	 */
+	
 	public static void jsClick(WebDriver driver, WebElement element) {
 		((JavascriptExecutor) driver).executeScript(
 				"return arguments[0].click();", element);

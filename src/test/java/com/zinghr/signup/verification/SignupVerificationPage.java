@@ -209,7 +209,7 @@ public class SignupVerificationPage extends AbstractPage {
 		
 	public boolean verifyactivateTwice() {
 		Common.pause(30000);
-		return driver.findElement(By.xpath(""))
+		return driver.findElement(By.xpath("//span[contains(text(),'Dear')]"))
 				.isDisplayed();
 		}
 	
@@ -241,6 +241,12 @@ public class SignupVerificationPage extends AbstractPage {
 	public boolean verifyBlankPsswd() {
 		Common.pause(2);
 		return driver.findElement(By.xpath(".//input[contains(@class,'invalid')]"))
+				.isDisplayed();
+		}
+	
+	public boolean verifyUpdateAccountName() {
+		
+		return driver.findElement(By.xpath("//span[contains(text(),'Dear')]"))
 				.isDisplayed();
 		}
 }
