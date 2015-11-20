@@ -31,6 +31,9 @@ import com.zinghr.login.indexpage.LoginIndexPage;
 import com.zinghr.login.verification.LoginVerificationPage;
 import com.zinghr.signup.indexpage.SignupIndexPage;
 import com.zinghr.signup.verification.SignupVerificationPage;
+import com.zinghr.tna.index.OASIndex;
+import com.zinghr.tna.indexpage.OASIndexPage;
+import com.zinghr.tna.verification.OASVerificationPage;
 
 
 public class SeleniumInit {
@@ -55,6 +58,10 @@ public class SeleniumInit {
 	protected LoginVerificationPage loginVerificationPage;
 	protected SignupIndexPage signupIndexpage;
 	protected SignupVerificationPage signupVerification;
+	protected OASIndexPage oasIndexPage;
+	protected OASVerificationPage oasVerificationPage;
+	
+	
 	protected static String screenshot_folder_path = null;
 	public static String currentTest; // current running test
 
@@ -302,7 +309,8 @@ public class SeleniumInit {
 		loginVerificationPage= new LoginVerificationPage(driver);	
 		signupIndexpage = new SignupIndexPage(driver);
 		signupVerification = new SignupVerificationPage(driver);
-
+		oasIndexPage = new OASIndexPage(driver);
+		oasVerificationPage =new OASVerificationPage(driver);
 	}
 
 	/**

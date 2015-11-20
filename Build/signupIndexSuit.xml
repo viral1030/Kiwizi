@@ -22,7 +22,7 @@
 
 </listeners>
 
-<!-- 
+
 <test name="SignUp page verification">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">
@@ -233,7 +233,7 @@
 			</class>
 		</classes>
 </test>
- -->
+
 <test name="A_SU_02: To verify that after clicking on Sign up button an email is received by the user.">
 		<classes>
 			<class name="com.zinghr.signup.index.SignupIndex">

@@ -646,7 +646,6 @@ public void termsAndprivacy() throws Exception
 	signupVerification = signupIndexpage.privacyPolicy();
 	
 	log("To verify that user is redirected to taregeted page after clicking on 'Privacy Policy' hyperlink");	
-	String winHandleBefore1= driver.getWindowHandle();
 	
 	for(String winHandle : driver.getWindowHandles())
 	{
@@ -777,6 +776,8 @@ public void emailverification() throws Exception
 		}
 	
 	}
+
+
 
 }
 

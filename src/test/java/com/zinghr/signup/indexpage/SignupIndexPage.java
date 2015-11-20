@@ -3,13 +3,9 @@ package com.zinghr.signup.indexpage;
 import java.util.List;
 import java.util.Random;
 
-import org.apache.poi.util.SystemOutLogger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-import ch.qos.logback.core.net.SyslogOutputStream;
 
 import com.zinghr.init.AbstractPage;
 import com.zinghr.init.Common;

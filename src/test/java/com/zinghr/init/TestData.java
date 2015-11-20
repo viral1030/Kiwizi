@@ -21,7 +21,7 @@ public class TestData {
 	public static String facebook = "https://www.facebook.com/zinghr";
 	public static String twitter = "https://twitter.com/ZingHR";
 	public static String youtube= "https://www.youtube.com/channel/";
-	public static String gplus = "https://plus.google.com/+Zinghr/posts";
+	public static String gplus = "https://plus.google.com/+Zinghr";
 	public static String linkedin= "https://www.linkedin.com/company/zinghr";
 	
 	public static String blank = " ";

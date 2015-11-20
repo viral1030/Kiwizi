@@ -163,8 +163,8 @@
 		</classes>
 	</test>
 	
-	<!-- unauthenticate error during verification -->
-	<!-- 
+<!-- 	unauthenticate error during verification
+	
 	<test name="L_17: To verify that user is redirected to targeted page after clicking on 'View Latest Announcements','View Support Portal','Raise a ticket' hyperlink">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
@@ -265,7 +265,7 @@
 		</classes>
 	</test>
 	
-<!-- 	<test name="FP_01: To verify that user is redirected to Forgot password page after clicking on Forgot Password hyperlink">
+	<test name="FP_01: To verify that user is redirected to Forgot password page after clicking on Forgot Password hyperlink">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
 				<methods>
@@ -273,7 +273,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test> -->
+	</test>
 	<test name="FP_02: To verify that user is able to enter data in Company and Employee code field">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
@@ -283,7 +283,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="FP_03: To verify that appropriate alert message is displayed when user submit empty company and employee code">
+	<!-- <test name="FP_03: To verify that appropriate alert message is displayed when user submit empty company and employee code">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
 				<methods>
@@ -291,7 +291,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test> 
+	</test>  -->
 	<test name="FP_04: To verify that appropriate error messages is displayed when user enters invalid Company code and Employee code">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
@@ -301,7 +301,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="FP_05: To verify that successful message is displayed after clicking on Submit button (For both Mobile and email)">
+	<!-- <test name="FP_05: To verify that successful message is displayed after clicking on Submit button (For both Mobile and email)">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
 				<methods>
@@ -309,7 +309,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
+	</test> -->
 	<test name="FP_06: To verify that user is redirected to Login page after clicking on 'Back to login' hyperlink">
 		<classes>
 			<class name="com.zinghr.login.index.LoginIndex">
